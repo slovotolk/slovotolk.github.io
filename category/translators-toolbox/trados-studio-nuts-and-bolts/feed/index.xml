@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Trados Studio nuts and bolts &#8211; Тетради переводчика</title>
+	<atom:link href="/category/translators-toolbox/trados-studio-nuts-and-bolts/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Mon, 26 Dec 2016 15:51:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>Trados Studio: изменение имени пользователя, ускорение поиска и замены, ошибки при открытии термбаз</title>
+		<link>/2016/12/26/1763/</link>
+					<comments>/2016/12/26/1763/#respond</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Mon, 26 Dec 2016 15:51:00 +0000</pubDate>
+				<category><![CDATA[Trados Studio nuts and bolts]]></category>
+		<category><![CDATA[Translator's toolbox]]></category>
+		<guid isPermaLink="false">/?p=1763</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>/2016/12/26/1763/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Trados Studio: как перевести TMX-файл</title>
+		<link>/2016/10/31/1748/</link>
+					<comments>/2016/10/31/1748/#respond</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Mon, 31 Oct 2016 10:45:01 +0000</pubDate>
+				<category><![CDATA[Trados Studio nuts and bolts]]></category>
+		<category><![CDATA[Translator's toolbox]]></category>
+		<guid isPermaLink="false">/?p=1748</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>/2016/10/31/1748/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Trados Studio: объединение сегментов из разных абзацев, Translate to Fuzzy, создание возвратного пакета</title>
+		<link>/2016/09/30/1640/</link>
+					<comments>/2016/09/30/1640/#comments</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Fri, 30 Sep 2016 13:37:49 +0000</pubDate>
+				<category><![CDATA[Trados Studio nuts and bolts]]></category>
+		<category><![CDATA[Translator's toolbox]]></category>
+		<guid isPermaLink="false">/?p=1640</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>/2016/09/30/1640/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>План эвакуации при программных сбоях</title>
+		<link>/2016/07/22/1643/</link>
+					<comments>/2016/07/22/1643/#comments</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Fri, 22 Jul 2016 10:29:30 +0000</pubDate>
+				<category><![CDATA[Trados Studio nuts and bolts]]></category>
+		<category><![CDATA[Translator's toolbox]]></category>
+		<guid isPermaLink="false">/?p=1643</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>/2016/07/22/1643/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Trados Studio: BilingualSearcher, импорт из SDLTM, ошибка при запуске Studio</title>
+		<link>/2016/06/29/1628/</link>
+					<comments>/2016/06/29/1628/#respond</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Wed, 29 Jun 2016 10:58:52 +0000</pubDate>
+				<category><![CDATA[Trados Studio nuts and bolts]]></category>
+		<category><![CDATA[Translator's toolbox]]></category>
+		<guid isPermaLink="false">/?p=1628</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>/2016/06/29/1628/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Trados Studio: комментарии и закладки, вставка распознанных терминов, недопустимые символы в документе</title>
+		<link>/2016/03/29/1601/</link>
+					<comments>/2016/03/29/1601/#respond</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Tue, 29 Mar 2016 13:51:13 +0000</pubDate>
+				<category><![CDATA[Trados Studio nuts and bolts]]></category>
+		<category><![CDATA[Translator's toolbox]]></category>
+		<guid isPermaLink="false">/?p=1601</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>/2016/03/29/1601/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Trados Studio: SDLTmFindVars, выделение диапазона сегментов, ошибки при переводе PDF</title>
+		<link>/2016/02/26/1589/</link>
+					<comments>/2016/02/26/1589/#respond</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Fri, 26 Feb 2016 14:00:47 +0000</pubDate>
+				<category><![CDATA[Trados Studio nuts and bolts]]></category>
+		<category><![CDATA[Translator's toolbox]]></category>
+		<guid isPermaLink="false">/?p=1589</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>/2016/02/26/1589/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Trados Studio: экспорт в двуязычный Excel, порядок выбора файловых фильтров, ошибка кодировки HTML-файлов</title>
+		<link>/2015/12/31/1564/</link>
+					<comments>/2015/12/31/1564/#respond</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Thu, 31 Dec 2015 17:13:06 +0000</pubDate>
+				<category><![CDATA[Trados Studio nuts and bolts]]></category>
+		<category><![CDATA[Translator's toolbox]]></category>
+		<guid isPermaLink="false">/?p=1564</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>/2015/12/31/1564/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Trados Studio: улучшаем автоматическую проверку пунктуации, удобное закрытие тегов (2), ошибка 40007</title>
+		<link>/2015/11/30/1549/</link>
+					<comments>/2015/11/30/1549/#respond</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Mon, 30 Nov 2015 08:00:26 +0000</pubDate>
+				<category><![CDATA[Trados Studio nuts and bolts]]></category>
+		<category><![CDATA[Translator's toolbox]]></category>
+		<guid isPermaLink="false">/?p=1549</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>/2015/11/30/1549/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Trados Studio: список сокращений, пополнение автотекста, ошибки при поиске</title>
+		<link>/2015/10/31/1536/</link>
+					<comments>/2015/10/31/1536/#respond</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Sat, 31 Oct 2015 15:20:55 +0000</pubDate>
+				<category><![CDATA[Trados Studio nuts and bolts]]></category>
+		<category><![CDATA[Translator's toolbox]]></category>
+		<guid isPermaLink="false">/?p=1536</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>/2015/10/31/1536/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

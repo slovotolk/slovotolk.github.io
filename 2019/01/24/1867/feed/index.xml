@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Почему я использую английскую Windows 10	</title>
+	<atom:link href="/2019/01/24/1867/feed/" rel="self" type="application/rss+xml" />
+	<link>/2019/01/24/1867/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Fri, 25 Jan 2019 20:49:39 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2019/01/24/1867/#comment-67814</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Fri, 25 Jan 2019 20:49:39 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1867#comment-67814</guid>
+
+					<description><![CDATA[]]></description>
+			<content:encoded><![CDATA[]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Vadim		</title>
+		<link>/2019/01/24/1867/#comment-67811</link>
+
+		<dc:creator><![CDATA[Vadim]]></dc:creator>
+		<pubDate>Fri, 25 Jan 2019 17:54:31 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1867#comment-67811</guid>
+
+					<description><![CDATA[]]></description>
+			<content:encoded><![CDATA[]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
