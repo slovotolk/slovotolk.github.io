@@ -52,39 +52,6 @@ img.emoji {
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.9.1">
-<script type="text/javascript">
-// <![CDATA[
-var alpha = new Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');/*
-var alpha = new 
-Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');
-*/
-var stringCheck = "";
-
-for (i = 0; i < alpha.length; i++) {
-	stringCheck += alpha[i];
-}
-
-function degrease(obfusc,shift) {
-	var plainText = '';
-	cipherText = obfusc;
-
-	for (i = 0; i < cipherText.length; i++) {
-		var currentText = stringCheck.indexOf(cipherText.charAt(i));
-
-		if(currentText != -1) {
-
-			if ((currentText - shift) >= 0) { 
-				plainText += alpha[currentText - shift]; }
-			else { 
-				plainText += alpha[(alpha.length + currentText)  - shift]; }
-			}
-		}
-
-	parent.location = 'm'+'ai'+'l'+'t'+'o:'+plainText;
-}
-
-// ]]>
-</script>
 </head>
 
 <body class="home blog paged wp-embed-responsive paged-10 custom-font-enabled single-author">
@@ -126,7 +93,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>С разочарованием узнал, что в <a href="http://download.microsoft.com/download/a/f/3/af3d2fa6-f0ca-4398-9bca-3e6aec644e10/rus-rus-StyleGuide.pdf">последней версии Microsoft Style Guide</a> рекомендуется использовать личные предложения в технических текстах: <a href="/2012/07/29/706/#more-706" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -145,7 +113,11 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>На самом деле, я не знаю, как выглядит программа, интерфейс которой я локализовал, но описание слегка абсурдистское (выделение мое):</p>
+<p style="FONT-FAMILY: &rsquo;Arial&rsquo;; FONT-SIZE: 12pt" span>When you first open the application it is displayed in the simple view. Click ADVANCED to see the window presented in the advanced view. Switch between the views by clicking SIMPLE/ADVANCED. You can use any function from either view, but <strong>the advanced view simplifies setup</strong> and access to all functions and menus.</p>
+<p>Если в расширенном режиме упрощаются настройка и использование, зачем называть более сложный режим <i>простым</i>? Пришлось перевести simple как <em>обычный</em>, иначе кажется, что они перепутаны. </p>
+<p>P. S. Не могу не отметить вариант, предложенный коллегой: advanced view &mdash; <em>мужской режим</em>, simple view &mdash; <em>женский режим</em>.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -164,7 +136,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>В средствах проверки правописания используются довольно объемные словари: в ОРФО &mdash; свыше 60 тысяч слов, в WinterTree &mdash; около 100 тысяч слов. Почему не больше? В <abbr title="Большой академический словарь">БАС</abbr> включено свыше 150 тысяч слов, а в <abbr title="Oxford English Dictionary">OED</abbr> &mdash; около 600 тысяч, почему бы их не добавить в полном составе в спелл-чекеры? <a href="/2012/05/31/686/#more-686" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -183,7 +156,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Вы раньше пользовались Trados 2007 или Wordfast Classic, а затем перешли на новую версию? Не спешите отказываться от САТ-систем на основе макросов Word, иногда они могут быть удобнее, чем современные табличные инструменты. Вот пример из реального проекта. <a href="/2012/04/24/682/#more-682" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -202,7 +176,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Коллега попросил совета: на перевод прислан документ Word, в котором нужно перевести весь текст кроме выделенного синим цветом. В качестве переводческой среды используется SDL Trados Studio 2009. Что можно сделать для оптимизации работы?</p>
+<p>Отвечаю: сделать нужно почти то же, что и при переводе в Trados 2007. В Word создайте стиль tw4WinInternal или tw4WinExternal (или любой другой) и с помощью функции «Найти и заменить» примените его к синему тексту. Сохраните документ и откройте его в Studio: текст в стиле tw4WinInternal превратится во внутренние теги, а в стиле tw4WinExternal — во внешние; чтобы добавить новый стиль к списку непереводимых, выберите Tools > Options > File Types > Microsoft Word > Non-translatable Styles.<br>Переведите документ и очистите его, в полученном файле измените стиль непереведенного текста обратно на Normal + синий.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -221,7 +197,10 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>В Великобритании и США расход топлива автомобиля измеряется в милях на галлон, и в переводе, скорее всего, требуется перевести эту величину в более привычные для нас литры на 100 км.</p>
+<p>При этом нужно помнить, что галлон в США составляет 3,785 литра, а в Великобритании используется имперский галлон (4,546 л). Один и тот же автомобиль проедет 30 миль на галлон в Великобритании и только 25 миль в США.</p>
+<p style="FONT-FAMILY: &rsquo;Times New Roman&rsquo;; FONT-SIZE: 8pt">(via <a href="http://www.quicksilvertranslate.com/2623/localizing-fuel-consumption" target="_blank">Quicksilvertranslate.com</a>)</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -240,7 +219,10 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Нужно ли при локализации руководств, например к ПО, менять форматирование текста? Иногда нужно: традиционное выделение элементов интерфейса с помощью полужирного начертания не работает для китайского языка, а подчеркивание плохо воспринимается в арабском тексте (из-за большого числа подстрочных знаков).</p>
+<p>Это еще одна причина разделять содержимое и его форматирование с помощью таблиц стилей. Если выделять элементы не тегом &lt;b&gt;, а соответствующим стилем, при локализации достаточно будет заменить стиль.</p>
+<p style="FONT-FAMILY: &rsquo;Times New Roman&rsquo;; FONT-SIZE: 8pt">(по материалам <a href="http://www.linkedin.com/groups/What-are-Your-Best-Practices-44105.S.96253167" target="_blank">дискуссии в Linkedin</a>)</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -259,7 +241,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Как известно, официальный перевод для термина <em>wallpaper</em> в Windows 7 &mdash; <em>фоновый рисунок рабочего стола</em>, и Microsoft следит за однородностью терминологии. Однако поиском в «Панели управления» можно найти <em>обои</em>: </p>
+<p> <a href="/2012/03/16/659/#more-659" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -278,7 +262,10 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Название популярной СУБД MySQL обычно произносят «майсиквел» или (более формально) «майэскюэль». </p>
+<p>Однако Михаэль Видениус, разработчик MySQL, назвал ее в честь дочери по имени My. Это финское имя читается, как <a href="http://www.zdnet.co.uk/blogs/matt-loneys-blog-10000032/the-real-way-to-pronounce-mysql-its-not-what-you-think-10007944/" target="_blank">Ми</a>. Получается, правильно будет называть эту СУБД «миэскюэль».</p>
+<p style="FONT-FAMILY: &rsquo;Times New Roman&rsquo;; FONT-SIZE: 8pt">(по материалам «<a href="http://www.slovomania.ru/" target="_blank">Словомании</a>»)</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -297,7 +284,10 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>В переводческом сообществе весьма популярен вопрос о том, когда следует повышать свою ставку и как найти свою цену, то есть и не продешевить, и не заломить лишнего. Кто-то повышает ставки раз в год, <a href="http://attraverso-lo-specchio.blogspot.com/2012/01/blog-post_11.html" target="_blank">кто-то</a> пробует рассчитывать тарифы на основе уровня жизни.</p>
+<p>При этом почему-то редко вспоминают про удобный экономический показатель: баланс спроса и предложения. <strong>Если вы работаете с максимальной загрузкой, пора повышать ставку. Максимальная загрузка &mdash; верный признак того, что ваши услуги могут оплачиваться лучше.</strong> Когда спрос снижается, повышение цен прекращается. А уровень спроса на услуги отдельного переводчика отражает и его профессиональный уровень, и маркетинговые усилия, и макроэкономическую ситуацию, и многие другие факторы, которые иначе приходится учитывать по отдельности.</p>
+<p>Да, этот метод не «серебряная пуля», но во многих случаях он дает неплохие результаты.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -528,6 +518,6 @@ function degrease(obfusc,shift) {
 </div>
 <!-- #page -->
 
-<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=393521446" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
+<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=379067855" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
 </body>
 </html>

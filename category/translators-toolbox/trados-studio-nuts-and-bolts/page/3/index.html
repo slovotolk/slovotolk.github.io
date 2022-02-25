@@ -54,39 +54,6 @@ img.emoji {
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.9.1">
-<script type="text/javascript">
-// <![CDATA[
-var alpha = new Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');/*
-var alpha = new 
-Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');
-*/
-var stringCheck = "";
-
-for (i = 0; i < alpha.length; i++) {
-	stringCheck += alpha[i];
-}
-
-function degrease(obfusc,shift) {
-	var plainText = '';
-	cipherText = obfusc;
-
-	for (i = 0; i < cipherText.length; i++) {
-		var currentText = stringCheck.indexOf(cipherText.charAt(i));
-
-		if(currentText != -1) {
-
-			if ((currentText - shift) >= 0) { 
-				plainText += alpha[currentText - shift]; }
-			else { 
-				plainText += alpha[(alpha.length + currentText)  - shift]; }
-			}
-		}
-
-	parent.location = 'm'+'ai'+'l'+'t'+'o:'+plainText;
-}
-
-// ]]>
-</script>
 </head>
 
 <body class="archive paged category category-trados-studio-nuts-and-bolts category-15 wp-embed-responsive paged-3 category-paged-3 custom-font-enabled single-author">
@@ -134,7 +101,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Продолжаем исследовать тонкости Trados Studio.<br>
+ <a href="/2014/02/20/1202/#more-1202" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -153,7 +122,13 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>В комплекте с Trados Studio идет неплохая справка — лучше, чем у многих других программных пакетов, — но все же в ней некоторые тонкости освещены вскользь, а некоторые совсем пропущены. Чтобы хорошо разобраться в работе «Студии», нужно прочитать и справку, и базу знаний SDL, и некоторые профильные блоги. Попробую я сделать серию штрихов к справке — выжимку из всех этих полезных знаний под категорией <br><em>Trados Studio nuts and bolts</em>.</p>
+<p>Здесь и далее я буду предполагать, что основные принципы работы в «Студии» вам известны. Если вы никогда не работали в ней и не знаете, с чего начать, все-таки прочтите <a href="http://producthelp.sdl.com/SDL_Trados_Studio_2014/client_en/Guides/Translating_and_Reviewing_Documents_QSG_en.pdf">руководство по быстрому началу работы</a> и <a href="http://signsandsymptomsoftranslation.com/2014/01/01/first_file/">вот эту запись Эммы Голдсмит</a>.</p>
+<p>Ну, поехали.<br><br>
+<strong>Штрих 1.</strong> В комплекте с «достудийными» версиями Традоса шла хорошая утилита — Trados Glue, позволяющая объединить несколько TTX-файлов в один. В Studio 2014 функция склейки файлов называется QuickMerge и работает после добавления файлов в проект: в представлении Files выберите несколько файлов, удерживая Shift или Ctrl, и нажмите кнопку Open for Translation. Они будут объединены в виртуальный файл, в котором работают Auto-Propagate, поиск и замена, фильтры — в общем, все необходимые функции. При этом единый файл на диске не создается, а все изменения записываются прямо в исходные SDLXLIFF.</p>
+<p><strong>Штрих 2.</strong> Чтобы быстро изменить регистр выделенного текста, нажмите Shift+F3 — так же, как в Word. Но в отличие от Word, на текущем слове без выделения это не работает: необходимо что-то выделить.</p>
+<p><strong>Штрих 3.</strong> Распознавание терминов включено, в исходном сегменте обнаруживается термин, но в термбазе вы видите только No results available? Перейдите с вкладки Termbase Search на Term Recognition (см. скриншот).<a href="/wp-content/uploads/2014/01/Noresults-available.png"><img src="/wp-content/uploads/2014/01/Noresults-available.png" alt="No results available" width="724" height="252" class="alignnone size-full wp-image-1194" srcset="/wp-content/uploads/2014/01/Noresults-available.png 724w, /wp-content/uploads/2014/01/Noresults-available-300x104.png 300w, /wp-content/uploads/2014/01/Noresults-available-500x174.png 500w" sizes="(max-width: 724px) 100vw, 724px"></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -382,6 +357,6 @@ function degrease(obfusc,shift) {
 </div>
 <!-- #page -->
 
-<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=1486514568" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
+<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=874987269" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
 </body>
 </html>

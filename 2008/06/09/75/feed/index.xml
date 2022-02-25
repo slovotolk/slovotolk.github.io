@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Нужна консультация по Idiom Desktop Workbench	</title>
+	<atom:link href="/2008/06/09/75/feed/" rel="self" type="application/rss+xml" />
+	<link>/2008/06/09/75/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Mon, 23 Feb 2009 09:18:44 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2008/06/09/75/#comment-52</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Mon, 23 Feb 2009 09:18:44 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=75#comment-52</guid>
+
+					<description><![CDATA[Translate Toolkit — не поделка, но, согласен, в настоящее время ею пользоваться сложно. Я преобразовывал с помощью &lt;a href=&quot;http://www.maxprograms.com/downloads&quot; rel=&quot;nofollow&quot;&gt;SwordFish&lt;/a&gt;.]]></description>
+			<content:encoded><![CDATA[<p>Translate Toolkit — не поделка, но, согласен, в настоящее время ею пользоваться сложно. Я преобразовывал с помощью <a href="http://www.maxprograms.com/downloads" rel="nofollow">SwordFish</a>.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Andrewv		</title>
+		<link>/2008/06/09/75/#comment-51</link>
+
+		<dc:creator><![CDATA[Andrewv]]></dc:creator>
+		<pubDate>Sat, 21 Feb 2009 21:21:31 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=75#comment-51</guid>
+
+					<description><![CDATA[&#062;&#062; Я его преобразовал в tbx 
+Скажите, плиз, а чем преобразовали? 
+После долгих ковыряний я смог преобразовать глоссарий только непонятной поделкой &quot;Translate Toolkit&quot;, но в базу получившийся файл так и не импортировался]]></description>
+			<content:encoded><![CDATA[<p>&gt;&gt; Я его преобразовал в tbx<br />
+Скажите, плиз, а чем преобразовали?<br />
+После долгих ковыряний я смог преобразовать глоссарий только непонятной поделкой &#8220;Translate Toolkit&#8221;, но в базу получившийся файл так и не импортировался</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Об однородности терминологии, стопроцентных совпадениях и Autopropagate	</title>
+	<atom:link href="/2010/10/10/450/feed/" rel="self" type="application/rss+xml" />
+	<link>/2010/10/10/450/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Mon, 04 Jun 2012 14:54:30 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Галина		</title>
+		<link>/2010/10/10/450/#comment-294</link>
+
+		<dc:creator><![CDATA[Галина]]></dc:creator>
+		<pubDate>Mon, 04 Jun 2012 14:54:30 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=450#comment-294</guid>
+
+					<description><![CDATA[Спасибо за замечательный пример. Я сама сталкивалась с подобными проблемами при переводе. Например, Instructions, Instructions manual, Safety instructions, Assembly, operation and maintenance instructions etc., где Instructions то переводится как &quot;инструкция&quot;, то как &quot;инструкции&quot;, то как &quot;руководство&quot;. Моя бывшая начальница, имеющая переводческое образование, но ненавидящая переводческую деятельность, требовала последовательности в использовании терминологии в приведённых мной примерах. Ей бы посетить этот сайт ...]]></description>
+			<content:encoded><![CDATA[<p>Спасибо за замечательный пример. Я сама сталкивалась с подобными проблемами при переводе. Например, Instructions, Instructions manual, Safety instructions, Assembly, operation and maintenance instructions etc., где Instructions то переводится как &#8220;инструкция&#8221;, то как &#8220;инструкции&#8221;, то как &#8220;руководство&#8221;. Моя бывшая начальница, имеющая переводческое образование, но ненавидящая переводческую деятельность, требовала последовательности в использовании терминологии в приведённых мной примерах. Ей бы посетить этот сайт &#8230;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2010/10/10/450/#comment-293</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Wed, 23 Nov 2011 09:22:03 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=450#comment-293</guid>
+
+					<description><![CDATA[Наталия, смысл записи в том, что нельзя один раз перевести n/f как «нет» или «отсутствуют» и затем &lt;i&gt;для единообразия терминологии&lt;/i&gt; распространить этот перевод дальше по таблице.]]></description>
+			<content:encoded><![CDATA[<p>Наталия, смысл записи в том, что нельзя один раз перевести n/f как «нет» или «отсутствуют» и затем <i>для единообразия терминологии</i> распространить этот перевод дальше по таблице.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Natalia		</title>
+		<link>/2010/10/10/450/#comment-292</link>
+
+		<dc:creator><![CDATA[Natalia]]></dc:creator>
+		<pubDate>Tue, 22 Nov 2011 15:35:48 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=450#comment-292</guid>
+
+					<description><![CDATA[Х-ммм... &quot;Словом «нет» или «отсутствуют» тоже перевести нельзя.&quot; 
+Вопрос: почему нельзя? И тут же ниже в табличке в двух пунктах n/f переводится как &quot;нет&quot; и &quot;отсутствуют&quot;.]]></description>
+			<content:encoded><![CDATA[<p>Х-ммм&#8230; &#8220;Словом «нет» или «отсутствуют» тоже перевести нельзя.&#8221;<br />
+Вопрос: почему нельзя? И тут же ниже в табличке в двух пунктах n/f переводится как &#8220;нет&#8221; и &#8220;отсутствуют&#8221;.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2010/10/10/450/#comment-291</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Thu, 14 Oct 2010 06:47:41 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=450#comment-291</guid>
+
+					<description><![CDATA[Спасибо за комментарий. Разве MemoQ умеет обнаруживать контекстные совпадения в процессе перевода? Trados и Idiom могут сделать это только на этапе pre-translate.]]></description>
+			<content:encoded><![CDATA[<p>Спасибо за комментарий. Разве MemoQ умеет обнаруживать контекстные совпадения в процессе перевода? Trados и Idiom могут сделать это только на этапе pre-translate.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Thatcher		</title>
+		<link>/2010/10/10/450/#comment-290</link>
+
+		<dc:creator><![CDATA[Thatcher]]></dc:creator>
+		<pubDate>Thu, 14 Oct 2010 06:13:16 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=450#comment-290</guid>
+
+					<description><![CDATA[Не любая CAT-программа, кстати. Многие программы используют &#039;101% matches/context matches/x-matches&#039;, которые учитывают контекст повторяющихся сегментов, и таким образам решают подобные проблемы. Мне лично memoQ очень радует—советую всем попробовать.
+Супер блог, кстати!]]></description>
+			<content:encoded><![CDATA[<p>Не любая CAT-программа, кстати. Многие программы используют &#8216;101% matches/context matches/x-matches&#8217;, которые учитывают контекст повторяющихся сегментов, и таким образам решают подобные проблемы. Мне лично memoQ очень радует—советую всем попробовать.<br />
+Супер блог, кстати!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

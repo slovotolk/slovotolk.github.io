@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: О благозвучии	</title>
+	<atom:link href="/2008/08/21/92/feed/" rel="self" type="application/rss+xml" />
+	<link>/2008/08/21/92/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Sun, 22 Feb 2009 12:07:07 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Vladimir		</title>
+		<link>/2008/08/21/92/#comment-58</link>
+
+		<dc:creator><![CDATA[Vladimir]]></dc:creator>
+		<pubDate>Sun, 22 Feb 2009 12:07:07 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=92#comment-58</guid>
+
+					<description><![CDATA[Примеры 2 и 3 - согласен, а первый спорный. Непонятно, почему 2 существительных подряд (копирование данных) лучше, чем 2 глагола подряд (начнет копировать).]]></description>
+			<content:encoded><![CDATA[<p>Примеры 2 и 3 &#8211; согласен, а первый спорный. Непонятно, почему 2 существительных подряд (копирование данных) лучше, чем 2 глагола подряд (начнет копировать).</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Константин		</title>
+		<link>/2008/08/21/92/#comment-57</link>
+
+		<dc:creator><![CDATA[Константин]]></dc:creator>
+		<pubDate>Fri, 22 Aug 2008 09:23:36 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=92#comment-57</guid>
+
+					<description><![CDATA[спасибо за советы, пригодятся, поскольку очень часто приходится переводить зарубежные статьи]]></description>
+			<content:encoded><![CDATA[<p>спасибо за советы, пригодятся, поскольку очень часто приходится переводить зарубежные статьи</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

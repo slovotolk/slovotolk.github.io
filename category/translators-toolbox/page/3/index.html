@@ -54,39 +54,6 @@ img.emoji {
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.9.1">
-<script type="text/javascript">
-// <![CDATA[
-var alpha = new Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');/*
-var alpha = new 
-Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');
-*/
-var stringCheck = "";
-
-for (i = 0; i < alpha.length; i++) {
-	stringCheck += alpha[i];
-}
-
-function degrease(obfusc,shift) {
-	var plainText = '';
-	cipherText = obfusc;
-
-	for (i = 0; i < cipherText.length; i++) {
-		var currentText = stringCheck.indexOf(cipherText.charAt(i));
-
-		if(currentText != -1) {
-
-			if ((currentText - shift) >= 0) { 
-				plainText += alpha[currentText - shift]; }
-			else { 
-				plainText += alpha[(alpha.length + currentText)  - shift]; }
-			}
-		}
-
-	parent.location = 'm'+'ai'+'l'+'t'+'o:'+plainText;
-}
-
-// ]]>
-</script>
 </head>
 
 <body class="archive paged category category-translators-toolbox category-4 wp-embed-responsive paged-3 category-paged-3 custom-font-enabled single-author">
@@ -134,7 +101,51 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Меня спросили, пользуюсь ли я средствами автоматического извлечения терминов. Вот, отвечаю.</p>
+<p>«Извлечение терминов» — это рекламное выражение; на самом деле, автоматические средства просто составляют список слов в документе, сортируют его по частоте использования, а под видом терминов представляют наиболее часто встречающиеся слова. Конечно, большинство из них будут обычными общеупотребительными словами, которые нет смысла заносить в термбазу. Специфические термины обычно в верх частотного списка не попадают, так как встречаются реже общей лексики (хотя, конечно, тексты разные бывают).<br><br>
+Тем не менее такую процедуру иногда полезно выполнить перед началом работы с новым клиентом или новой темой: среди общих слов вы получите список имен, товарных знаков, артикулов продукции и т.&nbsp;п. Уточните у клиента, что из этого нужно переводить, а что следует оставить в оригинальном написании, и тогда этот перечень можно будет добавить в термбазу или в автотекст.</p>
+<p>В Trados Studio для извлечения терминов служит отдельный модуль Multiterm Extract, но я не понимаю, зачем устанавливать отдельный (платный!) модуль, когда работу со списками гораздо удобнее вести в Excel. Когда-то я потратил полчаса, чтобы написать нехитрый макрос, и теперь я просто открываю исходный файл в Excel, выполняю макрос и получаю частотный список слов в столбце С. <u><a title="Щелкните, чтобы показать или скрыть код" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Вот такой макрос</a></u>. Этот список уже можно как угодно редактировать и заносить в САТ-программу.</p>
+<div id="spoiler" style="display:none">
+<code>Sub Ftable()<br>
+    Dim BigString As String, I As Long, J As Long, K As Long, r As Long<br>
+    '   Array of stop-words and chars<br>
+    PuncChars = Array(".", ",", ";", ":", "'", "!", "#", _<br>
+        "$", "%", "&", "(", ")", " - ", "_", "--", "+", _<br>
+        "=", "~", "/", "\", "{", "}", "[", "]", """", "?", "*")<br>
+    BigString = ""<br>
+    r = 1<br>
+    Application.ScreenUpdating = False
+<p>'   Loop until blank cell is encountered<br>
+    Do While Cells(r, 1)  ""<br>
+         BigString = BigString & " " & Cells(r, 1).Value<br>
+    r = r + 1<br>
+    Loop</p>
+<p>BigString = Trim(BigString)<br>
+        For I = 0 To UBound(PuncChars)<br>
+            BigString = Replace(BigString, PuncChars(I), "")<br>
+        Next I</p>
+<p>    ary = Split(BigString, " ")<br>
+    Dim cl As Collection<br>
+    Set cl = New Collection<br>
+    For Each a In ary<br>
+        On Error Resume Next<br>
+        cl.Add a, CStr(a)<br>
+    Next a</p>
+<p>    For I = 1 To cl.Count<br>
+        v = cl(I)<br>
+        Cells(I, "C").Value = v<br>
+        J = 0<br>
+        For Each a In ary<br>
+            If a = v Then J = J + 1<br>
+        Next a<br>
+        Cells(I, "D") = J<br>
+    Next I</p>
+<p>    Range("c1").CurrentRegion.Sort key1:=Range("d1"), order1:=xlDescending, Header:=xlNo</p>
+<p>    Application.ScreenUpdating = True<br>
+End Sub<br>
+</p></code>
+</div>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -153,7 +164,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Сегодняшние штрихи — это три задачи, с которыми может столкнуться переводчик, и способы их решения в Trados Studio.<br>
+ <a href="/2015/04/24/1391/#more-1391" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -172,7 +185,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>О том, что компания ABBYY предлагает <a href="https://smartcat.pro/">бесплатную браузерную среду перевода под названием SmartCAT</a>, я слышал еще в середине 2014 года. Меня уже несколько раз спрашивали, что я о ней думаю, но всё никак не доходили руки внимательно посмотреть, что же это за штуковина. Наконец, свободное время нашлось. <a href="/2015/02/23/1354/#more-1354" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -191,7 +205,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>В новом году — новые тонкости Trados Studio 2014. <a href="/2015/01/31/1339/#more-1339" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -210,7 +225,10 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>SDL наконец-то <a href="/2014/01/30/1175/" title="Trados Studio 2014: очень краткий обзор" target="_blank">пристрелила старую клячу</a>: вышел второй пакет обновлений к Studio 2014, где Java больше не используется. Ура! Более того, работа с терминами теперь полностью интегрирована в Studio: появились функции <em>Quick Add New Term</em> (Ctrl+Shift+F2) и <em>Delete this Entry</em> (Ctrl+Shift+Alt+D). По идее, теперь можно обойтись вообще без установки Multiterm.</p>
+<p>Другие новшества в SP2: при поиске в ТМ результаты теперь сортируются по дате добавления; буквенно-цифровые сочетания типа ABC-123_M10X30 распознаются как местозаполнители (потребуется переиндексировать старые ТМ); для большинства форматов поддерживается редактирование исходного текста по Alt+F2. Полный список изменений приведен <a href="http://kb.sdl.com/#tab:homeTab:crumb:7:artId:5690" target="_blank">здесь</a>.</p>
+<p>Я рекомендую всем пользователям Studio 2014 побыстрее <a href="ftp://downloadcenter.sdl.com/T2014/SP2/SDLTradosStudio2014_SP2_4322.exe" target="_blank">загрузить</a> и установить SP2 — затем «джаву» можно отключить или удалить, так как иметь ее на компьютере небезопасно.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -229,7 +247,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Седьмая часть штрихов к Trados Studio 2014. <a href="/2014/10/22/1305/#more-1305" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -248,7 +267,10 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<style>p.example {font-size: small; margin-right: 5%; margin-left: 5%; font-style: italic; margin-top: 0.5em; margin-bottom: 0em}
+       u.fresheye {text-decoration: none; background-color: yellow}</style>
+<p>Коллеги, вы проверяете свои переводы на отсутствие паронимов и тавтологий? Конечно, для интерфейсных строк в ИТ-проектах это неактуально, но для связных текстов, особенно маркетингового характера, такая проверка очень полезна. И программными средствами такие ошибки искать намного легче. <a href="/2014/09/22/1294/#more-1294" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -267,7 +289,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Шестая часть тонкостей Trados Studio 2014. <a href="/2014/08/23/1286/#more-1286" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -286,7 +309,11 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p><a href="http://www.heartsome.net/en-US/say-farewell.html">Heartsome</a> — давно существующая, но не очень популярная «кошка» родом из Гонконга. Видимо, разработчики не выдержали конкуренции с лидерами отрасли: поддержка программы прекращена, а последняя версия 8.0 опубликована в открытом доступе. В общем, причины этого довольно очевидны: программа не отличается ни уникальными функциями, ни скоростью работы.</p>
+<p><a href="/wp-content/uploads/2014/07/heartsome.png"><img src="/wp-content/uploads/2014/07/heartsome-300x109.png" alt="Heartsome" width="300" height="109" class="alignleft size-medium wp-image-1276" srcset="/wp-content/uploads/2014/07/heartsome-300x109.png 300w, /wp-content/uploads/2014/07/heartsome-500x181.png 500w, /wp-content/uploads/2014/07/heartsome.png 787w" sizes="(max-width: 300px) 100vw, 300px"></a></p>
+<p>Тем не менее такая смена лицензии моментально создала конкурента OmegaT: если вам необходимо использовать свободное ПО, Heartsome однозначно достойна рассмотрения. И <a href="http://www.omegat.org/en/requirements.html">в отличие от «Омеги»</a>, она выглядит достаточно простой в настройке и использовании. Присутствуют все базовые возможности современных «кошек», есть версии для Windows, MacOS и Linux.</p>
+<p>Резюме: если по какой-то причине вы не используете популярные коммерческие САТ-программы, попробуйте Heartsome: она как минимум не хуже аналогов. Загрузить дистрибутивы можно <a href="http://www.heartsome.net/en-US/downloads.html">здесь</a>.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -305,7 +332,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Июньские тонкости Trados Studio 2014. <a href="/2014/06/23/1244/#more-1244" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -534,6 +562,6 @@ function degrease(obfusc,shift) {
 </div>
 <!-- #page -->
 
-<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=1304450000" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
+<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=1483172091" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
 </body>
 </html>

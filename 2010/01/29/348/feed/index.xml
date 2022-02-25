@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Translation news by Proz.com	</title>
+	<atom:link href="/2010/01/29/348/feed/" rel="self" type="application/rss+xml" />
+	<link>/2010/01/29/348/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Sat, 30 Jan 2010 10:44:12 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2010/01/29/348/#comment-265</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Sat, 30 Jan 2010 10:44:12 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=348#comment-265</guid>
+
+					<description><![CDATA[Согласен, у вас прогрессивный агрегатор, с ручной фильтрацией контента и авторскими комментариями :-)]]></description>
+			<content:encoded><![CDATA[<p>Согласен, у вас прогрессивный агрегатор, с ручной фильтрацией контента и авторскими комментариями :-)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Денис Хамин		</title>
+		<link>/2010/01/29/348/#comment-264</link>
+
+		<dc:creator><![CDATA[Денис Хамин]]></dc:creator>
+		<pubDate>Sat, 30 Jan 2010 07:17:40 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=348#comment-264</guid>
+
+					<description><![CDATA[Я надеялся, что у меня не просто агрегатор :-)]]></description>
+			<content:encoded><![CDATA[<p>Я надеялся, что у меня не просто агрегатор :-)</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

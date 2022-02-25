@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Поиск в Proz и Multitran из браузера	</title>
+	<atom:link href="/2008/12/30/117/feed/" rel="self" type="application/rss+xml" />
+	<link>/2008/12/30/117/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Thu, 18 Jun 2009 14:57:30 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2008/12/30/117/#comment-92</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Thu, 18 Jun 2009 14:57:30 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=117#comment-92</guid>
+
+					<description><![CDATA[Yana:&lt;br&gt;
+см. &lt;a href=&quot;http://blog.slovotolk.com/wp-content/uploads/kwd.png&quot; rel=&quot;nofollow&quot;&gt;скриншот&lt;/a&gt;]]></description>
+			<content:encoded><![CDATA[<p>Yana:<br />
+см. <a href="http://blog.slovotolk.com/wp-content/uploads/kwd.png" rel="nofollow">скриншот</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Yana		</title>
+		<link>/2008/12/30/117/#comment-91</link>
+
+		<dc:creator><![CDATA[Yana]]></dc:creator>
+		<pubDate>Thu, 18 Jun 2009 12:36:20 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=117#comment-91</guid>
+
+					<description><![CDATA[А где в окне добавления закладки поле Keyword? У меня тольео есть Name, Folder и Tags.
+Мультитран добавила под Mu, ввела в адресной строке Mu word - и ничего. Перекинуло на поиск гугль, как всякий раз, колгда в адресной строке вводится что-то неправильное.]]></description>
+			<content:encoded><![CDATA[<p>А где в окне добавления закладки поле Keyword? У меня тольео есть Name, Folder и Tags.<br />
+Мультитран добавила под Mu, ввела в адресной строке Mu word &#8211; и ничего. Перекинуло на поиск гугль, как всякий раз, колгда в адресной строке вводится что-то неправильное.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Тетради переводчика &#187; TAUS Language Search — контекстный поиск по базе ИТ-переводов		</title>
+		<link>/2008/12/30/117/#comment-90</link>
+
+		<dc:creator><![CDATA[Тетради переводчика &#187; TAUS Language Search — контекстный поиск по базе ИТ-переводов]]></dc:creator>
+		<pubDate>Thu, 18 Jun 2009 11:42:40 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=117#comment-90</guid>
+
+					<description><![CDATA[[...] браузера (инструкции по установке и использованию см. здесь). Вот они:  TAUS Search: Computers–Software TAUS Search: Computers–Hardware Теперь [...]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] браузера (инструкции по установке и использованию см. здесь). Вот они:  TAUS Search: Computers–Software TAUS Search: Computers–Hardware Теперь [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

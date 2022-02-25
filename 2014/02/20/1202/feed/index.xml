@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Trados Studio: плавающие панели, отображение непечатаемых символов, сброс настроек	</title>
+	<atom:link href="/2014/02/20/1202/feed/" rel="self" type="application/rss+xml" />
+	<link>/2014/02/20/1202/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Sun, 26 Jul 2015 14:07:14 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Web Lookup! Поиск в Интернете прямо из Студии &#124; Тетради переводчика		</title>
+		<link>/2014/02/20/1202/#comment-42111</link>
+
+		<dc:creator><![CDATA[Web Lookup! Поиск в Интернете прямо из Студии &#124; Тетради переводчика]]></dc:creator>
+		<pubDate>Sun, 21 Jun 2015 11:18:31 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1202#comment-42111</guid>
+
+					<description><![CDATA[[&#8230;] новая панель Studio. Как и другие панели, ее можно перемещать и отцеплять от основного окна; я ее передвинул на второй монитор. В [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] новая панель Studio. Как и другие панели, ее можно перемещать и отцеплять от основного окна; я ее передвинул на второй монитор. В [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

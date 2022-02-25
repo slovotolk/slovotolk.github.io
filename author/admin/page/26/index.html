@@ -54,39 +54,6 @@ img.emoji {
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.9.1">
-<script type="text/javascript">
-// <![CDATA[
-var alpha = new Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');/*
-var alpha = new 
-Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');
-*/
-var stringCheck = "";
-
-for (i = 0; i < alpha.length; i++) {
-	stringCheck += alpha[i];
-}
-
-function degrease(obfusc,shift) {
-	var plainText = '';
-	cipherText = obfusc;
-
-	for (i = 0; i < cipherText.length; i++) {
-		var currentText = stringCheck.indexOf(cipherText.charAt(i));
-
-		if(currentText != -1) {
-
-			if ((currentText - shift) >= 0) { 
-				plainText += alpha[currentText - shift]; }
-			else { 
-				plainText += alpha[(alpha.length + currentText)  - shift]; }
-			}
-		}
-
-	parent.location = 'm'+'ai'+'l'+'t'+'o:'+plainText;
-}
-
-// ]]>
-</script>
 </head>
 
 <body class="archive paged author author-admin author-1 wp-embed-responsive paged-26 author-paged-26 custom-font-enabled single-author">
@@ -143,7 +110,12 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p><font size="3" face="Times New Roman">Даже в Word проверка орфографии иногда не работает; в TagEditor и Idiom она работает со сбоями, а в некоторых переводческих средах (Multilizer) она вообще не предусмотрена. Но без такой проверки переводчику работать неудобно: время на вычитку проекта увеличивается в несколько раз, количество пропущенных глупых орфографических ошибок тоже.</font></p>
+<p><font size="3" face="Times New Roman">К счастью, есть утилиты, позволяющие проверять правописание даже в тех программах, где орфографического модуля отродясь не было, например в Блокноте. Такие программы могут использовать либо майкрософтовские модули (через CSAPI), либо свои, либо и те, и другие. Я протестировал четыре такие программы: DynaSpeller, Spell Checker, «ОРФО Агент» и Orfo Switcher. Заманчиво выглядящая Spell Check Anywhere, к сожалению, русский язык не поддерживает и в обзор не попала.</font></p>
+<p><font size="3" face="Times New Roman">Сразу скажу несколько слов о модуле проверки, встроенном в Microsoft Word (через интерфейс CSAPI его использует, например, TagEditor). Наличие словаря для конкретного языка зависит от версии Word, языка Word и <strike>фазы луны</strike> конкретного дистрибутива. Недостающие словари можно найти, в частности, в составе пакета Ms Office Proofing Tools. </font></p>
+<p><font size="3" face="Times New Roman">Итак:</font></p>
+<p> <a href="/2008/03/29/66/#more-66" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -162,7 +134,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>С сегодняшнего дня включена премодерация комментариев. Не понимаю, зачем писать спам-комментарии, если ко всем ссылкам все равно добавляется ref=nofollow.</p>
+<p>В ЖЖ можно комментировать по-прежнему.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -181,7 +155,10 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Иногда возникает нужда открыть файл ttx в Word. Например, если TagEditor сбоит, или если проверка орфографии слетела, или еще по некоторым причинам. При этом нужно еще и не умереть, увидев результат после обратного преобразования в ttx, так как не все программы делают его корректно :-)</p>
+<p>Я протестировал, кажется, все имеющиеся инструменты для преобразования ttx&lt;–&gt;Word — вот, отчитываюсь :-). Предупреждаю: это справедливо для моего компьютера (Word 2000, SDL Trados 2006), и на других системах могут быть получены другие результаты.</p>
+<p> <a href="/2008/03/01/64/#more-64" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -200,7 +177,10 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p style="font-size: 12pt; font-family: 'Times New Roman'">При переводе в TagEditor в меню <em>Edit</em> есть стандартный пункт <em>Replace&#8230;</em> Однако в настройках по умолчанию работает только поиск, но не замена: при нажатии на кнопку <em>Replace</em> ничего не происходит. В справке к TagEditor 7.5 не указано, как включить поиск с заменой, — может, кому-нибудь это будет полезно.</p>
+<p style="font-size: 12pt; font-family: 'Times New Roman'">На самом деле неработающая замена вызвана защитой документа. Выберите <em>Tools</em> &gt; <em>Options</em> &gt; <em>Protection</em>, снимите флажок <em>Protect document</em> — и замена будет прекрасно работать.</p>
+<p><font color="#ffffff">поиск замена TagEditor find search replace</font></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -216,7 +196,9 @@ function degrease(obfusc,shift) {
 								</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Назначили мне срок сдачи перевода на середину дня 25 февраля. На письмо с высланным переводом мне ответил автоответчик: <em>Our office is closed starting February 22nd till February 25th inclusive due to the public holiday. My mailbox will not be monitored during this period.</em></p>
+<p>Зачем требовать сдачу работы тогда, когда она никому не нужна?</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -235,7 +217,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p><span style="font-size: 12pt; font-family: 'Times New Roman'">Есть такой финансовый термин — <em>goodwill</em>. В русском языке прижился вариант «гудвилл». </span></p>
+<p><span style="font-size: 12pt; font-family: 'Times New Roman'">А вот для термина <em>badwill</em> эквивалента нет, и его следует переводить как «отрицательный гудвилл».</span></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -254,7 +238,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Допустим, вы переводите файлы в TagEditor, некоторые из них содержат заблокированные контекстные сегменты (XU). В одном из XU-сегментов вы видите опечатку и отключаете блокировку, чтобы исправить ошибку. В TagEditor откроется замечательное цветное поле, в котором можно отредактировать контекстный сегмент:</p>
+<p> <a href="/2008/02/15/60/#more-60" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -273,7 +259,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p><a href="http://www.sdl.com/en/events/news-PR/sdls-technology-division-to-acquire-idiom.asp">http://www.sdl.com/en/events/news-PR/sdls-technology-division-to-acquire-idiom.asp</a></p>
+<p>Может быть, программисты SDL доведут до ума убожество под названием Idiom Worldserver Desktop Workbench.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -292,7 +280,11 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p style="font-size: 12pt; font-family: 'Times New Roman'">Мда. Я думал, эта задача будет хоть кому-нибудь интересна. Ответ, между прочим, легко находился.</p>
+<p align="center"><a href="/wordpress/wp-content/uploads/2007/12/m40sm-vi.jpg"><img border="0" width="171" src="/wordpress/wp-content/uploads/2007/12/m40sm-vi-thumb.jpg" alt="bun troubleshooting tool" height="244" style="border-width: 0px"></a></p>
+<p style="font-size: 12pt; font-family: 'Times New Roman'">Это специальный картонный прибор, позволяющий оценить правильность габаритов и ровность нарезки булочек для гамбургеров/чизбургеров (верхний вырез), «Биг Маков» (левый) и «Роялов» (нижний).</p>
+<p style="font-size: 12pt; font-family: 'Times New Roman'"><a target="_blank" href="http://nl.livejournal.com/628350.html">Источник (и более подробный рассказ) у Николая Данилова</a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -311,7 +303,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p><font face="Times New Roman"><span ar-sa mso-bidi-language:="mso-bidi-language:" ru mso-fareast-language:="mso-fareast-language:" mso-ansi-language:="mso-ansi-language:" roman new="new" mso-fareast-font-family:="mso-fareast-font-family:" times="times" style="font-size: 12pt">Переводческая задача: попробуйте без контекста догадаться, какой инструмент называется </span><strong><span en-us ar-sa mso-bidi-language:="mso-bidi-language:" ru mso-fareast-language:="mso-fareast-language:" mso-ansi-language:="mso-ansi-language:" roman new="new" mso-fareast-font-family:="mso-fareast-font-family:" times="times" style="font-size: 12pt" lang="EN-US">Bun</span><span ar-sa mso-bidi-language:="mso-bidi-language:" ru mso-fareast-language:="mso-fareast-language:" mso-ansi-language:="mso-ansi-language:" roman new="new" mso-fareast-font-family:="mso-fareast-font-family:" times="times" style="font-size: 12pt" lang="EN-US"> </span><span en-us ar-sa mso-bidi-language:="mso-bidi-language:" ru mso-fareast-language:="mso-fareast-language:" mso-ansi-language:="mso-ansi-language:" roman new="new" mso-fareast-font-family:="mso-fareast-font-family:" times="times" style="font-size: 12pt" lang="EN-US">Troubleshooting</span><span ar-sa mso-bidi-language:="mso-bidi-language:" ru mso-fareast-language:="mso-fareast-language:" mso-ansi-language:="mso-ansi-language:" roman new="new" mso-fareast-font-family:="mso-fareast-font-family:" times="times" style="font-size: 12pt" lang="EN-US"> </span><span en-us ar-sa mso-bidi-language:="mso-bidi-language:" ru mso-fareast-language:="mso-fareast-language:" mso-ansi-language:="mso-ansi-language:" roman new="new" mso-fareast-font-family:="mso-fareast-font-family:" times="times" style="font-size: 12pt" lang="EN-US">Tool</span></strong><span ar-sa mso-bidi-language:="mso-bidi-language:" ru mso-fareast-language:="mso-fareast-language:" mso-ansi-language:="mso-ansi-language:" roman new="new" mso-fareast-font-family:="mso-fareast-font-family:" times="times" style="font-size: 12pt">.</span></font></p>
+<p><span ar-sa mso-bidi-language:="mso-bidi-language:" ru mso-fareast-language:="mso-fareast-language:" mso-ansi-language:="mso-ansi-language:" roman new="new" mso-fareast-font-family:="mso-fareast-font-family:" times="times" style="font-size: 12pt"><font face="Times New Roman">Ответ — в следующем посте.</font></span></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -541,6 +535,6 @@ function degrease(obfusc,shift) {
 </div>
 <!-- #page -->
 
-<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=1859339606" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
+<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=826384840" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
 </body>
 </html>

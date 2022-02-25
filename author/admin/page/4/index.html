@@ -54,39 +54,6 @@ img.emoji {
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.9.1">
-<script type="text/javascript">
-// <![CDATA[
-var alpha = new Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');/*
-var alpha = new 
-Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');
-*/
-var stringCheck = "";
-
-for (i = 0; i < alpha.length; i++) {
-	stringCheck += alpha[i];
-}
-
-function degrease(obfusc,shift) {
-	var plainText = '';
-	cipherText = obfusc;
-
-	for (i = 0; i < cipherText.length; i++) {
-		var currentText = stringCheck.indexOf(cipherText.charAt(i));
-
-		if(currentText != -1) {
-
-			if ((currentText - shift) >= 0) { 
-				plainText += alpha[currentText - shift]; }
-			else { 
-				plainText += alpha[(alpha.length + currentText)  - shift]; }
-			}
-		}
-
-	parent.location = 'm'+'ai'+'l'+'t'+'o:'+plainText;
-}
-
-// ]]>
-</script>
 </head>
 
 <body class="archive paged author author-admin author-1 wp-embed-responsive paged-4 author-paged-4 custom-font-enabled single-author">
@@ -143,7 +110,11 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Два года назад я <a href="/2013/05/17/928/">писал</a> о TypingAid — свободно распространяемой утилите для подстановки часто используемых слов в набираемый текст. Оказывается, с тех пор автор проделал большую работу: программа теперь работает «из коробки» без редактирования конфигурационных файлов и стала заметно стабильнее на 64-разрядных системах. Если у вас, как у меня, стояла прежняя версия, — <a href="https://github.com/ManiacDC/TypingAid">обновите ее</a>. Сейчас TypingAid — лучшая из программ такого рода.</p>
+<p>Напомню, что TypingAid отслеживает набираемые пользователем слова вне зависимости от того, в каком приложении они вводятся. Выученные слова сохраняются в базу данных, и при повторном наборе TypingAid покажет под курсором список подходящих вариантов из базы, вот так:<br>
+<a href="/wp-content/uploads/2015/05/TypingAidListBox.png"><img src="/wp-content/uploads/2015/05/TypingAidListBox.png" alt="TypingAidListBox" width="390" height="440" class="aligncenter size-full wp-image-1421" srcset="/wp-content/uploads/2015/05/TypingAidListBox.png 390w, /wp-content/uploads/2015/05/TypingAidListBox-266x300.png 266w" sizes="(max-width: 390px) 100vw, 390px"></a></p>
+<p>Если же нужного вам слова нет в списке, вы просто продолжаете вводить то, что вводили. Я еще раз порекомендую TypingAid всем коллегам: эта крошечная утилита способна существенно ускорить набор любых текстов.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -162,7 +133,51 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Меня спросили, пользуюсь ли я средствами автоматического извлечения терминов. Вот, отвечаю.</p>
+<p>«Извлечение терминов» — это рекламное выражение; на самом деле, автоматические средства просто составляют список слов в документе, сортируют его по частоте использования, а под видом терминов представляют наиболее часто встречающиеся слова. Конечно, большинство из них будут обычными общеупотребительными словами, которые нет смысла заносить в термбазу. Специфические термины обычно в верх частотного списка не попадают, так как встречаются реже общей лексики (хотя, конечно, тексты разные бывают).<br><br>
+Тем не менее такую процедуру иногда полезно выполнить перед началом работы с новым клиентом или новой темой: среди общих слов вы получите список имен, товарных знаков, артикулов продукции и т.&nbsp;п. Уточните у клиента, что из этого нужно переводить, а что следует оставить в оригинальном написании, и тогда этот перечень можно будет добавить в термбазу или в автотекст.</p>
+<p>В Trados Studio для извлечения терминов служит отдельный модуль Multiterm Extract, но я не понимаю, зачем устанавливать отдельный (платный!) модуль, когда работу со списками гораздо удобнее вести в Excel. Когда-то я потратил полчаса, чтобы написать нехитрый макрос, и теперь я просто открываю исходный файл в Excel, выполняю макрос и получаю частотный список слов в столбце С. <u><a title="Щелкните, чтобы показать или скрыть код" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Вот такой макрос</a></u>. Этот список уже можно как угодно редактировать и заносить в САТ-программу.</p>
+<div id="spoiler" style="display:none">
+<code>Sub Ftable()<br>
+    Dim BigString As String, I As Long, J As Long, K As Long, r As Long<br>
+    '   Array of stop-words and chars<br>
+    PuncChars = Array(".", ",", ";", ":", "'", "!", "#", _<br>
+        "$", "%", "&", "(", ")", " - ", "_", "--", "+", _<br>
+        "=", "~", "/", "\", "{", "}", "[", "]", """", "?", "*")<br>
+    BigString = ""<br>
+    r = 1<br>
+    Application.ScreenUpdating = False
+<p>'   Loop until blank cell is encountered<br>
+    Do While Cells(r, 1)  ""<br>
+         BigString = BigString & " " & Cells(r, 1).Value<br>
+    r = r + 1<br>
+    Loop</p>
+<p>BigString = Trim(BigString)<br>
+        For I = 0 To UBound(PuncChars)<br>
+            BigString = Replace(BigString, PuncChars(I), "")<br>
+        Next I</p>
+<p>    ary = Split(BigString, " ")<br>
+    Dim cl As Collection<br>
+    Set cl = New Collection<br>
+    For Each a In ary<br>
+        On Error Resume Next<br>
+        cl.Add a, CStr(a)<br>
+    Next a</p>
+<p>    For I = 1 To cl.Count<br>
+        v = cl(I)<br>
+        Cells(I, "C").Value = v<br>
+        J = 0<br>
+        For Each a In ary<br>
+            If a = v Then J = J + 1<br>
+        Next a<br>
+        Cells(I, "D") = J<br>
+    Next I</p>
+<p>    Range("c1").CurrentRegion.Sort key1:=Range("d1"), order1:=xlDescending, Header:=xlNo</p>
+<p>    Application.ScreenUpdating = True<br>
+End Sub<br>
+</p></code>
+</div>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -181,7 +196,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Сегодняшние штрихи — это три задачи, с которыми может столкнуться переводчик, и способы их решения в Trados Studio.<br>
+ <a href="/2015/04/24/1391/#more-1391" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -200,7 +217,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>На сайте Павла Палажченко опубликована крайне познавательная статья об использовании топонимов в политических целях. Оказывается, Западная Германия какое-то время называлась <em>Германская Федеральная Республика</em> и <em>Федеративная Республика Германии.</em></p>
+<p><a href="http://pavelpal.ru/node/1194">Всем читать Павла Руслановича ></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -219,7 +238,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>О том, что компания ABBYY предлагает <a href="https://smartcat.pro/">бесплатную браузерную среду перевода под названием SmartCAT</a>, я слышал еще в середине 2014 года. Меня уже несколько раз спрашивали, что я о ней думаю, но всё никак не доходили руки внимательно посмотреть, что же это за штуковина. Наконец, свободное время нашлось. <a href="/2015/02/23/1354/#more-1354" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -238,7 +258,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>В новом году — новые тонкости Trados Studio 2014. <a href="/2015/01/31/1339/#more-1339" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -257,7 +278,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p><a href="http://www.anekdot.ru/id/735674/">История</a> c anekdot.ru, мораль которой полезно держать в голове начинающим фрилансерам.</p>
+<p style="font-family: 'Calibri'; padding: 0 0 0 25px; background: url(wp-content/uploads/quote.gif) top left no-repeat">Вот история, свидетелем которой я был в Западной Германии в 80-х годах прошлого века. Один немецкий профессор (я был на стажировке в одном немецком университете) решил быстро продать свой автомобиль за 2000 марок и выставил его по этой низкой цене на местном автомобильном блошином рынке. К нему довольно долго подходили потенциальные покупатели, осматривали машину, задавали вопросы, но все эти контакты были безрезультатными. И тут к ему подходит один довольно бойкий человек, покупает, как говорится, не глядя машину, меняет на ней ценник и тут же на глазах изумленного профессора перепродает ее за 4000 марок&#8230; Этот перекупщик мог правильно оценить стоимость подержанного автомобиля и понимал, что <strong>заниженная цена так же плоха для торга, как и завышенная</strong>.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -276,7 +299,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Коллеги, как вы проверяете сочетаемость слов в русском тексте? </p>
+<p>Скажем, мне нужно выяснить, говорят ли по-русски «доставка услуги» (не предлагайте другие варианты — я хочу узнать, является ли сочетание этих слов нормативным, причем с опорой на источник). Может, есть какой-нибудь ресурс на эту тему? В словаре сочетаемости Денисова и Морковкина ничего подобного нет; качество <a href="http://www.ruscorpora.ru/search-main.html">корпуса русского языка</a> тоже не впечатляет.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -295,7 +320,10 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>SDL наконец-то <a href="/2014/01/30/1175/" title="Trados Studio 2014: очень краткий обзор" target="_blank">пристрелила старую клячу</a>: вышел второй пакет обновлений к Studio 2014, где Java больше не используется. Ура! Более того, работа с терминами теперь полностью интегрирована в Studio: появились функции <em>Quick Add New Term</em> (Ctrl+Shift+F2) и <em>Delete this Entry</em> (Ctrl+Shift+Alt+D). По идее, теперь можно обойтись вообще без установки Multiterm.</p>
+<p>Другие новшества в SP2: при поиске в ТМ результаты теперь сортируются по дате добавления; буквенно-цифровые сочетания типа ABC-123_M10X30 распознаются как местозаполнители (потребуется переиндексировать старые ТМ); для большинства форматов поддерживается редактирование исходного текста по Alt+F2. Полный список изменений приведен <a href="http://kb.sdl.com/#tab:homeTab:crumb:7:artId:5690" target="_blank">здесь</a>.</p>
+<p>Я рекомендую всем пользователям Studio 2014 побыстрее <a href="ftp://downloadcenter.sdl.com/T2014/SP2/SDLTradosStudio2014_SP2_4322.exe" target="_blank">загрузить</a> и установить SP2 — затем «джаву» можно отключить или удалить, так как иметь ее на компьютере небезопасно.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -314,7 +342,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Седьмая часть штрихов к Trados Studio 2014. <a href="/2014/10/22/1305/#more-1305" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -544,6 +573,6 @@ function degrease(obfusc,shift) {
 </div>
 <!-- #page -->
 
-<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=126505421" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
+<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=1184875809" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
 </body>
 </html>

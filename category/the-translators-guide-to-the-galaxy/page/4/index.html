@@ -54,39 +54,6 @@ img.emoji {
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.9.1">
-<script type="text/javascript">
-// <![CDATA[
-var alpha = new Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');/*
-var alpha = new 
-Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');
-*/
-var stringCheck = "";
-
-for (i = 0; i < alpha.length; i++) {
-	stringCheck += alpha[i];
-}
-
-function degrease(obfusc,shift) {
-	var plainText = '';
-	cipherText = obfusc;
-
-	for (i = 0; i < cipherText.length; i++) {
-		var currentText = stringCheck.indexOf(cipherText.charAt(i));
-
-		if(currentText != -1) {
-
-			if ((currentText - shift) >= 0) { 
-				plainText += alpha[currentText - shift]; }
-			else { 
-				plainText += alpha[(alpha.length + currentText)  - shift]; }
-			}
-		}
-
-	parent.location = 'm'+'ai'+'l'+'t'+'o:'+plainText;
-}
-
-// ]]>
-</script>
 </head>
 
 <body class="archive paged category category-the-translators-guide-to-the-galaxy category-3 wp-embed-responsive paged-4 category-paged-4 custom-font-enabled single-author">
@@ -134,7 +101,11 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Некоторые переводчики вообще не делают бесплатных тестов на перевод. Кто-то делает не больше двухсот слов. Лично я не вижу проблемы в том, чтобы бесплатно перевести для потенциального клиента слов 250-300: по меньшему объему часто бывает сложно оценить уровень.</p>
+<p>Но не все тесты одинаковы. Вот, недавно американское бюро прислало задание аж из 850 слов. Вначале я хотел перевести первые 300, но при внимательном рассмотрении в интернете нашлась полная версия этого документа на русском :-) Разумеется, я его внимательно прочитал, исправил некоторые места, в которых смог подобрать эквивалент получше, &mdash; в общем, потратил на редактуру те самые 45 минут, которые бы у меня ушли на перевод 250 слов.</p>
+<p>Тест был успешно пройден, сейчас работаю над платным проектом для этого клиента.</p>
+<p>Отсюда мораль: не спешите отказываться от больших тестов на перевод. Возможно, бюро хочет оценить ваши навыки поиска?</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -153,7 +124,41 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p><span style="FONT-FAMILY: Verdana; FONT-SIZE: 12pt">В блоге Сергея Ярославцева &mdash; <a href="http://perevod99.blogspot.com/2010/10/cat.html" target="_blank">отличная запись</a> о том, как стоит и не стоит переводить повторяющиеся сегменты в документе. Прекрасная иллюстрация коварности функций Translate to fuzzy и Autopropagate. Рекомендую прочитать ее целиком у Сергея, а здесь приведу выдержку.</span></p>
+<p class="MsoNormal"><span style="FONT-FAMILY: Arial; FONT-SIZE: 11pt">Вот технический документ — паспорт безопасности материала. Это таблица, в ее левом столбце встречается одно и то же свободно выражение </span><span style="FONT-FAMILY: Arial; FONT-SIZE: 11pt"><strong>Not found </strong>(сокращенное до n/f)</span><span style="FONT-FAMILY: Arial; FONT-SIZE: 11pt">. Следует ли для единообразия терминологии каждый раз переводить его на русский одним и тем же выражением? Любая </span><span style="FONT-FAMILY: Arial; FONT-SIZE: 11pt">CAT-программа</span><span style="FONT-FAMILY: Arial; FONT-SIZE: 11pt"> будет придерживаться того мнения, что да. А как?</span></p>
+<p class="MsoNormal"><span style="FONT-FAMILY: Arial; FONT-SIZE: 11pt">Фактически это просто прочерк в соответствующей графе таблицы, и прочерк был бы лучшим переводом этого выражения. Но ведь прочерком переводить нельзя &#8211; заказчик сличит и спросит, почему не переведено&#8230; Словом «нет» или «отсутствуют» тоже перевести нельзя.</span></p>
+<p class="MsoNormal"><span style="FONT-FAMILY: Arial; FONT-SIZE: 11pt"></span></p>
+<table width="80%" border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>Material safety data sheet</td>
+<td>Паспорт безопасности материала</td>
+</tr>
+<tr height="35">
+<td>cross sensitivity:<br>n/f </td>
+<td>Перекрестная чувствительность:<br><strong>не выявлено</strong> </td>
+</tr>
+<tr>
+<td>synonym:<br>n/f </td>
+<td>Синонимичное название:<br><strong>не найдено</strong> </td>
+</tr>
+<tr>
+<td>packing group:<br>n/f </td>
+<td>Категория тары: <br><strong>нет</strong> </td>
+</tr>
+<tr>
+<td>flash point:<br>n/f </td>
+<td>Температура возгорания<br><strong>не определена</strong> </td>
+</tr>
+<tr>
+<td>ecological information:<br>n/f </td>
+<td> Сведения по экологическому воздействию:<br><strong>отсутствуют</strong>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -172,7 +177,12 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Вместе с текстом на перевод вы можете получить результат анализа повторяющихся сегментов. Или захотите его сделать самостоятельно. Ну, со 100 %-ными совпадениями и новыми сегментами вроде бы все понятно, но как считаются fuzzy matches? </p>
+<p>Авторы блога <a href="http://www.globalvis.com/fuzzy-match-or-fuzzy-math/" target="_blank">GlobalVision</a> приводят интересный пример. Какой процент совпадения будет у этих двух сегментов:</p>
+<p><font face="Arial">The lazy brown <u>fox</u> jumped over the quick brown <u>dog</u>.<br>The lazy brown <u>dog </u>jumped over the quick brown <u>fox</u>.</font></p>
+<p>В строке из 50 символов 46 остались неизменными, что соответствует совпадению в 92%. Но мы переводим не посимвольно! Для переводчика в исходном сегменте поменялись два слова из 10 — величина 80 % выглядит более реалистичной. И это еще без учета возможных изменений во флексиях других слов.</p>
+<p>Это (наряду с <a href="http://blog.slovotolk.com/2009/04/29/188/">возможностью обсчета</a>) следует помнить при предварительной оценке времени, которое потребуется на выполнение проекта. На 95 %-ное совпадение уйдет в два, а не в двадцать раз меньше времени, чем на новый сегмент :-)</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -191,7 +201,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Выкладываю давно обещанные материалы с переводческой конференции в Лиссабоне.</p>
+<p> <a href="/2010/07/19/415/#more-415" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -210,7 +222,20 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>По просьбе читателей немного расскажу о том, что следует делать, если в тексте на перевод встретилось незнакомое имя собственное — фамилия, географическое название и т. п. Хотя чаще всего имена собственные не переводятся, а транскрибируются (и даже Берег Слоновой Кости переименовали в Кот д’Ивуар), мне удобнее писать «перевод имен».</p>
+<p>Во-первых, стоит выяснить язык происхождения искомого слова. В абсолютном большинстве случаев на это потребуется «Гугл» и пара минут. Разумеется, транскрибировать нужно с того языка, в котором имя появилось изначально. Конечно, есть и кросс-культурные реалии: английское имя Jon переводится как Джон, а норвежское Jon — уже как Йон.</p>
+<p>Во-вторых, возможно, эту работу уже сделали за вас. Географические названия приведены во многих справочниках, отмечу «Географический энциклопедический словарь. Географические названия» под ред. Котлякова и особенно «Англо-русский и русско-английский словарь географических названий» М. В. Горской. Советую проверять любой незнакомый топоним, иначе можно здорово попасть впросак: если во французском тексте встретится <a href="http://en.wikipedia.org/wiki/Chisinau">Chisinau</a>,  не стоит его переводить как Шизино :-)</p>
+<p>Что касается личных имен, то они не уникальны: вполне возможно, что искомое имя носил в этой стране какой-нибудь монарх. Может статься, что для конкретного человека прямо указывается произношение его имени, как в случае с обсуждаемым <a href="http://blog.slovotolk.com/2008/11/11/109/">Шахом</a>. Справочников, приводящих произношение личных имен, не меньше, чем словарей топонимов (привожу только те, которыми пользуюсь сам):<br>
+&#8211; А. И. Рыбакин «Словарь английских фамилий»;<br>
+&#8211; Ермолович Д. И. «Англо-русский словарь персоналий»;<br>
+&#8211; Лидин Р.А. «Иностранные фамилии и личные имена».</p>
+<p>Допустим, устоявшегося перевода нет. В таком случае — таблицу практической транскрипции в руки и вперед! Такие таблицы составлены для большинства популярных языков:<br>
+&#8211; <a href="http://ru.wikipedia.org/wiki/Практическая_транскрипция">http://ru.wikipedia.org/wiki/Практическая_транскрипция</a>;<br>
+&#8211; <a href="http://web.artlebedev.ru/tools/transcriptor/">http://web.artlebedev.ru/tools/transcriptor/</a>;<br>
+&#8211; Д. И. Ермолович «Имена собственные. Теория и практика межъязыковой передачи»;<br>
+&#8211; «Практическая транскрипция фамильно-именных групп» под ред. Р. С. Гиляревского.</p>
+<p>Наконец, чего не стоит делать: ориентироваться на число найденных поисковиком страниц, содержащих тот или иной вариант перевода. Все те люди, которые передают фамилию <a href="http://en.wikipedia.org/wiki/Sandra_Bullock">известной актрисы</a> как <em>Баллок</em>, не являются переводчиками, они пишут так, как им хочется и о правописании вообще не задумываются. Если это звучит неубедительно, поищите в «Яндексе» слово «исчо»: сколько там найдено страниц? :-)</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -229,7 +254,14 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Обычно ошибки в переводе вызваны недостаточным владением языка перевода (для меня &mdash; русского). Однако в последнее время в проверяемых работах часто попадается одна ошибка, вызванная незнанием английской грамматики, а именно особенностей перевода инфинитивов. Что ж, можно и грамматику повторить.</p>
+<p><font size="3" face="Arial">Double-click the section to format. <br>Дважды щелкните раздел <font color="#ff0000">для форматирования.</font></font></p>
+<p><font face="Times"><em>to format</em> &mdash; это не обстоятельство цели, относящееся к <em>click</em>, а атрибут, определяющий <em>section</em>. Правильно так:</font></p>
+<p><font size="3" face="Arial">Дважды щелкните <font color="#008000">форматируемый раздел</font>.</font></p>
+<p><font face="Times">И еще раз:</font></p>
+<p><font size="3" face="Arial">Specify the number of symbols to be displayed.<br>Укажите число <font color="#ff0000">знаков для отображения</font>.<br>Укажите число <font color="#008000">отображаемых знаков</font>.</font></p>
+<p></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -248,7 +280,10 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>При работе над большим текстом, например руководством по эксплуатации (особенно если над проектом работают несколько переводчиков), вначале переведите все названия глав и разделов и добавьте эти переводы в ТМ. Внутри глав наверняка будут ссылки на другие разделы. Если заголовки не перевести заранее, потом унифицировать их довольно мучительно. Для обнаружения популярных сегментов удобно использовать анализатор повторяемости Trados.</p>
+<p>Также в угоду консистентности перевода в большом тексте можно принести благозвучность названий. Например, одна из глав называется <em>Object Properties Overview</em>. Это можно перевести как «Обзор свойств объектов», и такой перевод более красив, чем «Общие сведения о свойствах объектов» или «Свойства объектов: обзор». Но что вы будете делать с названием главы <em>Modifying object properties in Basic Configuration Overview</em>? Придется все менять на варианты с «Общие сведения о…», иначе названия глав будут слишком разномастные.</p>
+<p>В тему &mdash; <a href="http://getdirectclient.blogspot.com/2008/09/6-tips-on-taking-mega-projects.html" target="_blank">советы по работе с крупными проектами</a> от блога <a href="http://getdirectclient.blogspot.com/">GetDirectClient</a>.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -267,7 +302,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p><span style="FONT-SIZE: 12pt; FONT-FAMILY: &rsquo;Times New Roman&rsquo;; mso-ansi-language: RU; mso-fareast-font-family: &rsquo;Times New Roman&rsquo;; mso-fareast-language: RU; mso-bidi-language: AR-SA">Уважаемые ИТ-переводчики! Если в оригинале написано</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: &rsquo;Times New Roman&rsquo;; mso-ansi-language: EN-US; mso-fareast-font-family: &rsquo;Times New Roman&rsquo;; mso-fareast-language: RU; mso-bidi-language: AR-SA" lang="EN-US"> <em>A new window will appear</em>, </span><span style="FONT-SIZE: 12pt; FONT-FAMILY: &rsquo;Times New Roman&rsquo;; mso-ansi-language: RU; mso-fareast-font-family: &rsquo;Times New Roman&rsquo;; mso-fareast-language: RU; mso-bidi-language: AR-SA">не пишите «Появится окно» — это сильно нервирует редактора</span><span style="FONT-SIZE: 12pt; FONT-FAMILY: &rsquo;Times New Roman&rsquo;; mso-ansi-language: EN-US; mso-fareast-font-family: &rsquo;Times New Roman&rsquo;; mso-fareast-language: RU; mso-bidi-language: AR-SA" lang="EN-US"> :-)</span></p>
+<p><span style="FONT-SIZE: 12pt; FONT-FAMILY: &rsquo;Times New Roman&rsquo;; mso-ansi-language: EN-US; mso-fareast-font-family: &rsquo;Times New Roman&rsquo;; mso-fareast-language: RU; mso-bidi-language: AR-SA" lang="EN-US"><span style="FONT-SIZE: 12pt; FONT-FAMILY: &rsquo;Times New Roman&rsquo;; mso-ansi-language: RU; mso-fareast-font-family: &rsquo;Times New Roman&rsquo;; mso-fareast-language: RU; mso-bidi-language: AR-SA">Окно не может появляться, окно <b>открывается</b>. Это не относится к всплывающим окнам и некоторым другим редко используемым элементам интерфейса, которые могут появиться на экране сами по себе. Обычные же окна (в том числе диалоговые) открываются в результате действий пользователя.</span></span></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -286,7 +323,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Знаете ли вы, как Trados считает статистику по документу? Сейчас покажу.<br> <a href="/2009/04/29/188/#more-188" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -305,7 +343,29 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Уж сколько раз твердили миру, что в ответе переводчика на объявление заказчика должно быть видно <em>намерение</em> получить этот заказ&#8230; да только все не впрок. Что ж, можно и еще раз повторить.</p>
+<p><a href="http://aboutranslation.blogspot.com/2009/04/how-not-market-your-services.html" target="_blank">Рикардо Скьяффино рассказывает</a>, какие письма вызывают желание не ответить переводчику, а выбросить письмо. Например, такие:</p>
+<blockquote>
+<p><span style="PADDING-RIGHT: 0px; BACKGROUND: url(wp-content/uploads/quote.gif) no-repeat left top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">Subject: CV<br>Attachment: CVeng.doc</span></p>
+<div><span style="PADDING-RIGHT: 0px; FONT-SIZE: 85%; BACKGROUND: url(wp-content/uploads/quote.gif) no-repeat left top; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">Dear Aliquantum,
+<p>please find here attached my CV and please do not hesitate to contact me should you have any opportunity for me.</p>
+<p>Best Regards,<br>Jane</p></span></div>
+<div> </div>
+</blockquote>
+<p>Ни языковой пары, ни специализации, ни имени переводчика в названии файла (как найти это резюме в папке с сотней файлов CV.doc?). Переводчик ничего не сделал, чтобы выделиться из толпы себе подобных, да и письмо выглядит написанным по шаблону. </p>
+<p>А вот это же письмо, но впечатление от него совсем другое: </p>
+<div class="post-body">
+<blockquote>
+<p><span style="FONT-WEIGHT: normal">Subject:</span> ENG&gt;ITA Translator<span style="FONT-WEIGHT: normal"><br>Attachment:</span> JDoe_EN-IT_CV.pdf; JDoe_rates2009.pdf</p>
+<div><span style="FONT-SIZE: 85%">Dear Mr. Schiaffino,
+<p>I saw from your web site that your company specializes in English to Italian and English to Spanish translations.</p>
+<p>I&rsquo;m a native speaker of Italian, with a master in translation and five years of experience. I specialize in the translation of plant engineering and legal texts. Attached, please find my CV and rates.</p>
+<p>Let me know if you need any further information.</p>
+<p>Looking forward to hearing from you.</p>
+<p>Best Regards,<br>Jane Doe<br></p></span></div>
+</blockquote>
+</div>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -534,6 +594,6 @@ function degrease(obfusc,shift) {
 </div>
 <!-- #page -->
 
-<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=1665014196" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
+<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=629578388" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
 </body>
 </html>

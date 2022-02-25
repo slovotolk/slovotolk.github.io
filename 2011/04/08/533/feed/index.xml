@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: MemeMiner — интерфейс к «Википедии»	</title>
+	<atom:link href="/2011/04/08/533/feed/" rel="self" type="application/rss+xml" />
+	<link>/2011/04/08/533/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Mon, 11 Apr 2011 09:09:23 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Александр		</title>
+		<link>/2011/04/08/533/#comment-323</link>
+
+		<dc:creator><![CDATA[Александр]]></dc:creator>
+		<pubDate>Mon, 11 Apr 2011 09:09:23 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=533#comment-323</guid>
+
+					<description><![CDATA[Спасибо, Максим]]></description>
+			<content:encoded><![CDATA[<p>Спасибо, Максим</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

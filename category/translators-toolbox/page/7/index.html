@@ -54,39 +54,6 @@ img.emoji {
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.9.1">
-<script type="text/javascript">
-// <![CDATA[
-var alpha = new Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');/*
-var alpha = new 
-Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');
-*/
-var stringCheck = "";
-
-for (i = 0; i < alpha.length; i++) {
-	stringCheck += alpha[i];
-}
-
-function degrease(obfusc,shift) {
-	var plainText = '';
-	cipherText = obfusc;
-
-	for (i = 0; i < cipherText.length; i++) {
-		var currentText = stringCheck.indexOf(cipherText.charAt(i));
-
-		if(currentText != -1) {
-
-			if ((currentText - shift) >= 0) { 
-				plainText += alpha[currentText - shift]; }
-			else { 
-				plainText += alpha[(alpha.length + currentText)  - shift]; }
-			}
-		}
-
-	parent.location = 'm'+'ai'+'l'+'t'+'o:'+plainText;
-}
-
-// ]]>
-</script>
 </head>
 
 <body class="archive paged category category-translators-toolbox category-4 wp-embed-responsive paged-7 category-paged-7 custom-font-enabled single-author">
@@ -134,7 +101,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>В обновленную базу добавлены термины из Office 2010, WP7,&nbsp;Internet Explorer 9 и других продуктов. База в формате <span style="FONT-VARIANT: small-caps">TBX</span> доступна <a href="http://www.microsoft.com/Language/en-US/Terminology.aspx" target="_blank">здесь</a>.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -153,7 +121,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Не секрет, что «Википедия» — неплохой источник многоязычной терминологии, особенно в области современных технологий. Не самый надежный источник, но иногда единственный. </p>
+<p>Однако поиск соответствий удобнее вести на самой «Википедию», а через сайт <a href="http://www.fredrocha.net/MemeMiner/" target="_blank">Meme Miner</a>: ничего лишнего, и отображается толкование искомого термина.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -172,7 +142,11 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Один прямой клиент регулярно присылает мне на перевод файлы Word исключительно сложного форматирования. Размером в десятки мегабайт, с кучей иллюстраций, внедренных объектов, закладок и перекрестных ссылок — верстка, которую по-хорошему надо бы делать во FrameMaker или хотя бы в Indesign, делается в Word.</p>
+<p>К сожалению, CAT-программы пугаются таких файлов и отказываются с ними нормально работать (я пробовал SDLX, Trados 2007, Trados Studio, MetaTexis, MemoQ и Transit). Какие-то из них просто не открывают файл, какие-то открывают, дают перевести, но не очищают, некоторые дают перевести и сохраняют очищенный перевод, но непреодолимо корёжат форматирование. Не буду здесь перечислять все методы, которые я без толку испробовал, я даже обращался в техподдержку SDL, которая тоже ничем не помогла.</p>
+<p>Кончилось это тем, что я сохранял <span style="font-variant: small-caps;">docx</span> как <span style="font-variant: small-caps;">rtf</span>, а после перевода вручную восстанавливал форматирование — сомнительное удовольствие. Но через полтора года такой канители я, кажется, нашел рабочее решение. </p>
+<p>Итак, файл <span style="font-variant: small-caps;">docx</span> нужно открыть как <span style="font-variant: small-caps;">zip</span>-архив и извлечь из него Word/document.xml. Этот <span style="font-variant: small-caps;">xml</span>-файл содержит чистый текст без форматирования и прекрасно подхватывается «кошками». После перевода его нужно просто положить обратно внутрь <span style="font-variant: small-caps;">docx</span>-архива и для итоговой проверки открыть обновленный файл в Word: все форматирование останется на месте.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -191,7 +165,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Рассылка <a href="http://www.internationalwriters.com/toolkit/" target="_blank">Translators&rsquo; Tool Kit</a> пишет о новом инструменте <a href="http://www.translatortools.net/about.html" target="_blank">Translator Tools</a> (мда, название не слишком оригинальное). Тем не менее, функциональность интересная: это набор макросов, автоматизирующих часто выполняемые действия при переводе. Умеет извлекать текст из документов Visio и AutoCAD в таблицу Excel (которую уже можно перевести в вашей любимой кошке) и вставлять перевод обратно. <a href="/2011/02/03/511/#more-511" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -210,7 +185,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Сайт <a href="http://www.doc3.com/functionality/" target="_blank">Doc3.com</a> позволяет загрузить исходный и переведенный текст и выполнить стандартную автоматическую проверку качества: найти пропущенные сегменты, двойные пробелы, несовпадение цифр и т. д. Для тех, кому лень установить Apsic Xbench :-)</p>
+<p>Правда, заявлена поддержка формата PDF. Если вам доведется сверять оригинал и перевод в формате PDF, стоит попробовать Doc3.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -229,7 +206,11 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Немного экзотики в мире переводческих программ: <a href="http://ankudowicz.com/tmbuilder/" target="_blank">TMbuilder</a> предназначена для пакетного преобразования файлов <span style="font-variant: small-caps;">XLS</span> и <span style="font-variant: small-caps;">XLSX</span> в <span style="font-variant: small-caps;">ТМХ</span> или Trados <span style="font-variant: small-caps;">TXT</span>. В принципе, это может делать и Xbench, но если у вас будет множество Excel-файлов с терминами, разумнее использовать пакетное решение, а не сохранять каждый из этих файлов в <span style="font-variant: small-caps;">CSV</span>.</p>
+<p>Установка не требуется, интерфейс прост и понятен:<br><img src="http://ankudowicz.com/tmbuilder/TMbuilder.png" border="0" alt="TMbuilder" width="480"></p>
+<hr>
+<p>Поздравляю всех с Новым годом! Желаю удачи и профессионального роста!</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -248,7 +229,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Для меня это&nbsp;новость года: ApSic Xbench теперь умеет проверять орфографию! <a href="http://www.apsic.com/blog/?p=11" target="_blank">Поддерживаются 16 языков</a>: нужно всего лишь загрузить модуль нужного языка, скопировать его в папку с Xbench, запустить программу — и на вкладке QA будет добавлен соответствующий пункт. Теперь орфографию можно проверять даже в файлах тех форматов, создатели которых об этом никогда и не думали. Спасибо, ApSic!</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -267,7 +249,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>На сайте TranslatorsTraining <a href="http://www.translatorstraining.com/sito/index.php" target="_blank">опубликованы видеоролики</a>, демонстрирующие перевод одного и того же документа Word в 20 переводческих средах. О существовании некоторых я узнал только оттуда :-)</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -286,7 +269,10 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p style="TEXT-ALIGN: left; FONT-STYLE: normal; MARGIN-TOP: 0pt; FONT-FAMILY: Times New Roman,serif; MARGIN-BOTTOM: 6.8pt; COLOR: black; FONT-SIZE: 12pt; FONT-WEIGHT: normal"><span lang="DE">Оказывается, в </span><span>Microsoft Word есть функция Spike, позволяющая выбрать несколько несмежных фрагментов документа (любые объекты &#8211; текст, таблицы, рисунки), а затем вставить их одним куском. Похоже на буфер обмена, только при копировании новый объект не затирает предыдущий, а добавляется к нему.</span></p>
+<p style="TEXT-ALIGN: left; FONT-STYLE: normal; MARGIN-TOP: 0pt; FONT-FAMILY: Times New Roman,serif; MARGIN-BOTTOM: 6.8pt; COLOR: black; FONT-SIZE: 12pt; FONT-WEIGHT: normal"><span>Чтобы добавить объект в «Шпильку», выделите его и нажмите </span><span><span style="FONT-VARIANT: small-caps">Ctrl+F3.</span> Выделите следующий и опять нажмите <span><span style="FONT-VARIANT: small-caps">Ctrl+F3</span> и так далее. Чтобы вставить все содержимое, нажмите <span><span style="FONT-VARIANT: small-caps">Ctrl+Shift+F3</span></span></span>, при этом «Шпилька» очищается. Возможно, кому-то это будет полезным :-)</span></p>
+<p style="TEXT-ALIGN: left; FONT-STYLE: normal; MARGIN-TOP: 0pt; FONT-FAMILY: Times New Roman,serif; MARGIN-BOTTOM: 6.8pt; COLOR: black; FONT-SIZE: 12pt; FONT-WEIGHT: normal"><span>(по материалам рассылки <em><a href="http://www.internationalwriters.com/toolkit/" target="_blank">The Tool Kit</a></em>)</span></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -305,7 +291,10 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Гугл представил очень интересный инструмент: <a href="http://www.google.com/ime/transliteration/index.html" target="_blank">Google Transliteration Input Method</a>. Эта программа позволяет вводить латиницей слова на 14 языках — арабском, греческом, фарси, урду, хинди и некоторых других — и они будут автоматически преобразованы в нужный алфавит. Примерно вот так:</p>
+<p><img loading="lazy" src="http://blog.slovotolk.com/wp-content/uploads/2010/01/specialcase_camelcase.png" border="1" hspace="8" alt="specialcase_camelcase" align="top" width="321" height="77"></p>
+<p>Поддерживается автозавершение, есть пользовательский словарь и некоторые другие настройки. Рекомендую попробовать всем, кто хоть иногда использует другие алфавиты, кроме кириллицы и латиницы.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -534,6 +523,6 @@ function degrease(obfusc,shift) {
 </div>
 <!-- #page -->
 
-<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=1298757421" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
+<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=118647093" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
 </body>
 </html>

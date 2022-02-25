@@ -54,39 +54,6 @@ img.emoji {
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.9.1">
-<script type="text/javascript">
-// <![CDATA[
-var alpha = new Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');/*
-var alpha = new 
-Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');
-*/
-var stringCheck = "";
-
-for (i = 0; i < alpha.length; i++) {
-	stringCheck += alpha[i];
-}
-
-function degrease(obfusc,shift) {
-	var plainText = '';
-	cipherText = obfusc;
-
-	for (i = 0; i < cipherText.length; i++) {
-		var currentText = stringCheck.indexOf(cipherText.charAt(i));
-
-		if(currentText != -1) {
-
-			if ((currentText - shift) >= 0) { 
-				plainText += alpha[currentText - shift]; }
-			else { 
-				plainText += alpha[(alpha.length + currentText)  - shift]; }
-			}
-		}
-
-	parent.location = 'm'+'ai'+'l'+'t'+'o:'+plainText;
-}
-
-// ]]>
-</script>
 </head>
 
 <body class="archive paged category category-translators-toolbox category-4 wp-embed-responsive paged-5 category-paged-5 custom-font-enabled single-author">
@@ -134,7 +101,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>В блоге SDL появилась <a href="http://www.sdl.com/community/blog/details/36529/sdl-trados-studio-2014-the-countdown-is-on">запись о новой версии Studio</a>, акцент в которой сделан на упрощение работы для новичков. В частности, “the new user interface <...> might seem familiar to users using Microsoft Office applications”.</...></p>
+<p>Ладно, простим маркетологам SDL тавтологию в процитированном предложении. Но пока непонятно, чем новая «Студия» заинтересует более опытных переводчиков.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -153,7 +122,11 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Случается, что заказчики присылают референсные переводы в виде двухколоночной таблицы в документе Word. Как эту таблицу преобразовать в ТМ?<br>
+Традиционное решение: в Word преобразовать таблицу в текст, разделенный табуляцией, затем сохранить в формате TXT, импортировать в Xbench, наконец, экспортировать в виде TMX. Но есть и более технологичный способ — <a href="/wp-content/uploads/2013/06/Modul1.zip">макрос для Word</a>, предложенный переводчиком Ругером Сьоландером. </p>
+<p>Чтобы добавить макрос в формате .bas, откройте в Word окно Microsoft Visual Basic (Alt + F11) и выберите <em>File</em> > <em>Import file</em>. Чтобы запустить макрос и преобразовать таблицу в активном документе, откройте окно «Макросы» (Alt + F8), выберите нужный макрос и нажмите кнопку «Выполнить».</p>
+<p><span style="font-size: 8pt; font-family: 'Times New Roman'">(из блога <a href="http://tradosstudiomanual.com/?p=555/">SDL Trados Studio Manual</a>)</span></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -172,7 +145,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>AutoSuggest — это платный подключаемый модуль к Trados Studio. Он составляет частотный словарь, анализируя активную ТМ, и автоматически предлагает дополнить вводимое слово — примерно так же, как работает автодополнение в адресной строке браузера. У AutoSuggest есть несколько недостатков: поддержка только больших ТМ (свыше 25 000 сегментов), цена и, разумеется, работа только в Studio. Хочу представить вам три программы, лишенные этих ограничений. <a href="/2013/05/17/928/#more-928" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -191,7 +165,11 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<style type="text/css">span.codedirection { unicode-bidi:bidi-override; direction: rtl; }</style>
+<p>Часто ли клиенты хотят с вами пообщаться голосом? Со мной очень редко, но я все же подключил себе нью-йоркский телефонный номер. Теперь мне можно звонить на <span class="codedirection">42-55-655 (419) 1+</span>. Вряд ли это нужно каждому фрилансеру; не уверен, что нужно даже мне, — российский мобильный номер вполне меня устраивает — но так как это ничего не стоит, то почему бы не сделать? Во многих случаях звонок в США дешевле любых других международных направлений, может быть, какому-нибудь заказчику это будет удобнее.</p>
+<p>Номера раздает VoIP-провайдер <a href="http://www.callcentric.com/">CallCentric</a>. Цены на исходящие звонки у него совсем не низкие, так что звонить с него не стоит, лучше ограничиться входящими вызовами. Итак, регистрируетесь на сайте и выбираете тариф без абонентской платы IP Freedom. После регистрации в разделе <a href="http://www.callcentric.com/dids/free_phone_number">Free Phone Number</a> можно заказать нью-йоркский телефонный номер, звонки на который будут переадресовываться на ваш IP-телефон. Номер будет полностью бесплатным, если вы живете не в США или Канаде и отказываетсь от поддержки экстренных вызовов на 911 (в противном случае номер стоит полтора доллара в месяц).</p>
+<p>После того как номер вам будет выделен, подключите свой IP-телефон к SIP-серверу CallCentric. На <a href="http://www.callcentric.com/support/device/">этой странице</a> приведены инструкции по подключению множества аппаратных и программных IP-телефонов, но в общем, настройки стандартные. Все, можно принимать входящие звонки: качество высокое, звук очень чистый, лучше, чем по GSM-связи.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -210,7 +188,10 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Объем работы мы определяем по количеству слов, и очень важно иметь возможность быстрой оценки количества слов в присланных документах. Однако современные «палатки» (в смысле TEnT — translation environment) для этого плохо приспособлены. Если, например, клиент ждет ответа в Google Talk, у вас нет времени создавать новый проект в Studio или MemoQ и проводить анализ присланных документов. Для этого гораздо лучше подходят небольшие автономные утилиты-калькуляторы, способные быстро подсчитать статистику в нескольких разнородных файлах.</p>
+<p>Итак, чем же считать статистику? Кратко перечислю популярные калькуляторы.<br>
+ <a href="/2013/04/24/901/#more-901" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -229,7 +210,13 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Иногда на перевод приходят документы с цветным выделением. Но серый текст на сизом фоне и желтый по белому очень плохо читаются. Что можно с этим сделать?<br>
+<a href="/wp-content/uploads/2013/04/font.png"><img src="/wp-content/uploads/2013/04/font.png" alt="font" width="499" height="112" class="alignnone size-full wp-image-890" srcset="/wp-content/uploads/2013/04/font.png 499w, /wp-content/uploads/2013/04/font-300x67.png 300w" sizes="(max-width: 499px) 100vw, 499px"></a></p>
+<p>Выберите Tools > Options > Editor > Font Adaptation, установите флажок Adapt text colors и увеличьте контрастность. В результате переводимый документ будет выглядеть так:<br>
+<a href="/wp-content/uploads/2013/04/font1.png"><img loading="lazy" src="/wp-content/uploads/2013/04/font1.png" alt="font1" width="494" height="102" class="alignnone size-full wp-image-892" srcset="/wp-content/uploads/2013/04/font1.png 494w, /wp-content/uploads/2013/04/font1-300x61.png 300w" sizes="(max-width: 494px) 100vw, 494px"></a></p>
+<p>Стало намного лучше! Обратите внимание, что в том же диалоговом окне можно настроить подгонку кегля: если документ будет очень мелким, Studio автоматически увеличит размер шрифта.</p>
+<p><span style="font-size: 8pt; font-family: 'Times New Roman'">(по материалам блога <a href="http://www.aboutranslation.com/">Рикардо Скьяффино</a>)</span></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -248,7 +235,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Если вы часто работаете с одной и той же памятью переводов, рано или поздно приходит время сделать ей техосмотр: проверить орфографию, единообразие терминов, убрать затесавшиеся двойные пробелы и выполнить другие автоматические проверки качества. Однако Trados умеет проверять качество только переводимых документов, но не ТМ, поэтому придется преобразовать ТМ в другой формат. Вот три варианта преобразования, с которыми я сталкивался.<br>
+ <a href="/2013/03/29/871/#more-871" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -267,7 +256,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>По сравнению с предыдущими версиями Trados в Studio существенно расширена поддержка пользовательских форматов структурированных данных. Необходимость их перевода <a href="http://www.wordhord.com/2011/02/rabota-so-skrytym-tekstom-v-memoq/" target="_blank">периодически возникает</a>, но цельного руководства по добавлению новых типов файлов я не нашел, а встроенная справка Студии объясняет этот процесс весьма путано. Попробую устранить этот пробел. <a href="/2013/02/01/805/#more-805" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -286,7 +276,12 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>После того как XBench <a href="http://www.xbench.net/">перешла на коммерческие рельсы</a>, появился повод посмотреть на другие инструменты проверки качества.</p>
+<p><a href="/wp-content/uploads/2012/12/CheckMate1.png"><img loading="lazy" class="alignleft size-medium wp-image-800" alt="CheckMate1" src="/wp-content/uploads/2012/12/CheckMate1-300x211.png" width="300" height="211" srcset="/wp-content/uploads/2012/12/CheckMate1-300x211.png 300w, /wp-content/uploads/2012/12/CheckMate1-425x300.png 425w, /wp-content/uploads/2012/12/CheckMate1.png 880w" sizes="(max-width: 300px) 100vw, 300px"></a><a href="http://www.opentag.com/okapi/wiki/index.php?title=CheckMate">CheckMate</a> — бесплатная кроссплатформенная программа из набора Okapi Framework, поддерживающая проверку перевода во всех форматах, для которых имеются фильтры Okapi (в том числе TTX, Tagged RTF, SDLXLIFF). Кроме стандартного набора функций — обнаружения двойных пробелов, повторяющихся слов и непереведенных сегментов — присутствуют расширенные настройки проверки тегов. Например можно указать список тегов, которые могут отсутствовать или дублироваться в переводе, и это не будет считаться ошибкой. <s>Проверки правописания нет.</s>Проверка правописания реализована в подключаемом модуле. В целом, до XBench немного не дотягивает, но, возможно, кому-то не хватало такого инструмента под Mac или Linux.</p>
+<hr>
+<p>С Новым годом! Хочу пожелать вам того, что говорит своим англоязычным клиентам гостиница «Брянск»:</p>
+<p><a href="/2012/12/31/792/pleasedonotworry_hf/" rel="attachment wp-att-793"><img loading="lazy" class="size-full wp-image-793 aligncenter" alt="Please_do_not_worry" src="/wp-content/uploads/2012/12/pleasedonotworry_hf.jpg" width="151" height="374" srcset="/wp-content/uploads/2012/12/pleasedonotworry_hf.jpg 151w, /wp-content/uploads/2012/12/pleasedonotworry_hf-121x300.jpg 121w" sizes="(max-width: 151px) 100vw, 151px"></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -305,7 +300,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>В средствах проверки правописания используются довольно объемные словари: в ОРФО &mdash; свыше 60 тысяч слов, в WinterTree &mdash; около 100 тысяч слов. Почему не больше? В <abbr title="Большой академический словарь">БАС</abbr> включено свыше 150 тысяч слов, а в <abbr title="Oxford English Dictionary">OED</abbr> &mdash; около 600 тысяч, почему бы их не добавить в полном составе в спелл-чекеры? <a href="/2012/05/31/686/#more-686" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -534,6 +530,6 @@ function degrease(obfusc,shift) {
 </div>
 <!-- #page -->
 
-<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=456946611" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
+<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=911711976" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
 </body>
 </html>

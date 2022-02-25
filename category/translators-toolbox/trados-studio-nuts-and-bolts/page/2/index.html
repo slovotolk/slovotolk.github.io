@@ -54,39 +54,6 @@ img.emoji {
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.9.1">
-<script type="text/javascript">
-// <![CDATA[
-var alpha = new Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');/*
-var alpha = new 
-Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');
-*/
-var stringCheck = "";
-
-for (i = 0; i < alpha.length; i++) {
-	stringCheck += alpha[i];
-}
-
-function degrease(obfusc,shift) {
-	var plainText = '';
-	cipherText = obfusc;
-
-	for (i = 0; i < cipherText.length; i++) {
-		var currentText = stringCheck.indexOf(cipherText.charAt(i));
-
-		if(currentText != -1) {
-
-			if ((currentText - shift) >= 0) { 
-				plainText += alpha[currentText - shift]; }
-			else { 
-				plainText += alpha[(alpha.length + currentText)  - shift]; }
-			}
-		}
-
-	parent.location = 'm'+'ai'+'l'+'t'+'o:'+plainText;
-}
-
-// ]]>
-</script>
 </head>
 
 <body class="archive paged category category-trados-studio-nuts-and-bolts category-15 wp-embed-responsive paged-2 category-paged-2 custom-font-enabled single-author">
@@ -134,7 +101,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Вышла новая версия «Студии», но остаются неизменными и основные принципы, и большинство тонкостей работы с программой. Хотя я пользуюсь Trados Studio 2014, почти все, о чем я пишу в рубрике <em>Trados Studio nuts and bolts</em>, работает в версиях 2011, 2014 и 2015. Если какой-то мой совет неприменим к версии 2015, напишите мне.</p>
+<p>Итак, новые штрихи к Trados Studio: <a href="/2015/08/09/1460/#more-1460" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -153,7 +122,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Без интернет-поиска не обходится ни один проект на перевод. Кто-то ищет термины в браузере, кто-то использует отдельные утилиты вроде <a href="http://www.intelliwebsearch.com/">IntelliWebSearch</a>. Недавно SDL предложила еще один способ поиска прямо в интерфейсе Trados Studio — модуль Web Lookup! <em>(ау, маркетологи SDL! Восклицательный знак в названии приложения — дурной вкус)</em>. <a href="/2015/06/21/1431/#more-1431" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -172,7 +142,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Сегодняшние штрихи — это три задачи, с которыми может столкнуться переводчик, и способы их решения в Trados Studio.<br>
+ <a href="/2015/04/24/1391/#more-1391" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -191,7 +163,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>В новом году — новые тонкости Trados Studio 2014. <a href="/2015/01/31/1339/#more-1339" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -210,7 +183,10 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>SDL наконец-то <a href="/2014/01/30/1175/" title="Trados Studio 2014: очень краткий обзор" target="_blank">пристрелила старую клячу</a>: вышел второй пакет обновлений к Studio 2014, где Java больше не используется. Ура! Более того, работа с терминами теперь полностью интегрирована в Studio: появились функции <em>Quick Add New Term</em> (Ctrl+Shift+F2) и <em>Delete this Entry</em> (Ctrl+Shift+Alt+D). По идее, теперь можно обойтись вообще без установки Multiterm.</p>
+<p>Другие новшества в SP2: при поиске в ТМ результаты теперь сортируются по дате добавления; буквенно-цифровые сочетания типа ABC-123_M10X30 распознаются как местозаполнители (потребуется переиндексировать старые ТМ); для большинства форматов поддерживается редактирование исходного текста по Alt+F2. Полный список изменений приведен <a href="http://kb.sdl.com/#tab:homeTab:crumb:7:artId:5690" target="_blank">здесь</a>.</p>
+<p>Я рекомендую всем пользователям Studio 2014 побыстрее <a href="ftp://downloadcenter.sdl.com/T2014/SP2/SDLTradosStudio2014_SP2_4322.exe" target="_blank">загрузить</a> и установить SP2 — затем «джаву» можно отключить или удалить, так как иметь ее на компьютере небезопасно.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -229,7 +205,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Седьмая часть штрихов к Trados Studio 2014. <a href="/2014/10/22/1305/#more-1305" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -248,7 +225,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Шестая часть тонкостей Trados Studio 2014. <a href="/2014/08/23/1286/#more-1286" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -267,7 +245,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Июньские тонкости Trados Studio 2014. <a href="/2014/06/23/1244/#more-1244" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -286,7 +265,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Новые штрихи к Trados Studio 2014. <a href="/2014/04/28/1228/#more-1228" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -305,7 +285,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Новая порция тонкостей Trados Studio 2014. <a href="/2014/03/23/1213/#more-1213" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -534,6 +515,6 @@ function degrease(obfusc,shift) {
 </div>
 <!-- #page -->
 
-<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=716528159" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
+<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=1671002836" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
 </body>
 </html>

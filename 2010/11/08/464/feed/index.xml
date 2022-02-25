@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Проверка орфографии в Xbench	</title>
+	<atom:link href="/2010/11/08/464/feed/" rel="self" type="application/rss+xml" />
+	<link>/2010/11/08/464/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Sun, 08 Dec 2013 17:27:55 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2010/11/08/464/#comment-20534</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Sun, 08 Dec 2013 17:27:55 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=464#comment-20534</guid>
+
+					<description><![CDATA[Даже не знаю, что здесь можно сделать не так... &lt;BR&gt;&lt;a href=&quot;/wp-content/uploads/2013/12/Xbench.zip&quot; rel=&quot;nofollow&quot;&gt;Вот&lt;/a&gt; пакет Xbench с уже установленным модулем для русского языка: распакуйте этот архив в любую папку, запустите XBench.exe и перейдите на вкладку QA.]]></description>
+			<content:encoded><![CDATA[<p>Даже не знаю, что здесь можно сделать не так&#8230; <br /><a href="/wp-content/uploads/2013/12/Xbench.zip" rel="nofollow">Вот</a> пакет Xbench с уже установленным модулем для русского языка: распакуйте этот архив в любую папку, запустите XBench.exe и перейдите на вкладку QA.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Сергей		</title>
+		<link>/2010/11/08/464/#comment-20506</link>
+
+		<dc:creator><![CDATA[Сергей]]></dc:creator>
+		<pubDate>Sat, 07 Dec 2013 12:26:21 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=464#comment-20506</guid>
+
+					<description><![CDATA[добавил все как написанно по инструкции в хбенч...но вкладка проверки правописания так и не появилась (версия 2.9.474). подскажите может сталкивались с таким вопросом?
+
+Заранее спасибо!
+
+С уважением, 
+Сергей]]></description>
+			<content:encoded><![CDATA[<p>добавил все как написанно по инструкции в хбенч&#8230;но вкладка проверки правописания так и не появилась (версия 2.9.474). подскажите может сталкивались с таким вопросом?</p>
+<p>Заранее спасибо!</p>
+<p>С уважением,<br />
+Сергей</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

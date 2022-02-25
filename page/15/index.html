@@ -52,39 +52,6 @@ img.emoji {
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.9.1">
-<script type="text/javascript">
-// <![CDATA[
-var alpha = new Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');/*
-var alpha = new 
-Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');
-*/
-var stringCheck = "";
-
-for (i = 0; i < alpha.length; i++) {
-	stringCheck += alpha[i];
-}
-
-function degrease(obfusc,shift) {
-	var plainText = '';
-	cipherText = obfusc;
-
-	for (i = 0; i < cipherText.length; i++) {
-		var currentText = stringCheck.indexOf(cipherText.charAt(i));
-
-		if(currentText != -1) {
-
-			if ((currentText - shift) >= 0) { 
-				plainText += alpha[currentText - shift]; }
-			else { 
-				plainText += alpha[(alpha.length + currentText)  - shift]; }
-			}
-		}
-
-	parent.location = 'm'+'ai'+'l'+'t'+'o:'+plainText;
-}
-
-// ]]>
-</script>
 </head>
 
 <body class="home blog paged wp-embed-responsive paged-15 custom-font-enabled single-author">
@@ -126,7 +93,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>24-26 сентября поучаствовал в конференции&nbsp;<a href="http://tconference.ru/" target="_blank">Translation Forum Russia</a> в Екатеринбурге. Демид, Денис, Константин, Елена Кислова — большое спасибо! Форум&nbsp;безусловно удался. Буду ждать TFR-2011 :-)</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -145,7 +113,16 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Нет времени писать полноценную запись, но могу поделиться найденными ссылками.</p>
+<ul>
+<li>“«Горящие» проекты: за и против”: прекрасная <a href="http://temza.com/2010/06/16/rush-freelance-projects/" target="_blank">статья на Temza.com</a>, посвященная плюсам и минусам срочной работы.</li>
+<li>
+<a href="http://profreelancing.ru/should-you-quote-rates-over-the-phone/#more-119" target="_blank">Сообщать ли о стоимости работы по телефону</a> &#8211; на Profreelancing.ru.</li>
+<li>
+<a href="http://msdn.microsoft.com/en-us/goglobal/bb688110.aspx">Globalization Step by Step</a> — сайт Microsoft, посвященный интернационализации, с советами разработчикам по обеспечению этой самой интернационализации.<br>
+					</li>
+</ul>
+</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -164,7 +141,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>(первая часть <a href="http://blog.slovotolk.com/2009/12/01/323/" target="_blank">здесь</a>)</p>
+<p>Турецкие шутники организовали «налет» на перевод интерфейса Facebook, заменив часто используемые сообщения на ругательства.<br> (<a href="http://www.proz.com/translation-news/?p=11167" target="_blank">источник</a>)</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -183,7 +162,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>На сайте TranslatorsTraining <a href="http://www.translatorstraining.com/sito/index.php" target="_blank">опубликованы видеоролики</a>, демонстрирующие перевод одного и того же документа Word в 20 переводческих средах. О существовании некоторых я узнал только оттуда :-)</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -202,7 +182,12 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Вместе с текстом на перевод вы можете получить результат анализа повторяющихся сегментов. Или захотите его сделать самостоятельно. Ну, со 100 %-ными совпадениями и новыми сегментами вроде бы все понятно, но как считаются fuzzy matches? </p>
+<p>Авторы блога <a href="http://www.globalvis.com/fuzzy-match-or-fuzzy-math/" target="_blank">GlobalVision</a> приводят интересный пример. Какой процент совпадения будет у этих двух сегментов:</p>
+<p><font face="Arial">The lazy brown <u>fox</u> jumped over the quick brown <u>dog</u>.<br>The lazy brown <u>dog </u>jumped over the quick brown <u>fox</u>.</font></p>
+<p>В строке из 50 символов 46 остались неизменными, что соответствует совпадению в 92%. Но мы переводим не посимвольно! Для переводчика в исходном сегменте поменялись два слова из 10 — величина 80 % выглядит более реалистичной. И это еще без учета возможных изменений во флексиях других слов.</p>
+<p>Это (наряду с <a href="http://blog.slovotolk.com/2009/04/29/188/">возможностью обсчета</a>) следует помнить при предварительной оценке времени, которое потребуется на выполнение проекта. На 95 %-ное совпадение уйдет в два, а не в двадцать раз меньше времени, чем на новый сегмент :-)</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -221,7 +206,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Выкладываю давно обещанные материалы с переводческой конференции в Лиссабоне.</p>
+<p> <a href="/2010/07/19/415/#more-415" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -240,7 +227,10 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p><a href="http://www.tradulinguas.com/conf-tech/index.htm" target="_blank">Это</a> была лучшая конференция из тех, где мне довелось побывать.</p>
+<p><a href="http://blog.slovotolk.com/wp-content/uploads/2010/06/P1011297.jpg" target="_blank"><img src="http://blog.slovotolk.com/wp-content/uploads/2010/06/P1011297_preview.jpg" border="1" hspace="8" alt="P1011297" align="top" width="320" height="219"></a></p>
+<p>Постараюсь выложить в блоге наиболее интересные материалы.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -259,7 +249,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Этот рассказ написан в 1928 году. Оцените актуальность! </p>
+<p> <a href="/2010/05/18/391/#more-391" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -278,7 +270,14 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Оригинал:</p>
+<p><a href="http://blog.slovotolk.com/wp-content/uploads/2010/05/2010-04-24.gif" target="_blank"><img loading="lazy" src="http://blog.slovotolk.com/wp-content/uploads/2010/05/2010-04-24_preview.jpg" border="1" hspace="8" alt="2010-04-24" align="top" width="320" height="99"></a></p>
+<p>Перевод:</p>
+<p><a href="http://blog.slovotolk.com/wp-content/uploads/2010/05/2010-04-24-rus.gif" target="_blank"><img loading="lazy" src="http://blog.slovotolk.com/wp-content/uploads/2010/05/2010-04-24-rus_preview.jpg" border="1" hspace="8" alt="2010-04-24-rus" align="top" width="320" height="99"></a></p>
+<p>Русская локализация:</p>
+<p><a href="http://blog.slovotolk.com/wp-content/uploads/2010/05/2010-04-24-rus-rus.gif" target="_blank"><img loading="lazy" src="http://blog.slovotolk.com/wp-content/uploads/2010/05/2010-04-24-rus-rus_preview.jpg" border="1" hspace="8" alt="2010-04-24-rus-rus" align="top" width="320" height="99"></a></p>
+<p><a href="http://hemule.livejournal.com/745650.html" target="_blank"><font size="1">(источник)</font></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -297,7 +296,20 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>По просьбе читателей немного расскажу о том, что следует делать, если в тексте на перевод встретилось незнакомое имя собственное — фамилия, географическое название и т. п. Хотя чаще всего имена собственные не переводятся, а транскрибируются (и даже Берег Слоновой Кости переименовали в Кот д’Ивуар), мне удобнее писать «перевод имен».</p>
+<p>Во-первых, стоит выяснить язык происхождения искомого слова. В абсолютном большинстве случаев на это потребуется «Гугл» и пара минут. Разумеется, транскрибировать нужно с того языка, в котором имя появилось изначально. Конечно, есть и кросс-культурные реалии: английское имя Jon переводится как Джон, а норвежское Jon — уже как Йон.</p>
+<p>Во-вторых, возможно, эту работу уже сделали за вас. Географические названия приведены во многих справочниках, отмечу «Географический энциклопедический словарь. Географические названия» под ред. Котлякова и особенно «Англо-русский и русско-английский словарь географических названий» М. В. Горской. Советую проверять любой незнакомый топоним, иначе можно здорово попасть впросак: если во французском тексте встретится <a href="http://en.wikipedia.org/wiki/Chisinau">Chisinau</a>,  не стоит его переводить как Шизино :-)</p>
+<p>Что касается личных имен, то они не уникальны: вполне возможно, что искомое имя носил в этой стране какой-нибудь монарх. Может статься, что для конкретного человека прямо указывается произношение его имени, как в случае с обсуждаемым <a href="http://blog.slovotolk.com/2008/11/11/109/">Шахом</a>. Справочников, приводящих произношение личных имен, не меньше, чем словарей топонимов (привожу только те, которыми пользуюсь сам):<br>
+&#8211; А. И. Рыбакин «Словарь английских фамилий»;<br>
+&#8211; Ермолович Д. И. «Англо-русский словарь персоналий»;<br>
+&#8211; Лидин Р.А. «Иностранные фамилии и личные имена».</p>
+<p>Допустим, устоявшегося перевода нет. В таком случае — таблицу практической транскрипции в руки и вперед! Такие таблицы составлены для большинства популярных языков:<br>
+&#8211; <a href="http://ru.wikipedia.org/wiki/Практическая_транскрипция">http://ru.wikipedia.org/wiki/Практическая_транскрипция</a>;<br>
+&#8211; <a href="http://web.artlebedev.ru/tools/transcriptor/">http://web.artlebedev.ru/tools/transcriptor/</a>;<br>
+&#8211; Д. И. Ермолович «Имена собственные. Теория и практика межъязыковой передачи»;<br>
+&#8211; «Практическая транскрипция фамильно-именных групп» под ред. Р. С. Гиляревского.</p>
+<p>Наконец, чего не стоит делать: ориентироваться на число найденных поисковиком страниц, содержащих тот или иной вариант перевода. Все те люди, которые передают фамилию <a href="http://en.wikipedia.org/wiki/Sandra_Bullock">известной актрисы</a> как <em>Баллок</em>, не являются переводчиками, они пишут так, как им хочется и о правописании вообще не задумываются. Если это звучит неубедительно, поищите в «Яндексе» слово «исчо»: сколько там найдено страниц? :-)</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -528,6 +540,6 @@ function degrease(obfusc,shift) {
 </div>
 <!-- #page -->
 
-<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=1158521084" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
+<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=1958084392" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
 </body>
 </html>

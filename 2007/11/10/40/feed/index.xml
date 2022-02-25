@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Условие и время в технических текстах	</title>
+	<atom:link href="/2007/11/10/40/feed/" rel="self" type="application/rss+xml" />
+	<link>/2007/11/10/40/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Fri, 22 Apr 2016 06:33:15 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2007/11/10/40/#comment-46704</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Fri, 22 Apr 2016 06:33:15 +0000</pubDate>
+		<guid isPermaLink="false">/wordpress/2007/11/10/41/#comment-46704</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2007/11/10/40/#comment-46703&quot;&gt;Grigory&lt;/a&gt;.
+
+Вариант корректный, но не всегда лучший. Инструкции и руководства принято писать в повелительном наклонении. Если же у вас повествование, уместен будет как раз ваш перевод.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2007/11/10/40/#comment-46703">Grigory</a>.</p>
+<p>Вариант корректный, но не всегда лучший. Инструкции и руководства принято писать в повелительном наклонении. Если же у вас повествование, уместен будет как раз ваш перевод.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Grigory		</title>
+		<link>/2007/11/10/40/#comment-46703</link>
+
+		<dc:creator><![CDATA[Grigory]]></dc:creator>
+		<pubDate>Fri, 22 Apr 2016 06:05:53 +0000</pubDate>
+		<guid isPermaLink="false">/wordpress/2007/11/10/41/#comment-46703</guid>
+
+					<description><![CDATA[А как вы думаете, вариант «При нажатии на кнопку Х отображается страница У» тоже не самый лучший?]]></description>
+			<content:encoded><![CDATA[<p>А как вы думаете, вариант «При нажатии на кнопку Х отображается страница У» тоже не самый лучший?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Maxim Manzhosin		</title>
+		<link>/2007/11/10/40/#comment-26</link>
+
+		<dc:creator><![CDATA[Maxim Manzhosin]]></dc:creator>
+		<pubDate>Tue, 13 Nov 2007 08:57:13 +0000</pubDate>
+		<guid isPermaLink="false">/wordpress/2007/11/10/41/#comment-26</guid>
+
+					<description><![CDATA[Здравствуйте, Денис.
+Оказалось, при смене оформления блога отвалилась форма комментирования страниц. Уже исправил.
+
+Блог Сергея Ярославцева я добавил. Спасибо!]]></description>
+			<content:encoded><![CDATA[<p>Здравствуйте, Денис.<br />
+Оказалось, при смене оформления блога отвалилась форма комментирования страниц. Уже исправил.</p>
+<p>Блог Сергея Ярославцева я добавил. Спасибо!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Денис		</title>
+		<link>/2007/11/10/40/#comment-25</link>
+
+		<dc:creator><![CDATA[Денис]]></dc:creator>
+		<pubDate>Tue, 13 Nov 2007 08:20:01 +0000</pubDate>
+		<guid isPermaLink="false">/wordpress/2007/11/10/41/#comment-25</guid>
+
+					<description><![CDATA[Здравствуйте!
+Извиняюсь за оффтоп, но как добавить комментарии к Вашему каталогу переводческих блогов я не нашёл. Поэтому комментирую здесь: блог переводчика Сергея Ярославцева: http://perevod99.blogspot.com/]]></description>
+			<content:encoded><![CDATA[<p>Здравствуйте!<br />
+Извиняюсь за оффтоп, но как добавить комментарии к Вашему каталогу переводческих блогов я не нашёл. Поэтому комментирую здесь: блог переводчика Сергея Ярославцева: <a href="http://perevod99.blogspot.com/" rel="nofollow ugc">http://perevod99.blogspot.com/</a></p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

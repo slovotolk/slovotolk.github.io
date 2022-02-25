@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Грамотные интерфейсы в понимании Microsoft	</title>
+	<atom:link href="/2011/11/24/593/feed/" rel="self" type="application/rss+xml" />
+	<link>/2011/11/24/593/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Sat, 26 Nov 2011 19:20:10 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Mykhailo		</title>
+		<link>/2011/11/24/593/#comment-334</link>
+
+		<dc:creator><![CDATA[Mykhailo]]></dc:creator>
+		<pubDate>Sat, 26 Nov 2011 19:20:10 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=593#comment-334</guid>
+
+					<description><![CDATA[Интересное руководство. Спасибо за наводку, Максим!
+Кстати, зря многие не следуют одному из указанных правил типа: 
+Name: вместо Type your name:
+State: вместо Select your state:
+Ведь и так видно, где ячейка выбора, а где поле для ввода текста. 
+Зато в русском можно написать правильно и сэкономить пространство :)]]></description>
+			<content:encoded><![CDATA[<p>Интересное руководство. Спасибо за наводку, Максим!<br />
+Кстати, зря многие не следуют одному из указанных правил типа:<br />
+Name: вместо Type your name:<br />
+State: вместо Select your state:<br />
+Ведь и так видно, где ячейка выбора, а где поле для ввода текста.<br />
+Зато в русском можно написать правильно и сэкономить пространство :)</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -54,39 +54,6 @@ img.emoji {
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.9.1">
-<script type="text/javascript">
-// <![CDATA[
-var alpha = new Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');/*
-var alpha = new 
-Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');
-*/
-var stringCheck = "";
-
-for (i = 0; i < alpha.length; i++) {
-	stringCheck += alpha[i];
-}
-
-function degrease(obfusc,shift) {
-	var plainText = '';
-	cipherText = obfusc;
-
-	for (i = 0; i < cipherText.length; i++) {
-		var currentText = stringCheck.indexOf(cipherText.charAt(i));
-
-		if(currentText != -1) {
-
-			if ((currentText - shift) >= 0) { 
-				plainText += alpha[currentText - shift]; }
-			else { 
-				plainText += alpha[(alpha.length + currentText)  - shift]; }
-			}
-		}
-
-	parent.location = 'm'+'ai'+'l'+'t'+'o:'+plainText;
-}
-
-// ]]>
-</script>
 </head>
 
 <body class="archive paged author author-admin author-1 wp-embed-responsive paged-6 author-paged-6 custom-font-enabled single-author">
@@ -143,7 +110,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Продолжаем исследовать тонкости Trados Studio.<br>
+ <a href="/2014/02/20/1202/#more-1202" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -162,7 +131,13 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>В комплекте с Trados Studio идет неплохая справка — лучше, чем у многих других программных пакетов, — но все же в ней некоторые тонкости освещены вскользь, а некоторые совсем пропущены. Чтобы хорошо разобраться в работе «Студии», нужно прочитать и справку, и базу знаний SDL, и некоторые профильные блоги. Попробую я сделать серию штрихов к справке — выжимку из всех этих полезных знаний под категорией <br><em>Trados Studio nuts and bolts</em>.</p>
+<p>Здесь и далее я буду предполагать, что основные принципы работы в «Студии» вам известны. Если вы никогда не работали в ней и не знаете, с чего начать, все-таки прочтите <a href="http://producthelp.sdl.com/SDL_Trados_Studio_2014/client_en/Guides/Translating_and_Reviewing_Documents_QSG_en.pdf">руководство по быстрому началу работы</a> и <a href="http://signsandsymptomsoftranslation.com/2014/01/01/first_file/">вот эту запись Эммы Голдсмит</a>.</p>
+<p>Ну, поехали.<br><br>
+<strong>Штрих 1.</strong> В комплекте с «достудийными» версиями Традоса шла хорошая утилита — Trados Glue, позволяющая объединить несколько TTX-файлов в один. В Studio 2014 функция склейки файлов называется QuickMerge и работает после добавления файлов в проект: в представлении Files выберите несколько файлов, удерживая Shift или Ctrl, и нажмите кнопку Open for Translation. Они будут объединены в виртуальный файл, в котором работают Auto-Propagate, поиск и замена, фильтры — в общем, все необходимые функции. При этом единый файл на диске не создается, а все изменения записываются прямо в исходные SDLXLIFF.</p>
+<p><strong>Штрих 2.</strong> Чтобы быстро изменить регистр выделенного текста, нажмите Shift+F3 — так же, как в Word. Но в отличие от Word, на текущем слове без выделения это не работает: необходимо что-то выделить.</p>
+<p><strong>Штрих 3.</strong> Распознавание терминов включено, в исходном сегменте обнаруживается термин, но в термбазе вы видите только No results available? Перейдите с вкладки Termbase Search на Term Recognition (см. скриншот).<a href="/wp-content/uploads/2014/01/Noresults-available.png"><img src="/wp-content/uploads/2014/01/Noresults-available.png" alt="No results available" width="724" height="252" class="alignnone size-full wp-image-1194" srcset="/wp-content/uploads/2014/01/Noresults-available.png 724w, /wp-content/uploads/2014/01/Noresults-available-300x104.png 300w, /wp-content/uploads/2014/01/Noresults-available-500x174.png 500w" sizes="(max-width: 724px) 100vw, 724px"></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -181,7 +156,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>В декабре я все-таки купил обновление Trados до версии Studio 2014. Впечатление после месяца работы: отличная программа за адекватную цену. Cписок изменений можно посмотреть на <a href="http://producthelp.sdl.com/sdl%20trados%20studio/client_en/New_Features.htm">сайте SDL</a> и <a href="http://germanist007.livejournal.com/35960.html">в блоге Александра Рыжова</a>, а я упомяну самое главное: <a href="/2014/01/30/1175/#more-1175" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -200,7 +176,15 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Вы <s>все еще</s> не пользуетесь новыми версиями Trados, но заказчики присылают вам ТМ в формате <span style="font-variant: small-caps">sdltm</span>? Программа <a href="http://www.vannellen.com/fortranslators.php">SDLTM Converter</a> позволит быстро преобразовать файл <span style="font-variant: small-caps">sdltm</span> в <span style="font-variant: small-caps">tmx</span>. Многим разработчикам не помешало бы равняться на SDLTM Converter, потому что интерфейс этой программы близок к идеальному:<br>
+<a href="/wp-content/uploads/2013/12/sdtlm.png"><img loading="lazy" src="/wp-content/uploads/2013/12/sdtlm.png" alt="sdtlm" width="231" height="79" class="alignnone size-full wp-image-1166"></a><br><br>
+Так выглядит единственное окно программы. Нажмите кнопку, выберите память в формате <span style="font-variant: small-caps">sdltm</span>, и в той же папке будет создан файл converted.tmx.<br>
+</p>
+<hr>
+<br>
+С Новым годом! Желаю начинающим переводчикам не браться за заказы в незнакомой области, а опытным коллегам — чтобы такие заказы даже не предлагали (и вам не придется тратить время на отказ):<br>
+<a href="/wp-content/uploads/2013/12/no-swimming.jpg"><img loading="lazy" src="/wp-content/uploads/2013/12/no-swimming.jpg" alt="no swimming" width="500" height="322" class="alignnone size-full wp-image-1163" srcset="/wp-content/uploads/2013/12/no-swimming.jpg 500w, /wp-content/uploads/2013/12/no-swimming-300x193.jpg 300w, /wp-content/uploads/2013/12/no-swimming-465x300.jpg 465w" sizes="(max-width: 500px) 100vw, 500px"></a>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -219,7 +203,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>О поддержке русского языка объявил сайт <a href="http://www.linguee.com/">Linguee</a>. Это бесплатная поисковая система по параллельным текстам и конкорданс, позволяющий просмотреть контекст использования слова или фразы в различных переводах: <a href="/2013/12/26/1147/#more-1147" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -238,7 +223,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Я начал писать <a href="http://www.wordhord.com/2013/12/malenkie-zakazy/">комментарий</a> в блоге Михаила и решил, что это тянет на отдельную запись. Я много раз упоминал, что предпочитаю небольшие заказы; нужно один раз написать об этом здесь и потом просто давать ссылку на этот пост.<br>
+ <a href="/2013/12/16/1127/#more-1127" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -257,7 +244,32 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Вот вам переводческая (точнее, редакторская) задача. Найдите ошибку в этом переводе справки к ERP-системе.</p>
+<table>
+<tr>
+<td>
+<p>On the Numbers tab, select one of the following formats:</p>
+<ul>
+<li>Default: Numbers are displayed using the default formatting.</li>
+<li>General: Numbers have no specific formatting.</li>
+<li>Currency: Specify the number of decimal places, the currency symbol to be used, and how to display negative numbers.</li>
+<li>Date: Specify the format to display dates in by selecting it from the Type list.</li>
+<li>Time: Specify the format to display time in by selecting it from the Type list.</li>
+</ul>
+</td>
+<td>
+<p>На вкладке «Числа» выберите один из следующих форматов.</p>
+<ul>
+<li>«По умолчанию». Числа отображаются с использованием форматирования по умолчанию.</li>
+<li>«Общий». Числа не имеют определенного форматирования.</li>
+<li>«Валюта». Укажите число знаков после запятой, символ валюты и способ отображения отрицательных чисел.</li>
+<li>«Дата». Укажите формат отображения дат, выбрав его из списка «Тип».</li>
+<li>«Время». Укажите формат отображения времени, выбрав его из списка «Тип».</li>
+</ul>
+</td>
+</tr>
+</table>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -276,7 +288,11 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>В блоге бюро «Велиор» — <a href="http://www.velior.ru/blog/en/2013/10/06/potential-projects-cause-headaches-for-translators-in-terms-of-deadlines/">отличная заметка</a> о подтвержденных и отмененных заказах, сроках сдачи и правильном отношении к ним. Рекомендую прочитать запись целиком, а сюда вынесу самый важный (по моему опыту) пункт. </p>
+<p>Когда заказчик присылает файл и спрашивает, когда можно будет получить перевод, <strong>называйте не конкретную дату сдачи, а время, требуемое для выполнения работы.</strong> Еще неизвестно, когда заказчик подтвердит проект, а вы не хотите увидеть это подтверждение за несколько часов до вами же назначенного срока. Если клиент не разбирается в тонкостях переводческого дела, он будет ждать готовую работу, не чувствуя за собой вины, а переводчику придется срывать сроки и давать неудобные пояснения.</p>
+<p><strong>UPDATE</strong>. Об этом же пишут <a href="http://translationtimes.blogspot.com/2017/06/business-tip-indicating-validity-of.html">пишут</a> авторы блога Translation Times и предлагают в письме с ценовым предложением добавлять примерно следующие слова:</p>
+<p>I can only guarantee the agreed-upon delivery time and date of ______ at ____ am/pm if the client confirms the project in writing by ________ at _____ am/pm. If no confirmation is received by that point, this quote shall be null and void. </p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -295,7 +311,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Йост Зетш повторяет <a href="/2012/08/31/737/">прошлогоднюю акцию</a>: рассылка The Tool Box <a href="http://www.internationalwriters.com/toolkit/">доступна по любой цене</a> на ваш выбор в течение трех дней, до 12 октября.</p>
+<p>Я был несколько лет подписан на бесплатную версию, а в прошлом году купил платную. Разница между ними не очень существенная: самые интересные материалы попадают в бесплатное издание. Но я опять подписался на платную версию и все-таки могу рекомендовать ее коллегам, следящим за технологическими новинками отрасли.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -314,7 +332,10 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Необходимое условие для достижения и поддержания профессионального статуса (не только профессионального переводчика, а любого профессионала высокой квалификации) — участие в отраслевых мероприятиях. Можно читать профессиональные блоги и смотреть вебинары, но это не заменяет личного общения в профессиональных кругах. Я был на 11 переводческих конференциях и попробую обобщить этот опыт.</p>
+<p>Конференция конференции рознь. Разные переводческие мероприятия очень сильно отличаются по составу участников, предлагаемым докладам и общей атмосфере.<br>
+ <a href="/2013/09/13/1064/#more-1064" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -544,6 +565,6 @@ function degrease(obfusc,shift) {
 </div>
 <!-- #page -->
 
-<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=1440934673" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
+<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=1275120421" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
 </body>
 </html>

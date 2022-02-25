@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Trados Studio: склейка файлов, изменение регистра текста, распознавание терминов	</title>
+	<atom:link href="/2014/02/03/1187/feed/" rel="self" type="application/rss+xml" />
+	<link>/2014/02/03/1187/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Sun, 26 Jan 2020 21:13:33 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Alina		</title>
+		<link>/2014/02/03/1187/#comment-81027</link>
+
+		<dc:creator><![CDATA[Alina]]></dc:creator>
+		<pubDate>Sun, 26 Jan 2020 21:13:33 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1187#comment-81027</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2014/02/03/1187/#comment-81025&quot;&gt;Alina&lt;/a&gt;.
+
+Простите за ложную тревогу. Сама разобралась. Оказывается, в расширенных настройках есть опция: изменить прописные/строчные. Немножко долго, но все же лучше, чем повторно набирать текст вручную. 
+Я работаю в основном с MemoQ, а там все намного проще.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2014/02/03/1187/#comment-81025">Alina</a>.</p>
+<p>Простите за ложную тревогу. Сама разобралась. Оказывается, в расширенных настройках есть опция: изменить прописные/строчные. Немножко долго, но все же лучше, чем повторно набирать текст вручную.<br />
+Я работаю в основном с MemoQ, а там все намного проще.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Alina		</title>
+		<link>/2014/02/03/1187/#comment-81025</link>
+
+		<dc:creator><![CDATA[Alina]]></dc:creator>
+		<pubDate>Sun, 26 Jan 2020 21:01:26 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1187#comment-81025</guid>
+
+					<description><![CDATA[Здравствуйте,
+&quot;Чтобы быстро изменить регистр выделенного текста, нажмите Shift+F3 — так же, как в Word&quot; - не работает (((
+А жаль, поскольку в исходнике текст написан прописными буквами, а ТМ выдает текст строчными... Приходится все перепечатывать вручную...
+Есть другие варианты? Заранее спасибо.]]></description>
+			<content:encoded><![CDATA[<p>Здравствуйте,<br />
+&#8220;Чтобы быстро изменить регистр выделенного текста, нажмите Shift+F3 — так же, как в Word&#8221; &#8211; не работает (((<br />
+А жаль, поскольку в исходнике текст написан прописными буквами, а ТМ выдает текст строчными&#8230; Приходится все перепечатывать вручную&#8230;<br />
+Есть другие варианты? Заранее спасибо.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Trados Studio: BilingualSearcher, импорт из SDLTM, ошибка при запуске Studio &#124; Тетради переводчика		</title>
+		<link>/2014/02/03/1187/#comment-47846</link>
+
+		<dc:creator><![CDATA[Trados Studio: BilingualSearcher, импорт из SDLTM, ошибка при запуске Studio &#124; Тетради переводчика]]></dc:creator>
+		<pubDate>Wed, 29 Jun 2016 10:59:09 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1187#comment-47846</guid>
+
+					<description><![CDATA[[&#8230;] Как это лучше сделать? Можно воспользоваться функцией QuickMerge, но зачастую удобнее взять стороннюю утилиту. Есть [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] Как это лучше сделать? Можно воспользоваться функцией QuickMerge, но зачастую удобнее взять стороннюю утилиту. Есть [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

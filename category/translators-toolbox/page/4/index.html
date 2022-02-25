@@ -54,39 +54,6 @@ img.emoji {
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.9.1">
-<script type="text/javascript">
-// <![CDATA[
-var alpha = new Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');/*
-var alpha = new 
-Array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','_','-','@','.','?','&','=');
-*/
-var stringCheck = "";
-
-for (i = 0; i < alpha.length; i++) {
-	stringCheck += alpha[i];
-}
-
-function degrease(obfusc,shift) {
-	var plainText = '';
-	cipherText = obfusc;
-
-	for (i = 0; i < cipherText.length; i++) {
-		var currentText = stringCheck.indexOf(cipherText.charAt(i));
-
-		if(currentText != -1) {
-
-			if ((currentText - shift) >= 0) { 
-				plainText += alpha[currentText - shift]; }
-			else { 
-				plainText += alpha[(alpha.length + currentText)  - shift]; }
-			}
-		}
-
-	parent.location = 'm'+'ai'+'l'+'t'+'o:'+plainText;
-}
-
-// ]]>
-</script>
 </head>
 
 <body class="archive paged category category-translators-toolbox category-4 wp-embed-responsive paged-4 category-paged-4 custom-font-enabled single-author">
@@ -134,7 +101,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Новые штрихи к Trados Studio 2014. <a href="/2014/04/28/1228/#more-1228" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -153,7 +121,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Новая порция тонкостей Trados Studio 2014. <a href="/2014/03/23/1213/#more-1213" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -172,7 +141,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Продолжаем исследовать тонкости Trados Studio.<br>
+ <a href="/2014/02/20/1202/#more-1202" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -191,7 +162,13 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>В комплекте с Trados Studio идет неплохая справка — лучше, чем у многих других программных пакетов, — но все же в ней некоторые тонкости освещены вскользь, а некоторые совсем пропущены. Чтобы хорошо разобраться в работе «Студии», нужно прочитать и справку, и базу знаний SDL, и некоторые профильные блоги. Попробую я сделать серию штрихов к справке — выжимку из всех этих полезных знаний под категорией <br><em>Trados Studio nuts and bolts</em>.</p>
+<p>Здесь и далее я буду предполагать, что основные принципы работы в «Студии» вам известны. Если вы никогда не работали в ней и не знаете, с чего начать, все-таки прочтите <a href="http://producthelp.sdl.com/SDL_Trados_Studio_2014/client_en/Guides/Translating_and_Reviewing_Documents_QSG_en.pdf">руководство по быстрому началу работы</a> и <a href="http://signsandsymptomsoftranslation.com/2014/01/01/first_file/">вот эту запись Эммы Голдсмит</a>.</p>
+<p>Ну, поехали.<br><br>
+<strong>Штрих 1.</strong> В комплекте с «достудийными» версиями Традоса шла хорошая утилита — Trados Glue, позволяющая объединить несколько TTX-файлов в один. В Studio 2014 функция склейки файлов называется QuickMerge и работает после добавления файлов в проект: в представлении Files выберите несколько файлов, удерживая Shift или Ctrl, и нажмите кнопку Open for Translation. Они будут объединены в виртуальный файл, в котором работают Auto-Propagate, поиск и замена, фильтры — в общем, все необходимые функции. При этом единый файл на диске не создается, а все изменения записываются прямо в исходные SDLXLIFF.</p>
+<p><strong>Штрих 2.</strong> Чтобы быстро изменить регистр выделенного текста, нажмите Shift+F3 — так же, как в Word. Но в отличие от Word, на текущем слове без выделения это не работает: необходимо что-то выделить.</p>
+<p><strong>Штрих 3.</strong> Распознавание терминов включено, в исходном сегменте обнаруживается термин, но в термбазе вы видите только No results available? Перейдите с вкладки Termbase Search на Term Recognition (см. скриншот).<a href="/wp-content/uploads/2014/01/Noresults-available.png"><img src="/wp-content/uploads/2014/01/Noresults-available.png" alt="No results available" width="724" height="252" class="alignnone size-full wp-image-1194" srcset="/wp-content/uploads/2014/01/Noresults-available.png 724w, /wp-content/uploads/2014/01/Noresults-available-300x104.png 300w, /wp-content/uploads/2014/01/Noresults-available-500x174.png 500w" sizes="(max-width: 724px) 100vw, 724px"></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -210,7 +187,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>В декабре я все-таки купил обновление Trados до версии Studio 2014. Впечатление после месяца работы: отличная программа за адекватную цену. Cписок изменений можно посмотреть на <a href="http://producthelp.sdl.com/sdl%20trados%20studio/client_en/New_Features.htm">сайте SDL</a> и <a href="http://germanist007.livejournal.com/35960.html">в блоге Александра Рыжова</a>, а я упомяну самое главное: <a href="/2014/01/30/1175/#more-1175" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -229,7 +207,15 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Вы <s>все еще</s> не пользуетесь новыми версиями Trados, но заказчики присылают вам ТМ в формате <span style="font-variant: small-caps">sdltm</span>? Программа <a href="http://www.vannellen.com/fortranslators.php">SDLTM Converter</a> позволит быстро преобразовать файл <span style="font-variant: small-caps">sdltm</span> в <span style="font-variant: small-caps">tmx</span>. Многим разработчикам не помешало бы равняться на SDLTM Converter, потому что интерфейс этой программы близок к идеальному:<br>
+<a href="/wp-content/uploads/2013/12/sdtlm.png"><img loading="lazy" src="/wp-content/uploads/2013/12/sdtlm.png" alt="sdtlm" width="231" height="79" class="alignnone size-full wp-image-1166"></a><br><br>
+Так выглядит единственное окно программы. Нажмите кнопку, выберите память в формате <span style="font-variant: small-caps">sdltm</span>, и в той же папке будет создан файл converted.tmx.<br>
+</p>
+<hr>
+<br>
+С Новым годом! Желаю начинающим переводчикам не браться за заказы в незнакомой области, а опытным коллегам — чтобы такие заказы даже не предлагали (и вам не придется тратить время на отказ):<br>
+<a href="/wp-content/uploads/2013/12/no-swimming.jpg"><img loading="lazy" src="/wp-content/uploads/2013/12/no-swimming.jpg" alt="no swimming" width="500" height="322" class="alignnone size-full wp-image-1163" srcset="/wp-content/uploads/2013/12/no-swimming.jpg 500w, /wp-content/uploads/2013/12/no-swimming-300x193.jpg 300w, /wp-content/uploads/2013/12/no-swimming-465x300.jpg 465w" sizes="(max-width: 500px) 100vw, 500px"></a>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -248,7 +234,8 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>О поддержке русского языка объявил сайт <a href="http://www.linguee.com/">Linguee</a>. Это бесплатная поисковая система по параллельным текстам и конкорданс, позволяющий просмотреть контекст использования слова или фразы в различных переводах: <a href="/2013/12/26/1147/#more-1147" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -267,7 +254,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Йост Зетш повторяет <a href="/2012/08/31/737/">прошлогоднюю акцию</a>: рассылка The Tool Box <a href="http://www.internationalwriters.com/toolkit/">доступна по любой цене</a> на ваш выбор в течение трех дней, до 12 октября.</p>
+<p>Я был несколько лет подписан на бесплатную версию, а в прошлом году купил платную. Разница между ними не очень существенная: самые интересные материалы попадают в бесплатное издание. Но я опять подписался на платную версию и все-таки могу рекомендовать ее коллегам, следящим за технологическими новинками отрасли.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -286,7 +275,9 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p style="font-family: verdana">Во многих программах, в том числе в браузерах и переводческих средах, есть возможность установки пользовательских шрифтов, но ею мало кто пользуется. Однако шрифт Arial, обычно установленный по умолчанию, не очень хорош для постоянной работы с текстом: он жирноват, а кернинг слишком мал. Пожалейте свое зрение: потратьте несколько минут и подберите комфортный для вас шрифт. Например, Verdana (тоже идущий в комплекте с Windows) утомляет меня намного меньше. Еще больше мне нравится шрифт <a href="http://fonts.ru/public/">PT Sans</a>: он похож на Verdana, но точка и запятая имеют классическую форму.</p>
+<p style="font-family: verdana"><a href="/2013/04/19/887/">Напомню</a>, что в Trados Studio шрифты настраиваются в меню Tools > Options > Editor > Font Adaptation.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -305,7 +296,10 @@ function degrease(obfusc,shift) {
 					</header><!-- .entry-header -->
 
 				<div class="entry-content">
-								</div>
+			<p>Коллеги-блогеры, будьте бдительны: с начала августа в русскоязычном Интернете идет распределенная атака на блоги на платформе WordPress. Достаточно крупная бот-сеть пытается подобрать пароли к учетным записям. Если у вас установлен короткий словарный пароль, вероятно, он <em>уже</em> подобран.</p>
+<p>Оптимальная защита от подбора — ограничение доступа к файлу wp-login с использованием .htaccess. <a href="http://master-it.biz/wordpress-admin.html">Вот</a> приблизительная инструкция, но если вы <s>гуманитарий</s> плохо понимаете, о чем в ней идет речь, я бы советовал воспользоваться более удобными средствами. Например, есть отличные расширения для WordPress — <a href="http://wordpress.org/plugins/stealth-login-page/">Stealth Login Page</a> и <a href="http://wordpress.org/plugins/limit-login-attempts/">Limit Login Attempts</a> — которые устанавливаются автоматически через админку WordPress и сводят вероятность атаки к минимуму.</p>
+<p>И разумеется, обновите сам WordPress до версии 3.6, если вы этого еще не сделали.</p>
+					</div>
 <!-- .entry-content -->
 		
 		<footer class="entry-meta">
@@ -534,6 +528,6 @@ function degrease(obfusc,shift) {
 </div>
 <!-- #page -->
 
-<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=2045187568" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
+<img alt="css.php" src="/wp-content/plugins/cookies-for-comments/css.php?k=77576b43bbf9bf36f864839c09a80fc2&amp;o=i&amp;t=2043618407" width="1" height="1"><script type="text/javascript" src="/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205" id="twentytwelve-navigation-js"></script>
 </body>
 </html>

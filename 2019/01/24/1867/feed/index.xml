@@ -26,8 +26,15 @@
 		<pubDate>Fri, 25 Jan 2019 20:49:39 +0000</pubDate>
 		<guid isPermaLink="false">/?p=1867#comment-67814</guid>
 
-					<description><![CDATA[]]></description>
-			<content:encoded><![CDATA[]]></content:encoded>
+					<description><![CDATA[In reply to &lt;a href=&quot;/2019/01/24/1867/#comment-67811&quot;&gt;Vadim&lt;/a&gt;.
+
+Спасибо, Вадим.
+
+К сожалению, с определенного момента локализация выполняется исходя из наименьшей цены, а компетенция при этом не требуется. В частности, на языковом портале Microsoft &lt;a href=&quot;https://www.microsoft.com/en-us/language/Search?&amp;searchTerm=Windows+distribution&amp;langID=Russian&amp;Source=true&amp;productid=All%20Products&quot; rel=&quot;nofollow&quot;&gt;есть&lt;/a&gt; правильный перевод для &lt;em&gt;distribution&lt;/em&gt;, но, чтобы его отобрать от других вариантов, нужно понимать, чем &lt;em&gt;address book distribution&lt;/em&gt; отличается от &lt;em&gt;Windows&lt;/em&gt; (а в данном случае — Linux) &lt;em&gt;distribution&lt;/em&gt;.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2019/01/24/1867/#comment-67811">Vadim</a>.</p>
+<p>Спасибо, Вадим.</p>
+<p>К сожалению, с определенного момента локализация выполняется исходя из наименьшей цены, а компетенция при этом не требуется. В частности, на языковом портале Microsoft <a href="https://www.microsoft.com/en-us/language/Search?&#038;searchTerm=Windows+distribution&#038;langID=Russian&#038;Source=true&#038;productid=All%20Products" rel="nofollow">есть</a> правильный перевод для <em>distribution</em>, но, чтобы его отобрать от других вариантов, нужно понимать, чем <em>address book distribution</em> отличается от <em>Windows</em> (а в данном случае — Linux) <em>distribution</em>.</p>
+]]></content:encoded>
 		
 			</item>
 		<item>
@@ -39,8 +46,12 @@
 		<pubDate>Fri, 25 Jan 2019 17:54:31 +0000</pubDate>
 		<guid isPermaLink="false">/?p=1867#comment-67811</guid>
 
-					<description><![CDATA[]]></description>
-			<content:encoded><![CDATA[]]></content:encoded>
+					<description><![CDATA[Максим, я потом внимательно посмотрел. В 1903 везде &quot;распространение&quot; вместо &quot;дистрибутив&quot;. Обычно, я шлю отзывы в Feedback Hub сам, но в случае локализации пусть возятся те, кто пользуется русской ОС :)  Команда WSL адекватная, исправят. 
+
+А для отзывов по UI есть отдельное приложение. Я пробовал, но из трех отзывов (вполне очевидных) два отклонили, хотя один все-таки внедрили намного позже. Что возвращает меня к заголовку твоего поста;)]]></description>
+			<content:encoded><![CDATA[<p>Максим, я потом внимательно посмотрел. В 1903 везде &#8220;распространение&#8221; вместо &#8220;дистрибутив&#8221;. Обычно, я шлю отзывы в Feedback Hub сам, но в случае локализации пусть возятся те, кто пользуется русской ОС :)  Команда WSL адекватная, исправят. </p>
+<p>А для отзывов по UI есть отдельное приложение. Я пробовал, но из трех отзывов (вполне очевидных) два отклонили, хотя один все-таки внедрили намного позже. Что возвращает меня к заголовку твоего поста;)</p>
+]]></content:encoded>
 		
 			</item>
 	</channel>

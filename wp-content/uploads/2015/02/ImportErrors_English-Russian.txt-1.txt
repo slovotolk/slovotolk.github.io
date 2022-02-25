@@ -1,0 +1,17 @@
+﻿English-Russian. Ошибка при загрузке:
+System.FormatException: One of the identified items was in an invalid format.
+   at AbbyyLS.Tmx.TmxFormat.readTag(XmlReader reader, Int32 nextPosition) in c:\BuildAgent\work\2a8093296e21d5e6\FileFormats\Tmx\TmxFormat.cs:line 761
+   at AbbyyLS.Tmx.TmxFormat.readSegment(XmlReader reader) in c:\BuildAgent\work\2a8093296e21d5e6\FileFormats\Tmx\TmxFormat.cs:line 702
+   at AbbyyLS.Tmx.TmxFormat.readFragment(XmlReader reader) in c:\BuildAgent\work\2a8093296e21d5e6\FileFormats\Tmx\TmxFormat.cs:line 659
+   at AbbyyLS.Tmx.TmxFormat.readUnit(XmlReader reader) in c:\BuildAgent\work\2a8093296e21d5e6\FileFormats\Tmx\TmxFormat.cs:line 608
+   at AbbyyLS.Tmx.TmxFormat.<readBody>d__3.MoveNext() in c:\BuildAgent\work\2a8093296e21d5e6\FileFormats\Tmx\TmxFormat.cs:line 552
+   at AbbyyLS.TranslationMemories.ImportTaskProcessor.<processTmxReadResult>d__13.MoveNext() in c:\BuildAgent\work\2a8093296e21d5e6\Core\TranslationMemories.TaskModule\ImportTaskProcessor.cs:line 143
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at AbbyyLS.TranslationMemories.ImportTaskProcessor.<process>d__7.MoveNext() in c:\BuildAgent\work\2a8093296e21d5e6\Core\TranslationMemories.TaskModule\ImportTaskProcessor.cs:line 89
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at AbbyyLS.TaskProcessing.TaskProcessor`1.<InnerProcessTaskItem>d__15.MoveNext() in d:\Work\Repos\taskprocessing\TaskProcessing\TaskProcessor.cs:line 339
+

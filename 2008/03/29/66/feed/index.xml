@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Если проверка орфографии не работает	</title>
+	<atom:link href="/2008/03/29/66/feed/" rel="self" type="application/rss+xml" />
+	<link>/2008/03/29/66/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Tue, 22 Feb 2011 10:10:17 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Александр		</title>
+		<link>/2008/03/29/66/#comment-46</link>
+
+		<dc:creator><![CDATA[Александр]]></dc:creator>
+		<pubDate>Tue, 22 Feb 2011 10:10:17 +0000</pubDate>
+		<guid isPermaLink="false">/wordpress/2008/03/29/83/#comment-46</guid>
+
+					<description><![CDATA[Спасибо, очень порадовали. Попробую Spell Checker. Пока не разобрался, с какими словарями работате Orfo Switcher.
+
+Заменил почти весь софт, которым пользуют, на бесплатный, причем портабельный. Все свое ношу с собой на флешке и могу работать с любого компьютера. Omnea mea mecum porto. Тормозит Ворд. В Open Office Writer слабая проверка правописания. Но очень хочется отказаться от Word. )))]]></description>
+			<content:encoded><![CDATA[<p>Спасибо, очень порадовали. Попробую Spell Checker. Пока не разобрался, с какими словарями работате Orfo Switcher.</p>
+<p>Заменил почти весь софт, которым пользуют, на бесплатный, причем портабельный. Все свое ношу с собой на флешке и могу работать с любого компьютера. Omnea mea mecum porto. Тормозит Ворд. В Open Office Writer слабая проверка правописания. Но очень хочется отказаться от Word. )))</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Jamie		</title>
+		<link>/2008/03/29/66/#comment-45</link>
+
+		<dc:creator><![CDATA[Jamie]]></dc:creator>
+		<pubDate>Tue, 08 Apr 2008 08:02:46 +0000</pubDate>
+		<guid isPermaLink="false">/wordpress/2008/03/29/83/#comment-45</guid>
+
+					<description><![CDATA[эти проги нужны каждому пользователю ПК, спасибо за подборку]]></description>
+			<content:encoded><![CDATA[<p>эти проги нужны каждому пользователю ПК, спасибо за подборку</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
