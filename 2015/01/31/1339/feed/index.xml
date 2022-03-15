@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Trados Studio: предпросмотр в реальном времени, исправления в исходном документе, попытка записи в защищенную память	</title>
+	<atom:link href="/2015/01/31/1339/feed/" rel="self" type="application/rss+xml" />
+	<link>/2015/01/31/1339/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Sun, 26 Jul 2015 14:04:38 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2015/01/31/1339/#comment-41164</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Wed, 04 Feb 2015 15:39:13 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1339#comment-41164</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2015/01/31/1339/#comment-41163&quot;&gt;Дмитрий&lt;/a&gt;.
+
+Спасибо за комментарий. SmartCat — очень перспективная штука, я обязательно напишу обзор, как найду свободное время.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2015/01/31/1339/#comment-41163">Дмитрий</a>.</p>
+<p>Спасибо за комментарий. SmartCat — очень перспективная штука, я обязательно напишу обзор, как найду свободное время.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Дмитрий		</title>
+		<link>/2015/01/31/1339/#comment-41163</link>
+
+		<dc:creator><![CDATA[Дмитрий]]></dc:creator>
+		<pubDate>Wed, 04 Feb 2015 15:26:21 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1339#comment-41163</guid>
+
+					<description><![CDATA[Уважаемый Максим!
+
+Спасибо за очередную порцию полезных материалов. Вопрос, тем не менее, хочу поставить об иной среде перевода: относительно недавно ABBYY запустила собственный облачный сервис, который регулярно обновляет и снабжает новыми функциями. Учитывая его растущую популярность (по мнению самой компании и собственным наблюдениям), нахожу странным, что Вы о SmartCAT не упоминаете вовсе. Если это не так и я это упоминание проглядел, прошу простить. Если все-таки не упоминаете, поделитесь, пожалуйста, Вашими мыслями об этой среде. Насколько я успел понять из прочитанного в Ваших записках, Вы знакомы далеко не только с семейством Trados. 
+
+С уважением
+Дмитрий]]></description>
+			<content:encoded><![CDATA[<p>Уважаемый Максим!</p>
+<p>Спасибо за очередную порцию полезных материалов. Вопрос, тем не менее, хочу поставить об иной среде перевода: относительно недавно ABBYY запустила собственный облачный сервис, который регулярно обновляет и снабжает новыми функциями. Учитывая его растущую популярность (по мнению самой компании и собственным наблюдениям), нахожу странным, что Вы о SmartCAT не упоминаете вовсе. Если это не так и я это упоминание проглядел, прошу простить. Если все-таки не упоминаете, поделитесь, пожалуйста, Вашими мыслями об этой среде. Насколько я успел понять из прочитанного в Ваших записках, Вы знакомы далеко не только с семейством Trados. </p>
+<p>С уважением<br />
+Дмитрий</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

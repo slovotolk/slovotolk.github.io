@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Язык &#8211; Тетради переводчика</title>
+	<atom:link href="/category/%D1%8F%D0%B7%D1%8B%D0%BA/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Wed, 24 May 2017 10:45:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>О регистрах и ящиках</title>
+		<link>/2017/05/24/1830/</link>
+					<comments>/2017/05/24/1830/#respond</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Wed, 24 May 2017 10:45:46 +0000</pubDate>
+				<category><![CDATA[Blogroll]]></category>
+		<category><![CDATA[Язык]]></category>
+		<guid isPermaLink="false">/?p=1830</guid>
+
+					<description><![CDATA[Познавательная запись у Вадима Стеркина: О потере смысла слов со временем и при переводе. Вы печатаете на клавиатуре строчные буквы в нижнем *регистре*, а верхний активируется нажатием клавиши Shift (или Caps Lock для особо усердных :). В английском языке это соответственно lower case и upper case.Ключевое слово тут *case*, и никаким регистром оно не пахнет. [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Познавательная запись у <a href="https://t.me/sterkin_ru">Вадима Стеркина</a>:</p>
+<p style="font-family: 'Times New Roman'; padding: 0 0 0 25px; background: url(wp-content/uploads/quote.gif) top left no-repeat">О потере смысла слов со временем и при переводе. Вы печатаете на клавиатуре строчные буквы в нижнем *регистре*, а верхний активируется нажатием клавиши Shift (или Caps Lock для особо усердных :). В английском языке это соответственно lower case и upper case.<BR>Ключевое слово тут *case*, и никаким регистром оно не пахнет. Это ящик, и в типографской печати наборщики пользовались парой ящиков с металлическими литерами &#8211; в верхнем лежали заглавные буквы, а в нижнем строчные. Пример на картинке.<a href="/wp-content/uploads/2017/05/photo5274119612587419641.jpg"><img loading="lazy" src="/wp-content/uploads/2017/05/photo5274119612587419641-1024x890.jpg" alt="" width="625" height="543" class="aligncenter size-large wp-image-1831" srcset="/wp-content/uploads/2017/05/photo5274119612587419641-1024x890.jpg 1024w, /wp-content/uploads/2017/05/photo5274119612587419641-300x261.jpg 300w, /wp-content/uploads/2017/05/photo5274119612587419641-768x668.jpg 768w, /wp-content/uploads/2017/05/photo5274119612587419641-624x542.jpg 624w, /wp-content/uploads/2017/05/photo5274119612587419641.jpg 1200w" sizes="(max-width: 625px) 100vw, 625px" /></a>
+</p>
+<p>От себя добавлю, что и в русском языке регистр букв напрямую не связан с основным значением «список, реестр». Это заимствование из музыкальной терминологии, где звуки разной силы и высоты относятся к разным регистрам.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2017/05/24/1830/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Sign In как переходный глагол</title>
+		<link>/2016/05/30/1619/</link>
+					<comments>/2016/05/30/1619/#comments</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Mon, 30 May 2016 15:33:51 +0000</pubDate>
+				<category><![CDATA[The Translator's Guide to the Galaxy]]></category>
+		<category><![CDATA[Язык]]></category>
+		<guid isPermaLink="false">/?p=1619</guid>
+
+					<description><![CDATA[Недавно я редактировал справку по скриптам для одной веб-системы, в которой встретились строки Sign User In и Sign User Out. Переводчик предложил смелый вариант «Ввести пользователя в систему» и «Вывести пользователя из системы». Некоторая изюминка в этом переводе есть (с учетом того, что в этом же интерфейсе есть команда «Войти в систему»), но я все-таки [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Недавно я редактировал справку по скриптам для одной веб-системы, в которой встретились строки <em>Sign User In</em> и <em>Sign User Out</em>. Переводчик предложил смелый вариант «Ввести пользователя в систему» и «Вывести пользователя из системы». Некоторая изюминка в этом переводе есть (с учетом того, что в этом же интерфейсе есть команда «Войти в систему»), но я все-таки заменил его на «Начать сеанс пользователя» и «Завершить сеанс пользователя». Может, я неправ? Каким переходным глаголом вы бы перевели <em>Sign User In</em>?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/05/30/1619/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Одной строкой: internet теперь со строчной</title>
+		<link>/2016/04/29/1621/</link>
+					<comments>/2016/04/29/1621/#respond</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Fri, 29 Apr 2016 10:53:21 +0000</pubDate>
+				<category><![CDATA[Язык]]></category>
+		<guid isPermaLink="false">/?p=1621</guid>
+
+					<description><![CDATA[В новой редакции авторитетного руководства Associated Press Stylebook слово internet будет писаться со строчной буквы. По-русски тоже пора его в нарицательные перевести.]]></description>
+										<content:encoded><![CDATA[<p>В новой редакции авторитетного руководства Associated Press Stylebook слово <em>internet</em> <a href="https://twitter.com/APStylebook/status/716384777406922753">будет писаться со строчной буквы</a>. По-русски тоже пора его в нарицательные перевести.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2016/04/29/1621/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Палажченко о политической топонимике</title>
+		<link>/2015/03/20/1386/</link>
+					<comments>/2015/03/20/1386/#comments</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Fri, 20 Mar 2015 13:21:19 +0000</pubDate>
+				<category><![CDATA[Blogroll]]></category>
+		<category><![CDATA[Язык]]></category>
+		<guid isPermaLink="false">/?p=1386</guid>
+
+					<description><![CDATA[На сайте Павла Палажченко опубликована крайне познавательная статья об использовании топонимов в политических целях. Оказывается, Западная Германия какое-то время называлась Германская Федеральная Республика и Федеративная Республика Германии. Всем читать Павла Руслановича >]]></description>
+										<content:encoded><![CDATA[<p>На сайте Павла Палажченко опубликована крайне познавательная статья об использовании топонимов в политических целях. Оказывается, Западная Германия какое-то время называлась <em>Германская Федеральная Республика</em> и <em>Федеративная Республика Германии.</em></p>
+<p><a href="http://pavelpal.ru/node/1194">Всем читать Павла Руслановича ></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2015/03/20/1386/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Где проверить сочетаемость русских слов?</title>
+		<link>/2014/12/10/1322/</link>
+					<comments>/2014/12/10/1322/#comments</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Wed, 10 Dec 2014 15:32:27 +0000</pubDate>
+				<category><![CDATA[Язык]]></category>
+		<guid isPermaLink="false">/?p=1322</guid>
+
+					<description><![CDATA[Коллеги, как вы проверяете сочетаемость слов в русском тексте? Скажем, мне нужно выяснить, говорят ли по-русски «доставка услуги» (не предлагайте другие варианты — я хочу узнать, является ли сочетание этих слов нормативным, причем с опорой на источник). Может, есть какой-нибудь ресурс на эту тему? В словаре сочетаемости Денисова и Морковкина ничего подобного нет; качество корпуса [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Коллеги, как вы проверяете сочетаемость слов в русском тексте? </p>
+<p>Скажем, мне нужно выяснить, говорят ли по-русски «доставка услуги» (не предлагайте другие варианты — я хочу узнать, является ли сочетание этих слов нормативным, причем с опорой на источник). Может, есть какой-нибудь ресурс на эту тему? В словаре сочетаемости Денисова и Морковкина ничего подобного нет; качество <a href="http://www.ruscorpora.ru/search-main.html">корпуса русского языка</a> тоже не впечатляет.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2014/12/10/1322/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Классик литературы или машинный перевод?</title>
+		<link>/2014/06/15/1253/</link>
+					<comments>/2014/06/15/1253/#respond</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Sun, 15 Jun 2014 12:06:36 +0000</pubDate>
+				<category><![CDATA[Blogroll]]></category>
+		<category><![CDATA[Язык]]></category>
+		<guid isPermaLink="false">/?p=1253</guid>
+
+					<description><![CDATA[В отрасли есть популярное мнение, что для узкоспециализированных технических текстов, например патентов, машинный перевод еще может быть (иногда) применим, но до уровня художественного текста качество МП никогда не поднимется.Если вы так считаете, очень рекомендую вот эту страничку: сможете ли вы отличить машинный перевод от классика русской литературы? А если нет разницы, зачем платить художественным переводчикам [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>В отрасли есть популярное мнение, что для узкоспециализированных технических текстов, например патентов, машинный перевод еще может быть (иногда) применим, но до уровня художественного текста качество МП никогда не поднимется.<BR>Если вы так считаете, очень рекомендую <a href="http://reverent.org/ru/machine_translation_or_platonov.html">вот эту страничку</a>: сможете ли вы отличить машинный перевод от классика русской литературы? А если нет разницы, <del datetime="2014-06-15T10:38:29+00:00">зачем платить художественным переводчикам</del> возможно, литература опускается до уровня машины быстрее, чем растет качество перевода?</p>
+<p style="font-size: 9pt;">(<a href="http://perevod99.blogspot.ru/2014/06/blog-post_14.html">Сергей</a>, спасибо за ссылку!)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2014/06/15/1253/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Чувствую себя сингапурцем</title>
+		<link>/2014/06/05/1241/</link>
+					<comments>/2014/06/05/1241/#comments</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Thu, 05 Jun 2014 06:52:06 +0000</pubDate>
+				<category><![CDATA[Blogroll]]></category>
+		<category><![CDATA[Язык]]></category>
+		<guid isPermaLink="false">/?p=1241</guid>
+
+					<description><![CDATA[Любопытный тест, пытающийся угадать ваш родной язык и ваш диалект английского. Родной русский определился правильно, а английский у меня, оказывается, сингапурского разлива. Интересно, встречается ли такое сочетание в реальности?]]></description>
+										<content:encoded><![CDATA[<p><a href="http://gameswithwords.org/WhichEnglish/">Любопытный тест</a>, пытающийся угадать ваш родной язык и ваш диалект английского. Родной русский определился правильно, а английский у меня, оказывается, сингапурского разлива. Интересно, встречается ли такое сочетание в реальности?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2014/06/05/1241/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>С чего начинаются iPod и eBay</title>
+		<link>/2013/01/31/816/</link>
+					<comments>/2013/01/31/816/#comments</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Thu, 31 Jan 2013 08:28:19 +0000</pubDate>
+				<category><![CDATA[Язык]]></category>
+		<guid isPermaLink="false">/?p=816</guid>
+
+					<description><![CDATA[Начинаются они со строчных букв — даже в начале предложения. По крайней мере, так предписывает делать новая версия The Chicago Manual of Style. Вообще, интересно прочитать список изменений в новой версии — в нем отражается эволюция языковой нормы. (по материалам блога Catherine Translates)]]></description>
+										<content:encoded><![CDATA[<p>Начинаются они со строчных букв — даже в начале предложения. По крайней мере, так предписывает делать новая версия <a href="http://www.chicagomanualofstyle.org/about16_rules.html" target="_blank">The Chicago Manual of Style</a>. Вообще, интересно прочитать список изменений в новой версии — в нем отражается эволюция языковой нормы.</p>
+<p><span style="font-size: small;"><tt>(по материалам блога <a href="http://www.catherinetranslates.com/" target="_blank">Catherine Translates</a>)</tt></span></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2013/01/31/816/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Как перевести на английский «четвероюродный дедушка»</title>
+		<link>/2012/10/19/770/</link>
+					<comments>/2012/10/19/770/#comments</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Fri, 19 Oct 2012 09:08:30 +0000</pubDate>
+				<category><![CDATA[Язык]]></category>
+		<guid isPermaLink="false">/?p=770</guid>
+
+					<description><![CDATA[Правильно — first cousin twice removed. Причем так же обозначается троюродный внук. В общем, вот схема названий родственных отношений в английском языке, весьма познавательная.]]></description>
+										<content:encoded><![CDATA[<p>Правильно — <em>first cousin twice removed</em>. Причем так же обозначается троюродный внук. В общем, <a href="/wp-content/uploads/2012/10/LKz04.gif">вот схема</a> названий родственных отношений в английском языке, весьма познавательная.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/10/19/770/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Как не надо проектировать интерфейсы — 2</title>
+		<link>/2012/06/06/693/</link>
+					<comments>/2012/06/06/693/#comments</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Wed, 06 Jun 2012 15:28:45 +0000</pubDate>
+				<category><![CDATA[The Translator's Guide to the Galaxy]]></category>
+		<category><![CDATA[Язык]]></category>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=693</guid>
+
+					<description><![CDATA[На самом деле, я не знаю, как выглядит программа, интерфейс которой я локализовал, но описание слегка абсурдистское (выделение мое): When you first open the application it is displayed in the simple view. Click ADVANCED to see the window presented in the advanced view. Switch between the views by clicking SIMPLE/ADVANCED. You can use any function [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>На самом деле, я не знаю, как выглядит программа, интерфейс которой я локализовал, но описание слегка абсурдистское (выделение мое):</p>
+<p style="FONT-FAMILY: &rsquo;Arial&rsquo;; FONT-SIZE: 12pt" span>When you first open the application it is displayed in the simple view. Click ADVANCED to see the window presented in the advanced view. Switch between the views by clicking SIMPLE/ADVANCED. You can use any function from either view, but <strong>the advanced view simplifies setup</strong> and access to all functions and menus.</p>
+<p>Если в расширенном режиме упрощаются настройка и использование, зачем называть более сложный режим <i>простым</i>? Пришлось перевести simple как <em>обычный</em>, иначе кажется, что они перепутаны. </p>
+<p>P. S. Не могу не отметить вариант, предложенный коллегой: advanced view &mdash; <em>мужской режим</em>, simple view &mdash; <em>женский режим</em>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/06/06/693/feed/</wfw:commentRss>
+			<slash:comments>10</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

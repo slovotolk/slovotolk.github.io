@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Почем Google Translator Toolkit?	</title>
+	<atom:link href="/2009/10/29/307/feed/" rel="self" type="application/rss+xml" />
+	<link>/2009/10/29/307/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Mon, 26 Apr 2010 07:57:48 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2009/10/29/307/#comment-222</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Mon, 26 Apr 2010 07:57:48 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=307#comment-222</guid>
+
+					<description><![CDATA[Насколько я понимаю, Гугл интегрирует все отдельные переводческие базы в одну свою большую ТМ.]]></description>
+			<content:encoded><![CDATA[<p>Насколько я понимаю, Гугл интегрирует все отдельные переводческие базы в одну свою большую ТМ.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Anonymous		</title>
+		<link>/2009/10/29/307/#comment-221</link>
+
+		<dc:creator><![CDATA[Anonymous]]></dc:creator>
+		<pubDate>Mon, 26 Apr 2010 07:52:30 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=307#comment-221</guid>
+
+					<description><![CDATA[Непохоже, чтобы кто-то ее выделывал. Реальных переводчиеских баз там 0,0. Или я неправильно искал?]]></description>
+			<content:encoded><![CDATA[<p>Непохоже, чтобы кто-то ее выделывал. Реальных переводчиеских баз там 0,0. Или я неправильно искал?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Будущее профессионального перевода &#124; WORDHORD		</title>
+		<link>/2009/10/29/307/#comment-220</link>
+
+		<dc:creator><![CDATA[Будущее профессионального перевода &#124; WORDHORD]]></dc:creator>
+		<pubDate>Mon, 02 Nov 2009 19:29:31 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=307#comment-220</guid>
+
+					<description><![CDATA[[...] идет о гибридных системах типа Google Translator Toolkit. Это (пока) бесплатная переводческая среда с применением памяти [...]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] идет о гибридных системах типа Google Translator Toolkit. Это (пока) бесплатная переводческая среда с применением памяти [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Михаил		</title>
+		<link>/2009/10/29/307/#comment-219</link>
+
+		<dc:creator><![CDATA[Михаил]]></dc:creator>
+		<pubDate>Fri, 30 Oct 2009 12:49:37 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=307#comment-219</guid>
+
+					<description><![CDATA[Сейчас шкуру выделывают массы. Кто как умеет. И когда тесты покажут более-менее приличные результаты, шкурку тем же массам начнут продавать, а заодно и появятся деньги на профессиональную выделку.]]></description>
+			<content:encoded><![CDATA[<p>Сейчас шкуру выделывают массы. Кто как умеет. И когда тесты покажут более-менее приличные результаты, шкурку тем же массам начнут продавать, а заодно и появятся деньги на профессиональную выделку.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

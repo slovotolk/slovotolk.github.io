@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Википедия в дореформенной орфографии!	</title>
+	<atom:link href="/2007/08/18/14/feed/" rel="self" type="application/rss+xml" />
+	<link>/2007/08/18/14/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Thu, 14 Apr 2011 08:05:13 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2007/08/18/14/#comment-8</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Thu, 14 Apr 2011 08:05:13 +0000</pubDate>
+		<guid isPermaLink="false">/wordpress/2007/08/18/11/#comment-8</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2007/08/18/14/#comment-7&quot;&gt;Сергей&lt;/a&gt;.
+
+Очевидно, проект удален в 2008 году.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2007/08/18/14/#comment-7">Сергей</a>.</p>
+<p>Очевидно, проект удален в 2008 году.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Сергей		</title>
+		<link>/2007/08/18/14/#comment-7</link>
+
+		<dc:creator><![CDATA[Сергей]]></dc:creator>
+		<pubDate>Thu, 14 Apr 2011 05:11:12 +0000</pubDate>
+		<guid isPermaLink="false">/wordpress/2007/08/18/11/#comment-7</guid>
+
+					<description><![CDATA[Какое сейчас состояние проекта &quot;Википедия в дореформенной орфографии&quot;?]]></description>
+			<content:encoded><![CDATA[<p>Какое сейчас состояние проекта &#8220;Википедия в дореформенной орфографии&#8221;?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

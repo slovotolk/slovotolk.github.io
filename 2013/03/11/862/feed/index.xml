@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Правописание в Office 2013: «бес программный» вместо «беспрограммный»	</title>
+	<atom:link href="/2013/03/11/862/feed/" rel="self" type="application/rss+xml" />
+	<link>/2013/03/11/862/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Tue, 16 Jul 2013 14:36:04 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2013/03/11/862/#comment-18022</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Tue, 16 Jul 2013 14:36:04 +0000</pubDate>
+		<guid isPermaLink="false">/?p=862#comment-18022</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2013/03/11/862/#comment-18021&quot;&gt;Олег&lt;/a&gt;.
+
+Потому что в Office 2010 используется модуль проверки от компании «Информатик», а в 2013 от него отказались.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2013/03/11/862/#comment-18021">Олег</a>.</p>
+<p>Потому что в Office 2010 используется модуль проверки от компании «Информатик», а в 2013 от него отказались.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Олег		</title>
+		<link>/2013/03/11/862/#comment-18021</link>
+
+		<dc:creator><![CDATA[Олег]]></dc:creator>
+		<pubDate>Tue, 16 Jul 2013 14:11:58 +0000</pubDate>
+		<guid isPermaLink="false">/?p=862#comment-18021</guid>
+
+					<description><![CDATA[В Office 2010 многие ошибки такие же, но в плане запятых ситуация чуть лучше, в некоторых примерах он всё же предлагает запятые там, где она нужна. Иными словами, 10 версия лучше.]]></description>
+			<content:encoded><![CDATA[<p>В Office 2010 многие ошибки такие же, но в плане запятых ситуация чуть лучше, в некоторых примерах он всё же предлагает запятые там, где она нужна. Иными словами, 10 версия лучше.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

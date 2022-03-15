@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Сколько слов в вашем спелл-чекере?	</title>
+	<atom:link href="/2012/05/31/686/feed/" rel="self" type="application/rss+xml" />
+	<link>/2012/05/31/686/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Mon, 04 Jun 2012 11:24:59 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2012/05/31/686/#comment-363</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Mon, 04 Jun 2012 11:24:59 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=686#comment-363</guid>
+
+					<description><![CDATA[Ясно, спасибо.]]></description>
+			<content:encoded><![CDATA[<p>Ясно, спасибо.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Информатик		</title>
+		<link>/2012/05/31/686/#comment-362</link>
+
+		<dc:creator><![CDATA[Информатик]]></dc:creator>
+		<pubDate>Mon, 04 Jun 2012 10:08:42 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=686#comment-362</guid>
+
+					<description><![CDATA[Вероятностные алгоритмы не используем. Потенциал более простых и надежных методов еще не исчерпан.]]></description>
+			<content:encoded><![CDATA[<p>Вероятностные алгоритмы не используем. Потенциал более простых и надежных методов еще не исчерпан.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2012/05/31/686/#comment-361</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Mon, 04 Jun 2012 09:08:51 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=686#comment-361</guid>
+
+					<description><![CDATA[Вы можете рассказать подробнее о контекстозависимой проверке? О прототипе такой системы я читал еще в 2009 году. Каким образом для слова определяется контекст, и почему это не работает для всех слов? Вы не используете вероятностные алгоритмы обнаружения ошибок?]]></description>
+			<content:encoded><![CDATA[<p>Вы можете рассказать подробнее о контекстозависимой проверке? О прототипе такой системы я читал еще в 2009 году. Каким образом для слова определяется контекст, и почему это не работает для всех слов? Вы не используете вероятностные алгоритмы обнаружения ошибок?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Информатик		</title>
+		<link>/2012/05/31/686/#comment-360</link>
+
+		<dc:creator><![CDATA[Информатик]]></dc:creator>
+		<pubDate>Mon, 04 Jun 2012 08:35:26 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=686#comment-360</guid>
+
+					<description><![CDATA[Поэтому мы и разделили словники на основной и профессиональные тематические. Сильно шумящие слова перенесены в тематические словники, но таких слов немного. Плюс новая версия ОРФО отслеживает контекст, в котором слово употреблено. Если контекст и слово не совпадают, мы предупредим пользователя об этом. Конечно, эту функции удалось реализовать не для всех слов, но типичные ошибки не даст допустить.]]></description>
+			<content:encoded><![CDATA[<p>Поэтому мы и разделили словники на основной и профессиональные тематические. Сильно шумящие слова перенесены в тематические словники, но таких слов немного. Плюс новая версия ОРФО отслеживает контекст, в котором слово употреблено. Если контекст и слово не совпадают, мы предупредим пользователя об этом. Конечно, эту функции удалось реализовать не для всех слов, но типичные ошибки не даст допустить.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2012/05/31/686/#comment-359</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Mon, 04 Jun 2012 07:43:33 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=686#comment-359</guid>
+
+					<description><![CDATA[Спасибо за комментарий. Вы не считаете, что добавление всех возможных слов в ваши словари ухудшает работу спелл-чекера, как я написал выше?]]></description>
+			<content:encoded><![CDATA[<p>Спасибо за комментарий. Вы не считаете, что добавление всех возможных слов в ваши словари ухудшает работу спелл-чекера, как я написал выше?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Информатик		</title>
+		<link>/2012/05/31/686/#comment-358</link>
+
+		<dc:creator><![CDATA[Информатик]]></dc:creator>
+		<pubDate>Mon, 04 Jun 2012 07:22:29 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=686#comment-358</guid>
+
+					<description><![CDATA[Откуда информация, что в ОРФО 60 тысяч слов всего? Мы больше слов изменили/добавили в словарь по сравнению с нашими модулями, встроенными в MS Office. 
+Только в основном словнике ОРФО 2012 содержится около 3 МИЛЛИОНОВ слов, если считать со словоформами.
+Найти правильное слово, которое не знает наша система, крайне затруднительно.
+Можете попробовать сами:
+http://www.informatic.ru/2012beta]]></description>
+			<content:encoded><![CDATA[<p>Откуда информация, что в ОРФО 60 тысяч слов всего? Мы больше слов изменили/добавили в словарь по сравнению с нашими модулями, встроенными в MS Office.<br />
+Только в основном словнике ОРФО 2012 содержится около 3 МИЛЛИОНОВ слов, если считать со словоформами.<br />
+Найти правильное слово, которое не знает наша система, крайне затруднительно.<br />
+Можете попробовать сами:<br />
+<a href="http://www.informatic.ru/2012beta" rel="nofollow ugc">http://www.informatic.ru/2012beta</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2012/05/31/686/#comment-357</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Fri, 01 Jun 2012 14:24:36 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=686#comment-357</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2012/05/31/686/#comment-356&quot;&gt;сергей&lt;/a&gt;.
+
+Да, «ОРФО» и Office Proofing Tools могут также и грамматику проверять. Впрочем, правил им известно не очень много.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2012/05/31/686/#comment-356">сергей</a>.</p>
+<p>Да, «ОРФО» и Office Proofing Tools могут также и грамматику проверять. Впрочем, правил им известно не очень много.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: сергей		</title>
+		<link>/2012/05/31/686/#comment-356</link>
+
+		<dc:creator><![CDATA[сергей]]></dc:creator>
+		<pubDate>Fri, 01 Jun 2012 14:14:09 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=686#comment-356</guid>
+
+					<description><![CDATA[Кроме просто спелл-чеккера есть &quot;пруфинг туллз&quot;. Грамматические ошибки мне зеленым подчеркивает. Ну, типа чисто теоретически, если я вместо il programma (мужской род в итальянском), написал бы la programma, он мне это подчеркнул бы ЗЕЛЕНЫМ. Очень помогает, поскольку род я знаю, а когда дальше, в длинном сложноподчиненном предложении, случается &quot;которого&quot; или &quot;которой&quot;, его или ея - машинально, довольно часто, пишу русский род. А этот инструмент обращает на это мое внимание зеленым подчеркиванием...]]></description>
+			<content:encoded><![CDATA[<p>Кроме просто спелл-чеккера есть &#8220;пруфинг туллз&#8221;. Грамматические ошибки мне зеленым подчеркивает. Ну, типа чисто теоретически, если я вместо il programma (мужской род в итальянском), написал бы la programma, он мне это подчеркнул бы ЗЕЛЕНЫМ. Очень помогает, поскольку род я знаю, а когда дальше, в длинном сложноподчиненном предложении, случается &#8220;которого&#8221; или &#8220;которой&#8221;, его или ея &#8211; машинально, довольно часто, пишу русский род. А этот инструмент обращает на это мое внимание зеленым подчеркиванием&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

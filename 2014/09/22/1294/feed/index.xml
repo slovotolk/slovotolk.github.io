@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Fresh Eye: автоматизация стилистической проверки текста	</title>
+	<atom:link href="/2014/09/22/1294/feed/" rel="self" type="application/rss+xml" />
+	<link>/2014/09/22/1294/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Wed, 24 Sep 2014 11:50:18 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2014/09/22/1294/#comment-26779</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Wed, 24 Sep 2014 11:50:18 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1294#comment-26779</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2014/09/22/1294/#comment-26777&quot;&gt;Vadim&lt;/a&gt;.
+
+Конечно, будут ложные срабатывания, это ж не искусственный интеллект :-)]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2014/09/22/1294/#comment-26777">Vadim</a>.</p>
+<p>Конечно, будут ложные срабатывания, это ж не искусственный интеллект :-)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Vadim		</title>
+		<link>/2014/09/22/1294/#comment-26777</link>
+
+		<dc:creator><![CDATA[Vadim]]></dc:creator>
+		<pubDate>Wed, 24 Sep 2014 11:38:11 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1294#comment-26777</guid>
+
+					<description><![CDATA[Спасибо, Максим. Я с такими вещами борюсь вычитыванием вслух, но всё не отловишь. Прогнал несколько своих статей и увидел, что они могли быть лучше :) Но и шум в результатах тоже есть, надо играть с настройками.]]></description>
+			<content:encoded><![CDATA[<p>Спасибо, Максим. Я с такими вещами борюсь вычитыванием вслух, но всё не отловишь. Прогнал несколько своих статей и увидел, что они могли быть лучше :) Но и шум в результатах тоже есть, надо играть с настройками.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Marina		</title>
+		<link>/2014/09/22/1294/#comment-26679</link>
+
+		<dc:creator><![CDATA[Marina]]></dc:creator>
+		<pubDate>Mon, 22 Sep 2014 16:43:23 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1294#comment-26679</guid>
+
+					<description><![CDATA[Спасибо за наводку! Как всегда, твой блог - кладезь полезных инструментов.]]></description>
+			<content:encoded><![CDATA[<p>Спасибо за наводку! Как всегда, твой блог &#8211; кладезь полезных инструментов.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

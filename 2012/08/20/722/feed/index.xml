@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: You are good to go	</title>
+	<atom:link href="/2012/08/20/722/feed/" rel="self" type="application/rss+xml" />
+	<link>/2012/08/20/722/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Sun, 26 May 2013 09:43:11 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Roman Mironov		</title>
+		<link>/2012/08/20/722/#comment-16573</link>
+
+		<dc:creator><![CDATA[Roman Mironov]]></dc:creator>
+		<pubDate>Sun, 26 May 2013 09:43:11 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=722#comment-16573</guid>
+
+					<description><![CDATA[Хорошо хоть Word не перевели :)]]></description>
+			<content:encoded><![CDATA[<p>Хорошо хоть Word не перевели :)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2012/08/20/722/#comment-875</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Wed, 26 Sep 2012 15:10:33 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=722#comment-875</guid>
+
+					<description><![CDATA[Нет, хочу сказать немного другое. Есть такая штука — pseudo-translation: перед этапом &quot;человеческого&quot; перевода все локализуемые строки заменяются набором символов из языка перевода. Это позволяет инженерам, не владеющим этим языком, быстро обнаружить проблемные места: сбои кодировки, перекрывающиеся элементы интерфейса и т. п. Для такого псевдоперевода отлично подходит и широко используется машинный перевод. Думаю, в случае с Office либо на перевод был передан неполный список строк (и часть осталась в виде МП), либо переводчики что-то пропустили. В любом случае, у меня никаких претензий — на то и существуют предварительные версии, чтобы в них ошибки находить, — просто фраза получилась очень смешная.]]></description>
+			<content:encoded><![CDATA[<p>Нет, хочу сказать немного другое. Есть такая штука — pseudo-translation: перед этапом &#8220;человеческого&#8221; перевода все локализуемые строки заменяются набором символов из языка перевода. Это позволяет инженерам, не владеющим этим языком, быстро обнаружить проблемные места: сбои кодировки, перекрывающиеся элементы интерфейса и т. п. Для такого псевдоперевода отлично подходит и широко используется машинный перевод. Думаю, в случае с Office либо на перевод был передан неполный список строк (и часть осталась в виде МП), либо переводчики что-то пропустили. В любом случае, у меня никаких претензий — на то и существуют предварительные версии, чтобы в них ошибки находить, — просто фраза получилась очень смешная.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Vadim Sterkin		</title>
+		<link>/2012/08/20/722/#comment-826</link>
+
+		<dc:creator><![CDATA[Vadim Sterkin]]></dc:creator>
+		<pubDate>Tue, 25 Sep 2012 20:27:24 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=722#comment-826</guid>
+
+					<description><![CDATA[Гм... нет, я понимаю, что машина именно так и переводит, но я все-таки посчитал, что это оставили ради прикола. Вы хотите сказать, что UI в продуктах Microsoft переводится машиной без валидации людьми?]]></description>
+			<content:encoded><![CDATA[<p>Гм&#8230; нет, я понимаю, что машина именно так и переводит, но я все-таки посчитал, что это оставили ради прикола. Вы хотите сказать, что UI в продуктах Microsoft переводится машиной без валидации людьми?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2012/08/20/722/#comment-387</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Sat, 25 Aug 2012 08:39:04 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=722#comment-387</guid>
+
+					<description><![CDATA[Вадим, это не шутка, это машинный перевод.]]></description>
+			<content:encoded><![CDATA[<p>Вадим, это не шутка, это машинный перевод.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Vadim Sterkin		</title>
+		<link>/2012/08/20/722/#comment-386</link>
+
+		<dc:creator><![CDATA[Vadim Sterkin]]></dc:creator>
+		<pubDate>Fri, 24 Aug 2012 14:48:27 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=722#comment-386</guid>
+
+					<description><![CDATA[Это же шутка :)]]></description>
+			<content:encoded><![CDATA[<p>Это же шутка :)</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

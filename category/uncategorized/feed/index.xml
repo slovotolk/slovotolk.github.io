@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Uncategorized &#8211; Тетради переводчика</title>
+	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Fri, 21 Sep 2012 09:06:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>Manzhosin.com</title>
+		<link>/2012/09/21/749/</link>
+					<comments>/2012/09/21/749/#comments</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Fri, 21 Sep 2012 09:06:10 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=749</guid>
+
+					<description><![CDATA[Я сделал сайт manzhosin.com. Критика принимается :-) Пара комментариев к процессу создания. Сайт сделан на gpEasy — мини-CMS без базы данных. Как оказалось, для маленьких редко изменяемых сайтов-визиток подобный движок более удобен, чем традиционные «большие» CMS. Никакой настройки не требуется, публикация сайта фактически представляет собой заливку файлов на сервер. Остроумный метод обфускации электронных адресов взят [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Я сделал сайт <a href="http://manzhosin.com/">manzhosin.com</a>. Критика принимается :-)</p>
+<hr />
+<p>Пара комментариев к процессу создания.</p>
+<ul>
+<li>Сайт сделан на <a href="http://gpeasy.com/">gpEasy</a> — мини-CMS без базы данных. Как оказалось, для маленьких редко изменяемых сайтов-визиток подобный движок более удобен, чем традиционные «большие» CMS. Никакой настройки не требуется, публикация сайта фактически представляет собой заливку файлов на сервер.</li>
+<li>Остроумный метод обфускации электронных адресов взят в блоге <a href="http://techblog.tilllate.com/2008/07/20/ten-methods-to-obfuscate-e-mail-addresses-compared/">techblog.tillate.com</a>. Если вы понимаете HTML — посмотрите код нижнего блока с контактной информацией на manzhosin.com.</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/09/21/749/feed/</wfw:commentRss>
+			<slash:comments>8</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Переезд на новый хостинг</title>
+		<link>/2012/09/17/745/</link>
+					<comments>/2012/09/17/745/#respond</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Sun, 16 Sep 2012 20:19:43 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=745</guid>
+
+					<description><![CDATA[Я перенес блог к другому хостеру. Если вы читаете меня через RSS, пожалуйста, подпишитесь заново.]]></description>
+										<content:encoded><![CDATA[<p>Я перенес блог к другому хостеру. Если вы читаете меня через RSS, пожалуйста, подпишитесь заново.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2012/09/17/745/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Новости мобильных платформ</title>
+		<link>/2011/12/31/607/</link>
+					<comments>/2011/12/31/607/#respond</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Sat, 31 Dec 2011 13:43:02 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=607</guid>
+
+					<description><![CDATA[В декабре Microsoft опубликовала руководства по стилю для локализаторов программ под Windows Phone. Русское руководство лежит здесь. А для устройств на Android теперь доступны словари ABBYY Lingvo (всего 2,99 $). В комплект входят 58 базовых словарей, еще более 200 можно докупить отдельно. Желаю всем здоровья, успеха, оптимизма в новом году!]]></description>
+										<content:encoded><![CDATA[<p>В декабре Microsoft опубликовала руководства по стилю для локализаторов программ под Windows Phone. Русское руководство лежит <a href="http://download.microsoft.com/download/1/C/D/1CDC4AA2-96B2-4B76-8AAB-391DA195F448/ru-RU_Windowsphone_StyleGuide.pdf" target="_blank" >здесь</a>. </p>
+<p>А для устройств на Android теперь доступны <a href="http://www.abbyy.com/lingvo_android/dictionaries/" target="_blank" >словари ABBYY Lingvo</a> (всего 2,99 $). В комплект входят 58 базовых словарей, еще более 200 можно докупить отдельно.</p>
+<hr>
+<p><font color="#666666">Желаю всем здоровья, успеха, оптимизма в новом году!</font></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2011/12/31/607/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Где собирают подписи за отмену категории рода в русском?</title>
+		<link>/2010/01/18/342/</link>
+					<comments>/2010/01/18/342/#comments</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Mon, 18 Jan 2010 06:50:09 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=342</guid>
+
+					<description><![CDATA[Давно я не давал переводческих задач&#8230; Вот вам предложение на перевод: Your {0} has been successfully shared on SiteName. Контекст: социальная сеть SiteName предлагает средство для быстрого размещения контента на странице пользователя. При успешном размещении отображается вот такое сообщение. Известно, что переменная {0} может принимать значения «изображение», «ссылка» или «видеоролик». Трех разных родов, да :-) [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Давно я не давал переводческих задач&#8230; Вот вам предложение на перевод: <br /><span style="font-size: 12pt; font-family: 'Arial'">Your {0} has been successfully shared on SiteName.</span></p>
+<p>Контекст: социальная сеть SiteName предлагает средство для быстрого размещения контента на странице пользователя. При успешном размещении отображается вот такое сообщение. Известно, что переменная {0} может принимать значения «изображение», «ссылка» или «видеоролик». Трех разных родов, да :-)</p>
+<p>Жду ваших переводов. У меня есть и свой вариант, который я напишу позже.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2010/01/18/342/feed/</wfw:commentRss>
+			<slash:comments>12</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>С Новым годом!</title>
+		<link>/2009/12/30/339/</link>
+					<comments>/2009/12/30/339/#comments</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Wed, 30 Dec 2009 17:19:47 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=339</guid>
+
+					<description><![CDATA[Поздравляю всех с праздником, желаю интересных и хорошо оплачиваемых заказов, и пусть никто из нас не подпадет под действие этой таблички: (источник)]]></description>
+										<content:encoded><![CDATA[<p>Поздравляю всех с праздником, желаю интересных и хорошо оплачиваемых заказов, и пусть никто из нас не подпадет под действие этой таблички:</p>
+<p><img loading="lazy" src="http://blog.slovotolk.com/wp-content/uploads/2009/12/2885738297_17166fc663.jpg" border="1" hspace="8" alt="2885738297_17166fc663" align="top" width="421" height="500" /></p>
+<p>(<a href="http://farm4.static.flickr.com/3106/2885738297_17166fc663.jpg">источник</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009/12/30/339/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>АРМ технического переводчика</title>
+		<link>/2009/07/28/244/</link>
+					<comments>/2009/07/28/244/#comments</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Tue, 28 Jul 2009 10:55:12 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=244</guid>
+
+					<description><![CDATA[Недавно Аркадий Бурков писал о способах повышения производительности переводчика. Хочу остановиться на одном из факторов, существенно влияющих на производительность, &#8212; АРМ (автоматизированном рабочем месте). Оно может значительно отличаться от оснащения обычного офисного места. 1. Компьютер Принято считать, что для работы с офисными приложениями подойдет любой компьютер, выпущенный за последние 10 лет. Это применимо к чтению [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Недавно Аркадий Бурков писал о <a href="http://a2z-translation.net/2009/07/09/kak-perevodchik-mozhet-uvelichit-svoyu-proizvoditelnost/#more-392" target="_blank" >способах повышения производительности переводчика</a>. Хочу остановиться на одном из факторов, существенно влияющих на производительность, &mdash; АРМ (автоматизированном рабочем месте). Оно может значительно отличаться от оснащения обычного офисного места. <span id="more-244"></span></p>
+<p><strong>1. Компьютер</strong></p>
+<p>Принято считать, что для работы с офисными приложениями подойдет любой компьютер, выпущенный за последние 10 лет. Это применимо к чтению электронной почты, но не к техническому переводу. К примеру, Trados TagEditor на средней «офисной» конфигурации работает довольно задумчиво, несмотря на весьма скромные заявленные системные требования. Причина этого &mdash; модуль проверки орфографии, работа которого может существенно увеличить время закрытия сегмента. Соответственно, если команда <em>Translate to fuzzy</em> при включенной проверке орфографии у вас выполняется медленнее, чем при отключенной, &mdash; стоит подумать о замене компьютера.</p>
+<p><strong>2. Мониторы</strong></p>
+<p>Во множественном числе потому, что одного монитора мне просто мало (и Аркадий об этом тоже упоминал). У меня стоят iiyama 454 (19&quot;) и Samsung 173p (17&quot;). Вместе они дают 2560 пикселей по горизонтали и выглядят вот так:</p>
+<p><a href="http://blog.slovotolk.com/wp-content/uploads/2009/07/table1.jpg" target="_blank" ><img loading="lazy" src="http://blog.slovotolk.com/wp-content/uploads/2009/07/table_preview1.jpg" height="220" alt="table" hspace="8" width="320" align="top" border="0" /></a></p>
+<p>Я хочу видеть всю необходимую информацию одновременно, без необходимости переключаться между окнами. Во время работы у меня открыты TagEditor, Workbench, окно конкорданса, глоссарий (Multiterm или Xbench), браузер, IM-клиент и WinAmp (приглядевшись, все это можно увидеть на фотографии). Одного монитора для этого явно недостаточно.</p>
+<p>Обратите внимание на мой стол. Ширина столешницы &mdash; 90 см, что позволяет придвинуться к столу и не уткнуться лицом в монитор. Для владельцев «толстых» ЭЛТ-мониторов должно быть важно.</p>
+<p><strong>3. Клавиатура</strong></p>
+<p>Не менее важный элемент АРМ, чем два предыдущих. К сожалению, сейчас модно делать клавиатуры с уменьшенной клавишей Enter и без Insert, поэтому подходящую модель еще нужно поискать. К удобным для перевода клавиатурам можно отнести Genius KB-29:</p>
+<p><a href="http://blog.slovotolk.com/wp-content/uploads/2009/07/mykeyboard.jpg" target="_blank" ><img loading="lazy" src="http://blog.slovotolk.com/wp-content/uploads/2009/07/mykeyboard_preview1.jpg" height="138" alt="mykeyboard" hspace="8" width="320" align="top" border="0" /></a></p>
+<p>Ключевая деталь &mdash; три клавиши слева от основного блока. Именно слева, потому что постоянно тянуться к мультимедийным клавишам сверху неудобно. Этим трем клавишам назначены самые используемые символы, отсутствующие на клавиатуре:<BR> «, », &mdash; (две кавычки и тире). Есть варианты, позволяющие их вводить сочетанием основных клавиш, но нажимать отдельную клавишу в любом случае удобнее. Мультимедийные «назад» и «вперед» у меня тоже переназначены: с их помощью мне удобно перемещать окна на другой монитор, но три клавиши слева гораздо важнее.</p>
+<p><strong>4. Мышь</strong></p>
+<p>Удобных мышей гораздо больше, чем клавиатур. Я пользуюсь старенькой Genius NetScroll, но подойдет любая с двумя кнопками сбоку. Кнопки могут располагаться и по разным бокам (под большой палец и под мизинец), как во многих моделях А4 и Mitsumi.</p>
+<p><img loading="lazy" src="http://blog.slovotolk.com/wp-content/uploads/2009/07/mymouse1.jpg" height="172" alt="mymouse" hspace="8" width="244" align="top" border="0" /></p>
+<p>Эти кнопки работают как Ctrl+C и Ctrl+V, и это существенно ускоряет копирование-вставку текста.</p>
+<p><strong>5. Аксессуары</strong></p>
+<p>Рабочее место состоит не только из компьютера :-) Такая кружка всяко изящнее, чем листок, прикленный к монитору.</p>
+<p><a href="http://blog.slovotolk.com/wp-content/uploads/2009/07/mug.jpg" target="_blank" ><img loading="lazy" src="http://blog.slovotolk.com/wp-content/uploads/2009/07/mug_preview1.jpg" height="284" alt="mug" hspace="8" width="320" align="top" border="0" /></a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009/07/28/244/feed/</wfw:commentRss>
+			<slash:comments>12</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Тонкости настройки RSS-каналов</title>
+		<link>/2009/07/16/221/</link>
+					<comments>/2009/07/16/221/#respond</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Thu, 16 Jul 2009 07:38:03 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=221</guid>
+
+					<description><![CDATA[Эта запись обращена, в первую очередь, к тем, кто читает меня через RSS. Но и остальным может быть полезно. WordPress позволяет подписаться не на весь блог, а только на отдельную категорию. Так, чтобы подписаться на категорию Translator&#8217;s toolbox, добавьте в RSS-клиент такой канал: http://blog.slovotolk.com/feed/?cat=10. Также можно исключить отдельную категорию из канала. Чтобы читать всё кроме [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Эта запись обращена, в первую очередь, к тем, кто читает меня через RSS. Но и остальным может быть полезно.</p>
+<p>WordPress позволяет подписаться не на весь блог, а только на отдельную категорию. Так, чтобы подписаться на категорию <em>Translator&rsquo;s toolbox</em>, добавьте в RSS-клиент такой канал: http://blog.slovotolk.com/feed/?cat=10.</p>
+<p>Также можно исключить отдельную категорию из канала. Чтобы читать всё кроме <em>Translator&rsquo;s toolbox</em>, добавьте канал http://blog.slovotolk.com/feed/?cat=<b><font sieze="+1">&#8211;</font></b>10. Наконец, можно исключить несколько категорий, например http://blog.slovotolk.com/feed/?cat=-10&amp;cat=-1.</p>
+<p>Идентификаторы категорий в моем блоге:<br />Uncategorized &mdash; 1;<br />Blogroll &mdash; 2;<br />«Переводческий делирий» &mdash; 3;<br />«Юмор» &mdash; 4;<br />«Язык» &mdash; 5;<br />«Записки корректора» &mdash; 6;<br />«Заказчик-исполнитель» &mdash; 7;<br />Translator&rsquo;s toolbox &mdash; 10;<br />The Translator&rsquo;s Guide to the Galaxy &mdash; 11;<br />«Сообщество» &mdash; 14.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009/07/16/221/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>TAUS Language Search — контекстный поиск по базе ИТ-переводов</title>
+		<link>/2009/06/18/201/</link>
+					<comments>/2009/06/18/201/#comments</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Thu, 18 Jun 2009 11:42:30 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=201</guid>
+
+					<description><![CDATA[С подачи Дениса Хамина присмотрелся я к базе TAUS. Вот что пишет о ней Денис: TAUS Data Association — это ассоциация наиболее крупных потребителей услуг перевода, которые изначально собирались объединить свои базы памяти переводов для использования их в своих системах машинного перевода. В результате они решили не скрывать свои базы, а открыть их для общего [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>С подачи <a href="http://mozgorilla.com/innovation/terminologicheskij-poisk/">Дениса Хамина</a> присмотрелся я к <a href="http://www.tausdata.org/index.php/language-search-engine">базе TAUS</a>. Вот что пишет о ней Денис:</p>
+<p style="font-family: 'Times New Roman'; padding: 0 0 0 25px; background: url(wp-content/uploads/quote.gif) top left no-repeat">TAUS Data Association — это ассоциация наиболее крупных потребителей услуг перевода, которые изначально собирались объединить свои базы памяти переводов для использования их в своих системах машинного перевода.<br />
+<BR>В результате они решили не скрывать свои базы, а открыть их для общего пользования, но не в виде баз памяти переводов, а в качестве терминологического ресурса.<br />
+<BR>Терминологический поиск доступен на сайте бесплатно. Для того чтобы воспользоваться поиском из 549411144 слов в 80 языковых парах, достаточно зарегистрироваться на сайте. Можно искать в паре «английский (США) — русский» по тематикам Computer Hardware и Computer Software.</p>
+<p>На самом деле доступен не терминологический поиск, а контекстный — по базам переводов TAUS. В результатах поиска отображается слово в контексте и перевод этого сегмента — аналог <em>Concordance search</em> в более привычных настольных переводческих средах.</p>
+<p>По итогам использования в реальной работе могу сказать: это очень здорово. Конкуренты, вроде Translated.net, по объему баз и близко не стоят, а это гораздо важнее, чем возможность экспорта в TMX. Я очень рекомендую TAUS всем переводчикам, специализирующимся на ИТ.</p>
+<p>Интерфейс поиска может показаться неудобным. Пришлось потратить десять минут и сделать поисковые механизмы для браузера (инструкции по установке и использованию см. <a href="http://blog.slovotolk.com/2008/12/30/117/">здесь</a>). Вот они:<br /> <br />
+<a href="#" title="TAUS Search: Computers–Software" onclick="window.external.AddSearchProvider('http://blog.slovotolk.com/doc/taus-sw-search.xml ')">TAUS Search: Computers–Software</a><br />
+<a href="#" title="TAUS Search: Computers–Hardware" onclick="window.external.AddSearchProvider('http://blog.slovotolk.com/doc/taus-hw-search.xml')">TAUS Search: Computers–Hardware</a><br /><BR><br />
+Теперь можно искать напрямую из браузера, и не требуется регистрация на сайте TAUS :-)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009/06/18/201/feed/</wfw:commentRss>
+			<slash:comments>9</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Admin&#8217;s Info</title>
+		<link>/2009/01/31/130/</link>
+					<comments>/2009/01/31/130/#comments</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Sat, 31 Jan 2009 17:48:13 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=130</guid>
+
+					<description><![CDATA[Обновил WordPress до версии 2.7. Если что-либо перестало работать, пожалуйста, сообщите.]]></description>
+										<content:encoded><![CDATA[<p>Обновил WordPress до версии 2.7. Если что-либо перестало работать, пожалуйста, сообщите.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009/01/31/130/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Specify your vacation phone</title>
+		<link>/2009/01/19/120/</link>
+					<comments>/2009/01/19/120/#comments</comments>
+		
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Mon, 19 Jan 2009 14:24:14 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=120</guid>
+
+					<description><![CDATA[В переводимой системе управления клиентами встретилась анкета клиента. Помимо стандартных полей вроде адреса, домашнего, рабочего и мобильного телефонов в ней было еще поле vacation phone. Никаких переводческих трудностей это не представляет. Но не хотел бы я работать в компании, где сотрудника в отпуске могут побеспокоить по рабочим вопросам! Хорошо хоть у фрилансеров таких проблем не [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>В переводимой системе управления клиентами встретилась анкета клиента. Помимо стандартных полей вроде адреса, домашнего, рабочего и мобильного телефонов в ней было еще поле vacation phone.</p>
+<p>Никаких переводческих трудностей это не представляет. Но не хотел бы я работать в компании, где сотрудника в отпуске могут побеспокоить по рабочим вопросам! Хорошо хоть у фрилансеров таких проблем не бывает.</p>
+<p>Антимульт в тему:</p>
+<p><span id="more-120"></span></p>
+<p>
+<object height="353" width="470"><param name="movie" value="http://video.rutube.ru/a4c99b7dceb1f321891d171c799dca6a" ><param name="wmode" value="window" ><param name="allowFullScreen" value="true" ><embed src="http://video.rutube.ru/a4c99b7dceb1f321891d171c799dca6a" type="application/x-shockwave-flash" wmode="window" width="470" height="353" allowfullscreen="true"  ></embed></object></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2009/01/19/120/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

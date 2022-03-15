@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: О важности привлечения ситуативного контекста	</title>
+	<atom:link href="/2013/11/29/727/feed/" rel="self" type="application/rss+xml" />
+	<link>/2013/11/29/727/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Sat, 15 Feb 2014 21:25:55 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Максим Козуб		</title>
+		<link>/2013/11/29/727/#comment-21708</link>
+
+		<dc:creator><![CDATA[Максим Козуб]]></dc:creator>
+		<pubDate>Sat, 15 Feb 2014 21:25:55 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=727#comment-21708</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2013/11/29/727/#comment-21707&quot;&gt;Maxim&lt;/a&gt;.
+
+Качество локализации свободного ПО бывает очень разным, как и качество самого свободного ПО :). Я, как Вы, надеюсь, понимаете, не отношусь к &quot;красноглазым фанатикам&quot;, но должен признать, что некоторые продукты весьма приличны, и LO, как и OpenOffice, от которого он отпочковался, как раз являются хорошими примерами таких продуктов, в том числе и в отношении русской локализации.
+В майкрософтовских продуктах на самом деле тоже бывает по-разному. Бывает хорошо, а бывает, что какая-то майкрософтовская идея становится отраслевой нормой в смысле статистической нормы (не забываем о разных смыслах слова &quot;норма&quot;, да:? ;)), при этом противореча всем традициям русской технической терминологии, в том числе и госстандартам. Так что вопрос выбора авторитетов всё равно встаёт во многих ситуациях...]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2013/11/29/727/#comment-21707">Maxim</a>.</p>
+<p>Качество локализации свободного ПО бывает очень разным, как и качество самого свободного ПО :). Я, как Вы, надеюсь, понимаете, не отношусь к &#8220;красноглазым фанатикам&#8221;, но должен признать, что некоторые продукты весьма приличны, и LO, как и OpenOffice, от которого он отпочковался, как раз являются хорошими примерами таких продуктов, в том числе и в отношении русской локализации.<br />
+В майкрософтовских продуктах на самом деле тоже бывает по-разному. Бывает хорошо, а бывает, что какая-то майкрософтовская идея становится отраслевой нормой в смысле статистической нормы (не забываем о разных смыслах слова &#8220;норма&#8221;, да:? ;)), при этом противореча всем традициям русской технической терминологии, в том числе и госстандартам. Так что вопрос выбора авторитетов всё равно встаёт во многих ситуациях&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2013/11/29/727/#comment-21707</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Sat, 15 Feb 2014 19:53:33 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=727#comment-21707</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2013/11/29/727/#comment-21704&quot;&gt;Максим Козуб&lt;/a&gt;.
+
+Все-таки терминология «Майкрософта» стала отраслевым стандартом, а про LibreOffice я этого сказать не могу. На мой взгляд, качество локализации свободного ПО в целом не очень высокое. Впрочем, это вопрос авторитетности источников... каждый для себя сам определяет авторитеты.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2013/11/29/727/#comment-21704">Максим Козуб</a>.</p>
+<p>Все-таки терминология «Майкрософта» стала отраслевым стандартом, а про LibreOffice я этого сказать не могу. На мой взгляд, качество локализации свободного ПО в целом не очень высокое. Впрочем, это вопрос авторитетности источников&#8230; каждый для себя сам определяет авторитеты.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Максим Козуб		</title>
+		<link>/2013/11/29/727/#comment-21704</link>
+
+		<dc:creator><![CDATA[Максим Козуб]]></dc:creator>
+		<pubDate>Sat, 15 Feb 2014 17:56:05 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=727#comment-21704</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2013/11/29/727/#comment-20422&quot;&gt;Maxim&lt;/a&gt;.
+
+Максим, Ваша логика понятна, но не всегда соглашусь. Например, в LibreOffice Calc для денежніх значений есть не два формата, а один (содержащий код валюты, т.е. аналог майкрософтовского &quot;Финансового&quot;), и в английском варианте интерфейса он называется Currency, а в русском — &quot;Денежный&quot;. Это, при всём уважении к &quot;Майкрософт&quot;, для меня стало бы не меньшей &quot;монеткой в копилку мыслей&quot; при переводе какого-то конкретного приложения.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2013/11/29/727/#comment-20422">Maxim</a>.</p>
+<p>Максим, Ваша логика понятна, но не всегда соглашусь. Например, в LibreOffice Calc для денежніх значений есть не два формата, а один (содержащий код валюты, т.е. аналог майкрософтовского &#8220;Финансового&#8221;), и в английском варианте интерфейса он называется Currency, а в русском — &#8220;Денежный&#8221;. Это, при всём уважении к &#8220;Майкрософт&#8221;, для меня стало бы не меньшей &#8220;монеткой в копилку мыслей&#8221; при переводе какого-то конкретного приложения.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2013/11/29/727/#comment-20430</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Mon, 02 Dec 2013 17:25:00 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=727#comment-20430</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2013/11/29/727/#comment-20427&quot;&gt;Вадим&lt;/a&gt;.
+
+&gt; переводчик справки должен смотреть в программу
+
+Увы, на практике такое случается нечасто. Мне доводилось работать в условиях, приближенных к идеальным, но &lt;em&gt;очень&lt;/em&gt; редко :-) И когда нет ни UI для справки, ни корпоративного глоссария, приходится привлекать экстралингвистический (ситуативный) контекст — в данном случае вспомнить, как эти форматы называются в Excel.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2013/11/29/727/#comment-20427">Вадим</a>.</p>
+<p>> переводчик справки должен смотреть в программу</p>
+<p>Увы, на практике такое случается нечасто. Мне доводилось работать в условиях, приближенных к идеальным, но <em>очень</em> редко :-) И когда нет ни UI для справки, ни корпоративного глоссария, приходится привлекать экстралингвистический (ситуативный) контекст — в данном случае вспомнить, как эти форматы называются в Excel.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Вадим		</title>
+		<link>/2013/11/29/727/#comment-20427</link>
+
+		<dc:creator><![CDATA[Вадим]]></dc:creator>
+		<pubDate>Mon, 02 Dec 2013 14:48:17 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=727#comment-20427</guid>
+
+					<description><![CDATA[Максим,
+
+Не оспаривая правильность использования терминологии МСФТ в стандартных случаях, хочу отметить, что справка должна совпадать с GUI :) Другими словами, переводчик справки должен смотреть в программу, и особого выбора в названии элментов UI у него нет. Исходя из этих соображений, я бы никогда данную задачу не решил :)]]></description>
+			<content:encoded><![CDATA[<p>Максим,</p>
+<p>Не оспаривая правильность использования терминологии МСФТ в стандартных случаях, хочу отметить, что справка должна совпадать с GUI :) Другими словами, переводчик справки должен смотреть в программу, и особого выбора в названии элментов UI у него нет. Исходя из этих соображений, я бы никогда данную задачу не решил :)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2013/11/29/727/#comment-20422</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Mon, 02 Dec 2013 12:01:16 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=727#comment-20422</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2013/11/29/727/#comment-20414&quot;&gt;Вадим&lt;/a&gt;.
+
+&lt;div style=&quot;display: none&quot; id=&quot;spoiler&quot;&gt; &lt;p&gt;Знаком ли вам &lt;a href=&quot;/wp-content/uploads/2013/12/format.png&quot; rel=&quot;nofollow&quot;&gt;вот такой&lt;/a&gt; элемент интерфейса? Названия форматов уже давно устоялись, и в этом случае переводчику нужно было не изобретать колесо, а взять глоссарий «Майкрософта». Это как с последовательностью File—Edit—View—Tools—Help, которую нельзя переводить &lt;i&gt;креативно&lt;/i&gt;.&lt;/p&gt;&lt;/div&gt;&lt;a title=&quot;Ответ&quot; onclick=&quot;if(document.getElementById(&#039;spoiler&#039;).style.display==&#039;none&#039;){document.getElementById(&#039;spoiler&#039;).style.display=&#039;&#039;}else{document.getElementById(&#039;spoiler&#039;).style.display=&#039;none&#039;}&quot; rel=&quot;nofollow&quot;&gt;Ответ&lt;/a&gt;]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2013/11/29/727/#comment-20414">Вадим</a>.</p>
+<div style="display: none" id="spoiler">
+<p>Знаком ли вам <a href="/wp-content/uploads/2013/12/format.png" rel="nofollow">вот такой</a> элемент интерфейса? Названия форматов уже давно устоялись, и в этом случае переводчику нужно было не изобретать колесо, а взять глоссарий «Майкрософта». Это как с последовательностью File—Edit—View—Tools—Help, которую нельзя переводить <i>креативно</i>.</p>
+</div>
+<p><a title="Ответ" onclick="if(document.getElementById('spoiler').style.display=='none'){document.getElementById('spoiler').style.display=''}else{document.getElementById('spoiler').style.display='none'}" rel="nofollow">Ответ</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Вадим		</title>
+		<link>/2013/11/29/727/#comment-20414</link>
+
+		<dc:creator><![CDATA[Вадим]]></dc:creator>
+		<pubDate>Mon, 02 Dec 2013 06:54:30 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=727#comment-20414</guid>
+
+					<description><![CDATA[Я тоже не вижу ошибки, но в глаза бросается:
+1. &quot;Форматирование&quot; (и в оригинале тоже). Правильнее выглядит &quot;формат&quot;.
+
+2. Ненужность этого фрагмента справки. Он тупо описывает UI и не содержит дополнительной ценности для пользователя. Он мог бы прояснить конкретную разницу между default и general (мне она неочевидна), что дало бы право на жизнь. А так - в помойку :)]]></description>
+			<content:encoded><![CDATA[<p>Я тоже не вижу ошибки, но в глаза бросается:<br />
+1. &#8220;Форматирование&#8221; (и в оригинале тоже). Правильнее выглядит &#8220;формат&#8221;.</p>
+<p>2. Ненужность этого фрагмента справки. Он тупо описывает UI и не содержит дополнительной ценности для пользователя. Он мог бы прояснить конкретную разницу между default и general (мне она неочевидна), что дало бы право на жизнь. А так &#8211; в помойку :)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Катя		</title>
+		<link>/2013/11/29/727/#comment-20403</link>
+
+		<dc:creator><![CDATA[Катя]]></dc:creator>
+		<pubDate>Sun, 01 Dec 2013 17:59:16 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=727#comment-20403</guid>
+
+					<description><![CDATA[А! Надо было по умолчанию и общий привязать к цифирькам? Типа формат по умолчанию, просто цифры, валюта, время и т. п.? Короче колись уже :)]]></description>
+			<content:encoded><![CDATA[<p>А! Надо было по умолчанию и общий привязать к цифирькам? Типа формат по умолчанию, просто цифры, валюта, время и т. п.? Короче колись уже :)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2013/11/29/727/#comment-20402</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Sun, 01 Dec 2013 17:49:37 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=727#comment-20402</guid>
+
+					<description><![CDATA[&gt; “Cтандартный” вместо “по умолчанию”?
+
+Мне нравится ваш вариант, хотя и перевод «По умолчанию» имеет право на жизнь. А названия других форматов вам не кажутся подозрительными?..]]></description>
+			<content:encoded><![CDATA[<p>> “Cтандартный” вместо “по умолчанию”?</p>
+<p>Мне нравится ваш вариант, хотя и перевод «По умолчанию» имеет право на жизнь. А названия других форматов вам не кажутся подозрительными?..</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Valerij Tomarenko (@En_De_Ru)		</title>
+		<link>/2013/11/29/727/#comment-20395</link>
+
+		<dc:creator><![CDATA[Valerij Tomarenko (@En_De_Ru)]]></dc:creator>
+		<pubDate>Sun, 01 Dec 2013 13:02:18 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=727#comment-20395</guid>
+
+					<description><![CDATA[&quot;Cтандартный&quot; вместо &quot;по умолчанию&quot;? Иначе в &quot;Числа отображаются с использованием форматирования по умолчанию&quot; неясно, к чему последнее относится? Плюс не рифмуется с &quot;Общий&quot;.
+
+Точки вместо двоеточий? Кавычки?]]></description>
+			<content:encoded><![CDATA[<p>&#8220;Cтандартный&#8221; вместо &#8220;по умолчанию&#8221;? Иначе в &#8220;Числа отображаются с использованием форматирования по умолчанию&#8221; неясно, к чему последнее относится? Плюс не рифмуется с &#8220;Общий&#8221;.</p>
+<p>Точки вместо двоеточий? Кавычки?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

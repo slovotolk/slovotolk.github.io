@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Каталог переводческих блогов	</title>
+	<atom:link href="/blog-directory/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Wed, 15 Jul 2015 11:31:06 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: admin		</title>
+		<link>/blog-directory/#comment-5</link>
+
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Mon, 09 Jun 2008 11:43:02 +0000</pubDate>
+		<guid isPermaLink="false">/wordpress/каталог-переводческих-блогов/#comment-5</guid>
+
+					<description><![CDATA[Комментарии к этой странице отключены. Присылайте ссылки по почте или оставляйте в комментариях к записям в блоге.]]></description>
+			<content:encoded><![CDATA[<p>Комментарии к этой странице отключены. Присылайте ссылки по почте или оставляйте в комментариях к записям в блоге.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Денис Хамин		</title>
+		<link>/blog-directory/#comment-4</link>
+
+		<dc:creator><![CDATA[Денис Хамин]]></dc:creator>
+		<pubDate>Wed, 04 Jun 2008 08:07:42 +0000</pubDate>
+		<guid isPermaLink="false">/wordpress/каталог-переводческих-блогов/#comment-4</guid>
+
+					<description><![CDATA[Здравствуйте, Максим! Повторяю комментарий: новый сайт, посвящённый переводам - Мозгорилла http://mozgorilla.com/ - новости перевода, обзор сервисов, планируется комикс.]]></description>
+			<content:encoded><![CDATA[<p>Здравствуйте, Максим! Повторяю комментарий: новый сайт, посвящённый переводам &#8211; Мозгорилла <a href="http://mozgorilla.com/" rel="nofollow ugc">http://mozgorilla.com/</a> &#8211; новости перевода, обзор сервисов, планируется комикс.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Maxim Manzhosin		</title>
+		<link>/blog-directory/#comment-3</link>
+
+		<dc:creator><![CDATA[Maxim Manzhosin]]></dc:creator>
+		<pubDate>Tue, 20 Nov 2007 15:59:27 +0000</pubDate>
+		<guid isPermaLink="false">/wordpress/каталог-переводческих-блогов/#comment-3</guid>
+
+					<description><![CDATA[Блог «ТрансЛинк» добавлен.]]></description>
+			<content:encoded><![CDATA[<p>Блог «ТрансЛинк» добавлен.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Мария		</title>
+		<link>/blog-directory/#comment-2</link>
+
+		<dc:creator><![CDATA[Мария]]></dc:creator>
+		<pubDate>Sun, 18 Nov 2007 19:07:47 +0000</pubDate>
+		<guid isPermaLink="false">/wordpress/каталог-переводческих-блогов/#comment-2</guid>
+
+					<description><![CDATA[http://blog.t-link.ru/ это блог переводческий компании ТрансЛинк, вот предлагаю добавить его в каталог.]]></description>
+			<content:encoded><![CDATA[<p><a href="http://blog.t-link.ru/" rel="nofollow ugc">http://blog.t-link.ru/</a> это блог переводческий компании ТрансЛинк, вот предлагаю добавить его в каталог.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

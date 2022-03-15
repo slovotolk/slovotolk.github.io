@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Как перевести слово get, не имея контекста	</title>
+	<atom:link href="/2008/12/27/116/feed/" rel="self" type="application/rss+xml" />
+	<link>/2008/12/27/116/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Mon, 29 Dec 2008 19:29:23 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Как локализуют игры &#124; Мозгорилла		</title>
+		<link>/2008/12/27/116/#comment-89</link>
+
+		<dc:creator><![CDATA[Как локализуют игры &#124; Мозгорилла]]></dc:creator>
+		<pubDate>Mon, 29 Dec 2008 19:29:23 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=116#comment-89</guid>
+
+					<description><![CDATA[[...] За ссылку на статью спасибо блогу &#8220;Тетради переводчика&#8221;. [...]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] За ссылку на статью спасибо блогу &#8220;Тетради переводчика&#8221;. [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

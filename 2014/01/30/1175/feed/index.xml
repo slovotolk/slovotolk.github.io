@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Trados Studio 2014: очень краткий обзор	</title>
+	<atom:link href="/2014/01/30/1175/feed/" rel="self" type="application/rss+xml" />
+	<link>/2014/01/30/1175/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Wed, 19 Nov 2014 10:50:29 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: SDL Trados Studio 2014 SP2: прощай, Java! &#124; Тетради переводчика		</title>
+		<link>/2014/01/30/1175/#comment-37614</link>
+
+		<dc:creator><![CDATA[SDL Trados Studio 2014 SP2: прощай, Java! &#124; Тетради переводчика]]></dc:creator>
+		<pubDate>Wed, 19 Nov 2014 10:50:29 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1175#comment-37614</guid>
+
+					<description><![CDATA[[&#8230;] наконец-то пристрелила старую клячу: вышел второй пакет обновлений к Studio 2014, где Java больше [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] наконец-то пристрелила старую клячу: вышел второй пакет обновлений к Studio 2014, где Java больше [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Кефан		</title>
+		<link>/2014/01/30/1175/#comment-22598</link>
+
+		<dc:creator><![CDATA[Кефан]]></dc:creator>
+		<pubDate>Mon, 21 Apr 2014 23:46:15 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1175#comment-22598</guid>
+
+					<description><![CDATA[Братишка, за конкорданс будет нехилым курсануть народ, что может быть такая шняга: по умолчанию эта тема отключена. Например, у меня и многих моих кентов было именно так, поэтому пришлось пилять таким путем: File &#062; Options &#062; Editor &#062; Perform search if... (галку забацать). Блатные переводчики из-за бугра вроде эту инфу подтверждают. Я не знаю, может, ты уже за это где-то настрогал, но на всякий случай пишу весь расклад.]]></description>
+			<content:encoded><![CDATA[<p>Братишка, за конкорданс будет нехилым курсануть народ, что может быть такая шняга: по умолчанию эта тема отключена. Например, у меня и многих моих кентов было именно так, поэтому пришлось пилять таким путем: File &gt; Options &gt; Editor &gt; Perform search if&#8230; (галку забацать). Блатные переводчики из-за бугра вроде эту инфу подтверждают. Я не знаю, может, ты уже за это где-то настрогал, но на всякий случай пишу весь расклад.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2014/01/30/1175/#comment-21529</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Mon, 03 Feb 2014 06:12:30 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1175#comment-21529</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2014/01/30/1175/#comment-21524&quot;&gt;oryx_and_crake&lt;/a&gt;.
+
+Я пользуюсь Традосом с версии 6.0, и раньше этой функции не было: поиск по конкордансу нужно было запускать вручную.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2014/01/30/1175/#comment-21524">oryx_and_crake</a>.</p>
+<p>Я пользуюсь Традосом с версии 6.0, и раньше этой функции не было: поиск по конкордансу нужно было запускать вручную.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: oryx_and_crake		</title>
+		<link>/2014/01/30/1175/#comment-21524</link>
+
+		<dc:creator><![CDATA[oryx_and_crake]]></dc:creator>
+		<pubDate>Sun, 02 Feb 2014 23:08:28 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1175#comment-21524</guid>
+
+					<description><![CDATA[&#062;&#062;Автоматический конкорданс: если сегмент не найден в ТМ, поиск по конкордансу запускается автоматически. 
+Эта опция была во всех Традосах, сколько я их помню.]]></description>
+			<content:encoded><![CDATA[<p>&gt;&gt;Автоматический конкорданс: если сегмент не найден в ТМ, поиск по конкордансу запускается автоматически.<br />
+Эта опция была во всех Традосах, сколько я их помню.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2014/01/30/1175/#comment-21521</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Sun, 02 Feb 2014 17:31:37 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1175#comment-21521</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2014/01/30/1175/#comment-21516&quot;&gt;Mykhailo&lt;/a&gt;.
+
+Эх, и на корректора бывает проруха :-)
+Спасибо, исправил.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2014/01/30/1175/#comment-21516">Mykhailo</a>.</p>
+<p>Эх, и на корректора бывает проруха :-)<br />
+Спасибо, исправил.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mykhailo		</title>
+		<link>/2014/01/30/1175/#comment-21516</link>
+
+		<dc:creator><![CDATA[Mykhailo]]></dc:creator>
+		<pubDate>Sun, 02 Feb 2014 07:03:05 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1175#comment-21516</guid>
+
+					<description><![CDATA[Максим, спасибо за вести с полей. С интересом почитаю и другие обзоры. Про клячу согласен, не использовал ее даже в старом традосе (несколько раз не считается). Маркетологи у них постоянно чудят. А в этом случае, может, на «блондинку» и ориентировались. Исправьте опечатку в предпоследнем сегменте. ;)]]></description>
+			<content:encoded><![CDATA[<p>Максим, спасибо за вести с полей. С интересом почитаю и другие обзоры. Про клячу согласен, не использовал ее даже в старом традосе (несколько раз не считается). Маркетологи у них постоянно чудят. А в этом случае, может, на «блондинку» и ориентировались. Исправьте опечатку в предпоследнем сегменте. ;)</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Фонт и шрифт	</title>
+	<atom:link href="/2009/03/25/157/feed/" rel="self" type="application/rss+xml" />
+	<link>/2009/03/25/157/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Wed, 01 Apr 2009 10:12:56 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Михаил		</title>
+		<link>/2009/03/25/157/#comment-135</link>
+
+		<dc:creator><![CDATA[Михаил]]></dc:creator>
+		<pubDate>Wed, 01 Apr 2009 10:12:56 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=157#comment-135</guid>
+
+					<description><![CDATA[Да, я заметил. Однако это бумажка, без которой мы иногда букашки :)]]></description>
+			<content:encoded><![CDATA[<p>Да, я заметил. Однако это бумажка, без которой мы иногда букашки :)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2009/03/25/157/#comment-134</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Sat, 28 Mar 2009 11:47:28 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=157#comment-134</guid>
+
+					<description><![CDATA[Пожалуйста :) Но все же в вопросах терминологии не всегда стоит на него опираться.]]></description>
+			<content:encoded><![CDATA[<p>Пожалуйста :) Но все же в вопросах терминологии не всегда стоит на него опираться.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Михаил		</title>
+		<link>/2009/03/25/157/#comment-133</link>
+
+		<dc:creator><![CDATA[Михаил]]></dc:creator>
+		<pubDate>Sat, 28 Mar 2009 11:14:34 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=157#comment-133</guid>
+
+					<description><![CDATA[Спасибо за полезный стандарт!]]></description>
+			<content:encoded><![CDATA[<p>Спасибо за полезный стандарт!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

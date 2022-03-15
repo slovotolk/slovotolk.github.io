@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: О неточных расчетах fuzzy-совпадений	</title>
+	<atom:link href="/2010/07/28/412/feed/" rel="self" type="application/rss+xml" />
+	<link>/2010/07/28/412/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Fri, 30 Jul 2010 08:00:09 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2010/07/28/412/#comment-286</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Fri, 30 Jul 2010 08:00:09 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=412#comment-286</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/2010/07/28/412/#comment-285&quot;&gt;Михаил&lt;/a&gt;.
+
+Будем считать, что глоссарий терминов идет в комплекте с текстом на перевод :-)]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/2010/07/28/412/#comment-285">Михаил</a>.</p>
+<p>Будем считать, что глоссарий терминов идет в комплекте с текстом на перевод :-)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Михаил		</title>
+		<link>/2010/07/28/412/#comment-285</link>
+
+		<dc:creator><![CDATA[Михаил]]></dc:creator>
+		<pubDate>Thu, 29 Jul 2010 12:05:02 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.slovotolk.com/?p=412#comment-285</guid>
+
+					<description><![CDATA[&lt;blockquote&gt;На 95 %-ное совпадение уйдет в два, а не в двадцать раз меньше времени, чем на новый сегмент :-)&lt;/blockquote&gt;
+Максим, а если в новом сегменте был термин, перевод которого вы искали минут 10? Тогда на 95 %-ное совпадение уйдет в двадцать раз меньше времени ;)]]></description>
+			<content:encoded><![CDATA[<blockquote><p>На 95 %-ное совпадение уйдет в два, а не в двадцать раз меньше времени, чем на новый сегмент :-)</p></blockquote>
+<p>Максим, а если в новом сегменте был термин, перевод которого вы искали минут 10? Тогда на 95 %-ное совпадение уйдет в двадцать раз меньше времени ;)</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

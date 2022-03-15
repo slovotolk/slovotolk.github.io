@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Отключаем отключение, или Не превращайте UI в логическую задачу	</title>
+	<atom:link href="/2013/05/28/955/feed/" rel="self" type="application/rss+xml" />
+	<link>/2013/05/28/955/</link>
+	<description>Технический перевод и локализация. IT Translation</description>
+	<lastBuildDate>Wed, 05 Jun 2013 06:52:03 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2013/05/28/955/#comment-17000</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Wed, 05 Jun 2013 06:52:03 +0000</pubDate>
+		<guid isPermaLink="false">/?p=955#comment-17000</guid>
+
+					<description><![CDATA[Флажок с вопросительным знаком — это сильно :)]]></description>
+			<content:encoded><![CDATA[<p>Флажок с вопросительным знаком — это сильно :)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Вадим		</title>
+		<link>/2013/05/28/955/#comment-16964</link>
+
+		<dc:creator><![CDATA[Вадим]]></dc:creator>
+		<pubDate>Tue, 04 Jun 2013 08:35:54 +0000</pubDate>
+		<guid isPermaLink="false">/?p=955#comment-16964</guid>
+
+					<description><![CDATA[Wordpress вырезал мои неправильные скобки:
+*Попадались флажки &quot;Turn [feature name] on?&quot;, и дальше по тексту.]]></description>
+			<content:encoded><![CDATA[<p>WordPress вырезал мои неправильные скобки:<br />
+*Попадались флажки &#8220;Turn [feature name] on?&#8221;, и дальше по тексту.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Вадим		</title>
+		<link>/2013/05/28/955/#comment-16963</link>
+
+		<dc:creator><![CDATA[Вадим]]></dc:creator>
+		<pubDate>Tue, 04 Jun 2013 08:34:47 +0000</pubDate>
+		<guid isPermaLink="false">/?p=955#comment-16963</guid>
+
+					<description><![CDATA[Такое еще часто встречается в групповых политиках. 
+
+Пример &quot;Uncheck this box&quot; - это ад. Из той же серии мне попадались флажко &quot;Turn  on?&quot; (с вопр. знаком) и их авторы еще пытались доказать, что так понятнее. Пыл, обычно, охлаждала фраза &quot;This is against the company UI guidelines&quot; :)
+
+Пример с Airplane mode в оригинале ок, я бы сказал, а локализация все запутала. 
+
+Пойду посмотрю, есть ли косяки в локализации Windows 8.1 (NDA :)]]></description>
+			<content:encoded><![CDATA[<p>Такое еще часто встречается в групповых политиках. </p>
+<p>Пример &#8220;Uncheck this box&#8221; &#8211; это ад. Из той же серии мне попадались флажко &#8220;Turn  on?&#8221; (с вопр. знаком) и их авторы еще пытались доказать, что так понятнее. Пыл, обычно, охлаждала фраза &#8220;This is against the company UI guidelines&#8221; :)</p>
+<p>Пример с Airplane mode в оригинале ок, я бы сказал, а локализация все запутала. </p>
+<p>Пойду посмотрю, есть ли косяки в локализации Windows 8.1 (NDA :)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Maxim		</title>
+		<link>/2013/05/28/955/#comment-16703</link>
+
+		<dc:creator><![CDATA[Maxim]]></dc:creator>
+		<pubDate>Wed, 29 May 2013 08:55:31 +0000</pubDate>
+		<guid isPermaLink="false">/?p=955#comment-16703</guid>
+
+					<description><![CDATA[Я всегда говорил, что «Скайп» — это зло :-)]]></description>
+			<content:encoded><![CDATA[<p>Я всегда говорил, что «Скайп» — это зло :-)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Сергей		</title>
+		<link>/2013/05/28/955/#comment-16683</link>
+
+		<dc:creator><![CDATA[Сергей]]></dc:creator>
+		<pubDate>Tue, 28 May 2013 19:38:26 +0000</pubDate>
+		<guid isPermaLink="false">/?p=955#comment-16683</guid>
+
+					<description><![CDATA[Макс, забыл тебе показать в Киеве... У меня на смартфоне в Скайпе в меню есть ДВА пункта выхода: &quot;Выйти&quot; (в середине списка) и &quot;Выход&quot; (в конце списка). Как понимаешь, первый касается выхода из учетной записи, а второй — закрытия самого приложения. Я из постоянно путаю. :)]]></description>
+			<content:encoded><![CDATA[<p>Макс, забыл тебе показать в Киеве&#8230; У меня на смартфоне в Скайпе в меню есть ДВА пункта выхода: &#8220;Выйти&#8221; (в середине списка) и &#8220;Выход&#8221; (в конце списка). Как понимаешь, первый касается выхода из учетной записи, а второй — закрытия самого приложения. Я из постоянно путаю. :)</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
